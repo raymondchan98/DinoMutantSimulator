@@ -74,9 +74,17 @@ const UI_TEXT={
   'zh-TW':{brand:'恐龍符文研究室',battleLab:'戰鬥研究室',buildFinder:'配置搜尋',yourDino:'你的恐龍',opponent:'對手',runeLoadout:'符文配置',constellation:'星座',clear:'清除',battleArena:'戰鬥競技場',damage:'傷害',critical:'暴擊',skill:'技能',healing:'治療',actions:'行動',yourDamage:'你的傷害',enemyDamage:'敵方傷害',mirror:'複製',optimizing:'針對對手最佳化',finderHint:'搜尋器會使用戰鬥研究室中設定的對手。',useInBattle:'套用至戰鬥',chooseRune:'選擇符文',close:'關閉',newBattle:'新戰鬥',step:'單步',play:'播放',pause:'暫停',batchFights:'1千場',fighting:'戰鬥中',victory:'勝利',defeat:'失敗',draw:'平手',running:'計算中...',baseCritical:'基礎暴擊',profileManual:'設定檔 / 手動',manual:'手動',burst:'爆發',guard:'防禦',sustain:'續航',emptySlot:'空欄位',removeRune:'移除此符文',level:'等級',criticalRate:'暴擊率',criticalDamage:'暴擊傷害',structureDamage:'建築傷害',workshopBuff:'工坊增益',bossGuard:'Boss 防禦',bossDamage:'Boss 傷害',mutation:'突變',recovery:'恢復',createProfileTitle:'建立設定檔',createProfileHint:'建立設定檔以開始。符文與戰鬥設定會分別儲存在各設定檔中。',createProfileButton:'建立設定檔',configuredOpponent:'已設定的對手',dealtTotal:'總共造成 {value} 傷害',heal:'治療',criticalShort:'暴擊',hpShort:'生命',attackShort:'攻擊',speedShort:'速度',critDamageShort:'暴傷',basicAttack:'普通攻擊',extraStrike:'額外打擊',execute:'處決',finalGift:'最後的贈禮'}
 };
 
+const FINDER_TEXT={
+  en:{optimizationScope:'Optimization',exactTarget:'Exact target',generalUse:'General use',titanLevel:'Titan level',exactOpponent:'Exact opponent',exactOpponentHint:'Uses the opponent configured in Battle Lab.',generalField:'General matchup field',generalFieldHint:'Tests burst, guard, sustain and balanced opponents at several power levels.',structureTarget:'Enemy structures',structureTargetHint:'Player and Boss-only red rune effects are excluded.',exactTitan:'Selected Titan',exactTitanHint:'Prioritizes clearing this level, then speed and remaining health.',generalTitan:'Titan progression',generalTitanHint:'Tests a level band around your selected Titan and favors reliable survival.',titanHp:'HP',titanHit:'per hit',titanDps:'DPS',clearChance:'Clear chance',clearTime:'Clear time',survivalTime:'Survival',damageRate:'Damage / sec',fieldScore:'Field win rate',worstMatchup:'Worst matchup'},
+  es:{optimizationScope:'Optimización',exactTarget:'Objetivo exacto',generalUse:'Uso general',titanLevel:'Nivel del Titán',exactOpponent:'Oponente exacto',exactOpponentHint:'Usa el oponente configurado en el Laboratorio de Batalla.',generalField:'Campo general',generalFieldHint:'Prueba rivales de ráfaga, defensa, curación y equilibrio con varios niveles de poder.',structureTarget:'Estructuras enemigas',structureTargetHint:'Se excluyen los efectos rojos exclusivos de jugadores y Jefes.',exactTitan:'Titán seleccionado',exactTitanHint:'Prioriza superar este nivel, luego la velocidad y la salud restante.',generalTitan:'Progresión de Titán',generalTitanHint:'Prueba niveles cercanos al elegido y favorece la supervivencia fiable.',titanHp:'Vida',titanHit:'por golpe',titanDps:'DPS',clearChance:'Prob. de victoria',clearTime:'Tiempo de victoria',survivalTime:'Supervivencia',damageRate:'Daño / s',fieldScore:'Victorias generales',worstMatchup:'Peor duelo'},
+  ja:{optimizationScope:'最適化',exactTarget:'指定対象',generalUse:'汎用',titanLevel:'タイタンレベル',exactOpponent:'指定した対戦相手',exactOpponentHint:'バトル研究所で設定した相手を使用します。',generalField:'総合対戦フィールド',generalFieldHint:'複数の戦力帯で速攻・防御・回復・バランス構成を検証します。',structureTarget:'敵の建物',structureTargetHint:'プレイヤーとボス専用の赤ルーン効果は除外されます。',exactTitan:'選択したタイタン',exactTitanHint:'このレベルの撃破を優先し、次に速度と残りHPを評価します。',generalTitan:'タイタン進行',generalTitanHint:'選択レベル周辺を検証し、安定した生存力を重視します。',titanHp:'HP',titanHit:'1撃',titanDps:'DPS',clearChance:'撃破率',clearTime:'撃破時間',survivalTime:'生存時間',damageRate:'秒間ダメージ',fieldScore:'総合勝率',worstMatchup:'最低勝率'},
+  ko:{optimizationScope:'최적화',exactTarget:'정확한 대상',generalUse:'범용',titanLevel:'타이탄 레벨',exactOpponent:'설정된 상대',exactOpponentHint:'전투 연구소에서 설정한 상대를 사용합니다.',generalField:'종합 매치업',generalFieldHint:'여러 전력대의 폭발, 방어, 회복, 균형 상대를 시험합니다.',structureTarget:'적 구조물',structureTargetHint:'플레이어와 보스 전용 빨간 룬 효과는 제외됩니다.',exactTitan:'선택한 타이탄',exactTitanHint:'해당 레벨 클리어를 우선하고 속도와 남은 체력을 평가합니다.',generalTitan:'타이탄 진행',generalTitanHint:'선택 레벨 주변을 시험하고 안정적인 생존을 우선합니다.',titanHp:'체력',titanHit:'타격당',titanDps:'DPS',clearChance:'클리어 확률',clearTime:'클리어 시간',survivalTime:'생존 시간',damageRate:'초당 피해',fieldScore:'종합 승률',worstMatchup:'최저 승률'},
+  'zh-TW':{optimizationScope:'最佳化',exactTarget:'指定目標',generalUse:'通用',titanLevel:'泰坦等級',exactOpponent:'指定對手',exactOpponentHint:'使用戰鬥研究室中設定的對手。',generalField:'綜合對戰場',generalFieldHint:'以多個強度測試爆發、防禦、續航與平衡對手。',structureTarget:'敵方建築',structureTargetHint:'不計算僅對玩家與 Boss 生效的紅色符文效果。',exactTitan:'指定泰坦',exactTitanHint:'優先擊敗此等級，其次評估速度與剩餘生命。',generalTitan:'泰坦進度',generalTitanHint:'測試所選等級附近的範圍，偏重穩定生存。',titanHp:'生命',titanHit:'每次攻擊',titanDps:'DPS',clearChance:'擊敗機率',clearTime:'擊敗時間',survivalTime:'生存時間',damageRate:'每秒傷害',fieldScore:'綜合勝率',worstMatchup:'最低勝率'}
+};
+
 let lang=(()=>{try{return localStorage.getItem('rune_lang_v5')||localStorage.getItem('rune_language_v4')||'en'}catch(_){return'en'}})();
 if(!TEXT[lang])lang='en';
-const L=()=>({...TEXT.en,...TEXT[lang],...UI_TEXT.en,...UI_TEXT[lang],rarities:{...TEXT.en.rarities,...TEXT[lang].rarities}});
+const L=()=>({...TEXT.en,...TEXT[lang],...UI_TEXT.en,...UI_TEXT[lang],...FINDER_TEXT.en,...FINDER_TEXT[lang],rarities:{...TEXT.en.rarities,...TEXT[lang].rarities}});
 function T(){return {rarities:L().rarities,objectives:{pvp1v1:L().pvp,edificios:L().structure,jefe:L().boss},level:L().level}}
 function runeName(r){return lang==='es'?r.es:r.en}
 function rarityName(r){return L().rarities[r]||r}
@@ -146,7 +154,7 @@ const DAMAGE_TRIAL_ATTACKS = 20;
 function id(){return'p_'+Math.random().toString(36).slice(2,10)}
 function emptyBattleProfile(){return{slots:[],main:{},special:{}}}
 function emptyProfile(name='Profile 1'){
-  return{id:id(),name,base:{hp:15920,attack:1568,speed:150},inventory:{},mode:'pvp',battle:emptyBattleProfile()};
+  return{id:id(),name,base:{hp:15920,attack:1568,speed:150},inventory:{},mode:'pvp',finder:{scope:'exact',titanLevel:1},battle:emptyBattleProfile()};
 }
 function normalizeProfile(p){
   p=p&&typeof p==='object'?p:{};
@@ -155,6 +163,7 @@ function normalizeProfile(p){
     id:p.id||id(),name:String(p.name||'Profile').slice(0,40),
     base:hasBase?{hp:savedBase.hp??'',attack:savedBase.attack??savedBase.att??'',speed:savedBase.speed??savedBase.vel??''}:{hp:15920,attack:1568,speed:150},
     inventory:p.inventory&&typeof p.inventory==='object'?p.inventory:{},mode:migrateMode(p.mode||p.objective),
+    finder:{scope:p.finder?.scope==='general'?'general':'exact',titanLevel:Math.max(1,Math.min(5000,Math.floor(Number(p.finder?.titanLevel)||1)))},
     battle:{
       slots:Array.isArray(p.battle?.slots)?p.battle.slots.map(x=>({id:Number(x.id)||0,level:Math.max(1,Math.min(31,Number(x.level)||1))})).filter(x=>x.id):[],
       main:p.battle?.main&&typeof p.battle.main==='object'?{...p.battle.main}:{},
@@ -234,7 +243,7 @@ function applyText(){
   calculate.textContent=busy?x.working:x.run;
   resultTitle.textContent=x.recommended;altTitle.textContent=x.other;
   modalTitle.textContent=x.profileName;modalCancel.textContent=x.cancel;modalSave.textContent=x.save;
-  renderProfileSelect();renderRunes();updateStatus();if(last)renderResults(last,false);
+  renderProfileSelect();renderRunes();updateStatus();updateFinderTarget();if(last)renderResults(last,false);
   if(appStarted&&$('userConstellation')){
     renderPresetMenus();renderRuneSlots('user');renderRuneSlots('opponent');renderConstellation('user');renderConstellation('opponent');renderSideStats('user');renderSideStats('opponent');renderBattleInitial();
     $('battleBanner').textContent=x.ready;
@@ -250,14 +259,38 @@ function syncProfile(){
   baseHp.value=profile.base?.hp??'';
   baseAttack.value=profile.base?.attack??'';
   baseSpeed.value=profile.base?.speed??'';
+  profile.finder=profile.finder||{scope:'exact',titanLevel:1};
   document.querySelectorAll('.mode').forEach(b=>b.classList.toggle('active',b.dataset.mode===profile.mode));
   last=null;results.style.display='none';
-  renderProfileSelect();renderRunes();updateStatus();
+  renderProfileSelect();renderRunes();updateStatus();updateFinderTarget();
   loadProfileBattleState();
 }
 function updateBase(){
   profile.base={hp:baseHp.value,attack:baseAttack.value,speed:baseSpeed.value};
   saveData();updateStatus();
+}
+function updateFinderTarget(){
+  if(!profile||!document.getElementById('scopeControl'))return;
+  const x=L(),scope=profile.finder?.scope==='general'?'general':'exact',mode=profile.mode;
+  document.querySelectorAll('.scope').forEach(button=>button.classList.toggle('active',button.dataset.scope===scope));
+  scopeControl.hidden=mode==='structure';
+  titanLevelControl.hidden=mode!=='boss';
+  titanLevel.value=selectedTitanLevel();
+  if(mode==='boss'){
+    const titan=titanStats(selectedTitanLevel());
+    finderTargetTitle.textContent=scope==='general'?x.generalTitan:x.exactTitan;
+    finderTargetHint.textContent=scope==='general'?x.generalTitanHint:x.exactTitanHint;
+    finderTargetStats.innerHTML=`<b>Lv${titan.level}</b><span>${fmt(titan.hp)} ${x.titanHp}</span><span>${fmt(titan.damage)} ${x.titanHit}</span><span>${fmt(titan.dps,1)} ${x.titanDps}</span>`;
+  }else if(mode==='structure'){
+    finderTargetTitle.textContent=x.structureTarget;finderTargetHint.textContent=x.structureTargetHint;
+    finderTargetStats.innerHTML=`<b>${x.structure}</b>`;
+  }else if(scope==='general'){
+    finderTargetTitle.textContent=x.generalField;finderTargetHint.textContent=x.generalFieldHint;
+    finderTargetStats.innerHTML=`<b>12</b><span>${x.generalField}</span>`;
+  }else{
+    const opponent=battleStats('opponent');finderTargetTitle.textContent=x.exactOpponent;finderTargetHint.textContent=x.exactOpponentHint;
+    finderTargetStats.innerHTML=`<b>${fmt(opponent.hp)} ${x.hpShort}</b><span>${fmt(opponent.attack)} ${x.attackShort}</span><span>${fmt(opponent.speed)} ${x.speedShort}</span>`;
+  }
 }
 function renderRunes(){
   const inv=profile.inventory||{},q=query.trim().toLowerCase();
@@ -347,6 +380,35 @@ function targetAttack(s,mode){
   }
   /* Boss/structure damage bonuses are applied after the static base-stat runes. */
   return s.attack*(1+pct/100);
+}
+function effectTargetsMode(e,mode){
+  /* Meteor and Thunderstrike are unit skills: they work in PvP and against
+     the Titan, but their red skill packets do not damage structures. */
+  return mode!=='structure'||!e.skillPct;
+}
+
+const titanCache=new Map();
+function titanStats(level){
+  level=Math.max(1,Math.min(5000,Math.floor(Number(level)||1)));
+  if(titanCache.has(level))return titanCache.get(level);
+  const index=level-1,seeds=TITAN_BALANCE;
+  let hp;
+  if(index<seeds.baseHp.length)hp=seeds.baseHp[index];
+  else{
+    hp=seeds.baseHp[seeds.baseHp.length-1];
+    for(let current=seeds.baseHp.length+1;current<=level;current++){
+      hp+=Math.ceil(current/seeds.hpStepInterval)*seeds.hpStepAmount;
+      if(current%seeds.hpStepInterval===0)hp+=Math.ceil(current/seeds.hpStepInterval)*seeds.milestoneAmount;
+    }
+  }
+  const damage=index<seeds.baseDamage.length?seeds.baseDamage[index]:Math.floor(hp/100)+2;
+  const value={level,hp,damage,delay:TITAN_BALANCE.attackDelaySeconds,dps:damage/TITAN_BALANCE.attackDelaySeconds};
+  titanCache.set(level,value);return value;
+}
+function selectedTitanLevel(){return Math.max(1,Math.min(5000,Math.floor(Number(profile?.finder?.titanLevel)||1)))}
+function titanLevelField(level,scope){
+  if(scope!=='general')return[level];
+  return[.7,.85,1,1.15].map(scale=>Math.max(1,Math.min(5000,Math.round(level*scale)))).filter((x,i,a)=>a.indexOf(x)===i);
 }
 
 function rng(seed){let x=seed>>>0;return()=>{x^=x<<13;x^=x>>>17;x^=x<<5;return(x>>>0)/4294967296}}
@@ -491,7 +553,7 @@ function damageTrial(build,base,mode,r){
   for(let n=1;n<=DAMAGE_TRIAL_ATTACKS;n++){
     total+=mode==='structure'?structurePacket(attack,s,r):bossPacket(attack,s,r);
     for(const e of s.effects){
-      if(e.skillPct&&roll(r,e.proc)){
+      if(effectTargetsMode(e,mode)&&e.skillPct&&roll(r,e.proc)){
         const raw=attack*(e.skillPct/100);
         total+=mode==='structure'?structurePacket(raw,s,r):bossPacket(raw,s,r);
       }
@@ -512,13 +574,14 @@ function analytic(build,base,mode){
   const critMult=1+(s.critChance/100)*(s.critDamage/100);
   let proc=0,sustain=0,mitigation=0;
   for(const e of s.effects){
-    if(e.skillPct)proc+=atk*(e.proc/100)*(e.skillPct/100)*critMult;
+    if(effectTargetsMode(e,mode)&&e.skillPct)proc+=atk*(e.proc/100)*(e.skillPct/100)*critMult;
     if(e.extraPct)proc+=atk*(e.extraPct/100)/Math.max(1,e.every||3)*critMult;
     if(mode==='structure'&&e.structureSkillPct)proc+=atk*(e.structureSkillPct/100)/Math.max(1,e.every||3)*critMult;
     if(e.healAttackPct)sustain+=s.attack*(e.proc/100)*(e.healAttackPct/100);
     if(e.healMaxPct)sustain+=s.hp*(e.proc/100)*(e.healMaxPct/100);
     if(e.dr_flat)mitigation+=e.dr_flat;
     if(e.dr_chance&&e.dr_amount)mitigation+=e.dr_amount*(e.dr_chance/100);
+    if(mode==='boss'&&e.dr_flat_boss)mitigation+=e.dr_flat_boss;
     if(e.shieldPct)mitigation+=adjustedBase.attack*(e.shieldPct/100)*(e.shieldAttacks||1)/PVP_ROUNDS;
   }
   return{
@@ -531,13 +594,69 @@ function analytic(build,base,mode){
   };
 }
 
+function titanEstimate(build,base,level){
+  const boss=titanStats(level),a=analytic(build,base,'boss'),s=a.s;
+  let flat=0,healPerCycle=0;
+  for(const e of s.effects){
+    flat+=+e.dr_flat||0;flat+=+e.dr_flat_boss||0;
+    flat+=(+e.dr_amount||0)*(+e.dr_chance||0)/100;
+    healPerCycle+=s.attack*(+e.healAttackPct||0)*(+e.proc||0)/10000;
+    healPerCycle+=s.hp*(+e.healMaxPct||0)*(+e.proc||0)/10000;
+  }
+  const outgoing=Math.max(1,a.dps),incoming=Math.max(0,boss.damage-flat),netIncoming=Math.max(0,incoming-healPerCycle);
+  const clearTime=boss.hp/outgoing*TITAN_BALANCE.unitAttackDelaySeconds,survival=netIncoming>0?s.hp/netIncoming*boss.delay:Infinity;
+  return{clear:clearTime<=survival,clearTime,survival,outgoing,incoming,boss,s};
+}
+
+function titanTrial(build,base,level,r){
+  const boss=titanStats(level),s=modelStats(build,base,simSides.user,'boss'),attack=targetAttack(s,'boss');
+  let hp=s.hp,bossHp=boss.hp,attacks=0,damage=0,healing=0,time=0,nextBossHit=boss.delay,shieldPct=0,shieldRemaining=0;
+  for(const e of s.effects)if(e.shieldPct){shieldPct=Math.max(shieldPct,+e.shieldPct||0);shieldRemaining=Math.max(shieldRemaining,+e.shieldAttacks||0)}
+  const maxCycles=5000;
+  for(let cycle=0;cycle<maxCycles&&hp>0&&bossHp>0;cycle++){
+    attacks++;time+=TITAN_BALANCE.unitAttackDelaySeconds;
+    let hit=critDamage(attack,s,r);bossHp-=hit;damage+=Math.min(hit,Math.max(0,bossHp+hit));
+    if(bossHp>0){
+      for(const e of s.effects){
+        if(e.skillPct&&roll(r,e.proc)){
+          hit=critDamage(attack*(e.skillPct/100),s,r);bossHp-=hit;damage+=Math.min(hit,Math.max(0,bossHp+hit));
+        }
+        if(e.extraPct&&attacks%(e.every||3)===0&&bossHp>0){
+          hit=critDamage(attack*(e.extraPct/100),s,r);bossHp-=hit;damage+=Math.min(hit,Math.max(0,bossHp+hit));
+        }
+      }
+    }
+    if(bossHp<=0)break;
+    for(const e of s.effects)if(e.healAttackPct&&roll(r,e.proc)){
+      const amount=s.attack*(e.healAttackPct/100),real=Math.min(amount,s.hp-hp);hp+=real;healing+=real;
+    }
+    if(time+1e-9>=nextBossHit){
+      let incoming=boss.damage;
+      if(shieldRemaining>0)incoming*=1-shieldPct/100;
+      for(const e of s.effects){
+        incoming-=+e.dr_flat||0;incoming-=+e.dr_flat_boss||0;
+        if(e.dr_chance&&e.dr_amount&&roll(r,e.dr_chance))incoming-=e.dr_amount;
+      }
+      hp-=Math.max(0,incoming);if(shieldRemaining>0)shieldRemaining--;
+      if(hp>0)for(const e of s.effects)if(e.healMaxPct&&roll(r,e.proc)){
+        const amount=s.hp*(e.healMaxPct/100),real=Math.min(amount,s.hp-hp);hp+=real;healing+=real;
+      }
+      nextBossHit+=boss.delay;
+    }
+  }
+  if(hp<=0&&bossHp>0)for(const e of s.effects)if(e.deathPct&&roll(r,e.proc)){
+    const hit=critDamage(attack*(e.deathPct/100),s,r);bossHp-=hit;damage+=Math.min(hit,Math.max(0,bossHp+hit));
+  }
+  return{cleared:bossHp<=0,time,damage,hp:Math.max(0,hp),bossHp:Math.max(0,bossHp),healing,s,boss};
+}
+
 /* Screening is intentionally diverse: it keeps leaders by damage, health, balance,
    sustain, and also the best builds containing each individual rune.
    No rune receives a positive or negative preference. */
 function enumerate(owned,base,mode){
   // Keep several different archetypes, but do not repeatedly sort arrays for
   // every one of the hundreds of thousands of legal combinations.
-  const lens=[[],[],[],[]],keep=70,perRune=new Map();
+  const lens=[[],[],[],[],[]],keep=70,perRune=new Map();
   const combo=[];let total=0;
   function insertTop(arr,item,key,limit){
     if(arr.length===limit && item[key]<=arr[arr.length-1][key])return;
@@ -550,9 +669,12 @@ function enumerate(owned,base,mode){
     if(!validBuild(build))return;
     total++;
     const a=analytic(build,base,mode);
-    const item={build:build.slice(),dps:a.dps,hp:a.hp,balance:a.balance,sustain:a.sustain,analytic:a};
+    const titan=mode==='boss'?titanEstimate(build,base,selectedTitanLevel()):null;
+    const titanRank=titan?(titan.clear?1e12+1e9/Math.max(1,titan.clearTime)+titan.outgoing:Math.min(1e9,titan.survival)*1e5+titan.outgoing):0;
+    const item={build:build.slice(),dps:a.dps,hp:a.hp,balance:a.balance,sustain:a.sustain,titanRank,analytic:a};
     insertTop(lens[0],item,'dps',keep);insertTop(lens[1],item,'hp',keep);
     insertTop(lens[2],item,'balance',keep);insertTop(lens[3],item,'sustain',keep);
+    if(mode==='boss')insertTop(lens[4],item,'titanRank',keep);
     // Preserve a few strong representatives containing every owned rune. This
     // prevents defensive or unusual runes (including Mammoth) from vanishing
     // just because they are not top raw-DPS builds.
@@ -625,6 +747,58 @@ async function runPvP(pool,base){
   final.sort((a,b)=>b.score-a.score);
   return final;
 }
+function generalPvpTargets(){
+  const source=sideBase('opponent'),model=simSides.opponent,targets=[];
+  const scales=[.82,1,1.18];
+  for(let presetIndex=0;presetIndex<BATTLE_PRESETS.length;presetIndex++)for(const scale of scales){
+    const preset=BATTLE_PRESETS[presetIndex];
+    const slots=preset.slots.map((id,index)=>({id,level:preset.levels[index]}));
+    const build=slots.map(slot=>{const rune=runeByGameId(slot.id);return{rune,level:slot.level,e:effect(rune,slot.level)}});
+    targets.push({
+      name:`${preset.label}-${scale}`,
+      build,
+      base:{hp:source.hp*scale,attack:source.attack*scale,speed:Math.max(0,source.speed+(scale-1)*24)},
+      model:{slots,main:{...model.main},special:{...model.special}}
+    });
+  }
+  return targets;
+}
+async function runGeneralPvP(pool,base){
+  const targets=generalPvpTargets(),coarse=[],seed=randomBattleSeed(),trials=50;
+  for(let i=0;i<pool.length;i++){
+    let points=0,damage=0,hp=0,worst=1;
+    for(let targetIndex=0;targetIndex<targets.length;targetIndex++){
+      const target=targets[targetIndex];let targetPoints=0;
+      for(let n=0;n<trials;n++){
+        const d=simulateMatch(pool[i].build,base,simSides.user,target.build,target.base,target.model,(seed+targetIndex*0x45d9f3b+n*0x9e3779b9)>>>0,false);
+        const point=d.result>0?1:(d.result===0?.5:0);points+=point;targetPoints+=point;damage+=d.a.damageDone;hp+=Math.max(0,d.a.hp);
+      }
+      worst=Math.min(worst,targetPoints/trials);
+    }
+    const count=targets.length*trials;
+    coarse.push({build:pool[i].build,score:points/count,worst,damage:damage/count,hp:hp/count});
+    if(i%8===0){setProgress(20+32*(i/Math.max(1,pool.length)),`${L().tournament} ${i+1}/${pool.length}`);await frame()}
+  }
+  coarse.sort((a,b)=>b.score-a.score||b.worst-a.worst||b.hp-a.hp||b.damage-a.damage);
+  const finalists=coarse.slice(0,Math.min(12,coarse.length)),final=[],finalSeed=randomBattleSeed(),finalTrials=500;
+  for(let i=0;i<finalists.length;i++){
+    let points=0,wins=0,ties=0,damage=0,hp=0,actions=0,worst=1;
+    for(let targetIndex=0;targetIndex<targets.length;targetIndex++){
+      const target=targets[targetIndex];let targetPoints=0;
+      for(let n=0;n<finalTrials;n++){
+        const d=simulateMatch(finalists[i].build,base,simSides.user,target.build,target.base,target.model,(finalSeed+targetIndex*0x45d9f3b+n*0x9e3779b9)>>>0,false);
+        const point=d.result>0?1:(d.result===0?.5:0);points+=point;targetPoints+=point;if(d.result>0)wins++;else if(d.result===0)ties++;
+        damage+=d.a.damageDone;hp+=Math.max(0,d.a.hp);actions+=d.actionCount;
+      }
+      worst=Math.min(worst,targetPoints/finalTrials);
+    }
+    const count=targets.length*finalTrials;
+    final.push({build:finalists[i].build,score:points/count,win:wins/count,tie:ties/count,worst,damage:damage/count,hp:hp/count,rounds:actions/count,s:modelStats(finalists[i].build,base,simSides.user),target:'general field'});
+    setProgress(54+44*((i+1)/finalists.length),`${L().tournament} ${i+1}/${finalists.length}`);await frame();
+  }
+  final.sort((a,b)=>b.score-a.score||b.worst-a.worst||b.hp-a.hp);
+  return final;
+}
 async function runDamageMode(pool,base,mode){
   /* Coarse stage uses expected damage, then every finalist gets 10,000 RNG trials. */
   pool.sort((a,b)=>b.dps-a.dps);
@@ -640,6 +814,37 @@ async function runDamageMode(pool,base,mode){
     if(i%3===2)await frame();
   }
   final.sort((a,b)=>b.score-a.score);
+  return final;
+}
+async function runBoss(pool,base){
+  const scope=profile.finder?.scope==='general'?'general':'exact',levels=titanLevelField(selectedTitanLevel(),scope);
+  pool.sort((a,b)=>b.titanRank-a.titanRank||b.balance-a.balance);
+  const finalists=pool.slice(0,Math.min(38,pool.length)),final=[],seed=randomBattleSeed();
+  const trials=scope==='general'?350:1200;
+  for(let i=0;i<finalists.length;i++){
+    let clears=0,total=0,clearTime=0,clearCount=0,survival=0,damage=0,hp=0;
+    const levelRates=[];
+    for(let levelIndex=0;levelIndex<levels.length;levelIndex++){
+      let levelClears=0;
+      for(let n=0;n<trials;n++){
+        const t=titanTrial(finalists[i].build,base,levels[levelIndex],rng((seed+levelIndex*0x45d9f3b+n*0x9e3779b9)>>>0));
+        total++;if(t.cleared){clears++;levelClears++;clearTime+=t.time;clearCount++}
+        survival+=t.time;damage+=t.damage;hp+=t.hp;
+      }
+      levelRates.push(levelClears/trials);
+    }
+    const s=modelStats(finalists[i].build,base,simSides.user,'boss'),rate=clears/total;
+    final.push({build:finalists[i].build,score:rate,clearRate:rate,worst:Math.min(...levelRates),clearTime:clearCount?clearTime/clearCount:Infinity,survival:survival/total,damage:damage/total,dps:damage/Math.max(1,survival),hp:hp/total,s,levels});
+    setProgress(28+70*((i+1)/finalists.length),`${L().simulating} ${i+1}/${finalists.length}`);
+    if(i%2===1)await frame();
+  }
+  final.sort((a,b)=>{
+    const aPrimary=scope==='general'?a.worst:a.clearRate,bPrimary=scope==='general'?b.worst:b.clearRate;
+    if(Math.abs(bPrimary-aPrimary)>1e-9)return bPrimary-aPrimary;
+    if(Math.abs(b.clearRate-a.clearRate)>1e-9)return b.clearRate-a.clearRate;
+    if(a.clearRate>.5&&b.clearRate>.5)return a.clearTime-b.clearTime||b.hp-a.hp||b.damage-a.damage;
+    return b.survival-a.survival||b.damage-a.damage;
+  });
   return final;
 }
 
@@ -659,10 +864,11 @@ async function calculateBest(){
   setProgress(18,L().checking);await frame();
 
   let ranked;
-  if(profile.mode==='pvp')ranked=await runPvP(e.candidates,base);
+  if(profile.mode==='pvp')ranked=profile.finder?.scope==='general'?await runGeneralPvP(e.candidates,base):await runPvP(e.candidates,base);
+  else if(profile.mode==='boss')ranked=await runBoss(e.candidates,base);
   else ranked=await runDamageMode(e.candidates,base,profile.mode);
 
-  last={items:ranked.slice(0,4),mode:profile.mode,total:e.total};
+  last={items:ranked.slice(0,4),mode:profile.mode,scope:profile.finder?.scope||'exact',titanLevel:selectedTitanLevel(),total:e.total};
   renderResults(last,true);
   setProgress(100,L().ready);
   busy=false;applyText();updateStatus();
@@ -683,11 +889,18 @@ function updateStatus(){
   if(!busy)calculateEl.textContent=L().run;
 }
 function fmt(v,d=0){return Number(v).toLocaleString(undefined,{maximumFractionDigits:d,minimumFractionDigits:d})}
+function fmtTime(seconds){
+  if(!Number.isFinite(seconds))return'∞';
+  if(seconds<60)return`${seconds.toFixed(1)}s`;
+  const minutes=Math.floor(seconds/60),rest=Math.round(seconds%60);return`${minutes}m ${String(rest).padStart(2,'0')}s`;
+}
 function renderResults(res,scroll=true){
   if(!res?.items?.length)return;
   const best=res.items[0],mode=res.mode;
   resultTitle.textContent=L().recommended;
-  resultNumber.textContent=mode==='pvp'?`${L().winRate}: ${(best.score*100).toFixed(1)}% · ${L().configuredOpponent}`:`${L().avgDamage}: ${fmt(best.damage)}`;
+  if(mode==='pvp')resultNumber.textContent=`${res.scope==='general'?L().fieldScore:L().winRate}: ${(best.score*100).toFixed(1)}%`;
+  else if(mode==='boss')resultNumber.textContent=`${L().clearChance}: ${(best.clearRate*100).toFixed(1)}% · Lv${res.titanLevel}`;
+  else resultNumber.textContent=`${L().avgDamage}: ${fmt(best.damage)}`;
   useBuildInBattle.hidden=mode!=='pvp';
 
   build.innerHTML='';
@@ -699,15 +912,16 @@ function renderResults(res,scroll=true){
     build.appendChild(el);
   }
 
-  const m=mode==='pvp'
-    ? [[`${(best.score*100).toFixed(1)}%`,L().winRate],[fmt(best.damage),L().avgDamage],[fmt(best.hp),L().hpLeft],[best.rounds.toFixed(1),L().actions]]
-    : [[fmt(best.damage),L().avgDamage],[fmt(best.s.attack),L().finalAttack],[fmt(best.s.hp),L().finalHealth],[`${best.s.critChance.toFixed(1)}%`,L().critical]];
+  let m;
+  if(mode==='pvp')m=[[`${(best.score*100).toFixed(1)}%`,res.scope==='general'?L().fieldScore:L().winRate],[res.scope==='general'?`${(best.worst*100).toFixed(1)}%`:fmt(best.damage),res.scope==='general'?L().worstMatchup:L().avgDamage],[fmt(best.hp),L().hpLeft],[best.rounds.toFixed(1),L().actions]];
+  else if(mode==='boss')m=[[`${(best.clearRate*100).toFixed(1)}%`,L().clearChance],[Number.isFinite(best.clearTime)?fmtTime(best.clearTime):fmtTime(best.survival),Number.isFinite(best.clearTime)?L().clearTime:L().survivalTime],[fmt(best.dps,1),L().damageRate],[fmt(best.hp),L().hpLeft]];
+  else m=[[fmt(best.damage),L().avgDamage],[fmt(best.s.attack),L().finalAttack],[fmt(best.s.hp),L().finalHealth],[`${best.s.critChance.toFixed(1)}%`,L().critical]];
 
   metrics.innerHTML=m.map(x=>`<div class="metric"><div class="metric-value">${x[0]}</div><div class="metric-label">${x[1]}</div></div>`).join('');
   altList.innerHTML=res.items.slice(1).map((x,i)=>`<div class="alt-row">
     <div class="alt-rank">#${i+2}</div>
     <div class="alt-names">${x.build.map(p=>esc(runeName(p.rune))).join(' · ')}</div>
-    <div class="alt-score">${mode==='pvp'?(x.score*100).toFixed(1)+'%':fmt(x.damage)}</div>
+    <div class="alt-score">${mode==='pvp'?(x.score*100).toFixed(1)+'%':mode==='boss'?(x.clearRate*100).toFixed(1)+'% · '+(Number.isFinite(x.clearTime)?fmtTime(x.clearTime):fmtTime(x.survival)):fmt(x.damage)}</div>
   </div>`).join('');
   alt.style.display=res.items.length>1?'block':'none';
   results.style.display='block';if(scroll)results.scrollIntoView({behavior:'smooth',block:'start'});
@@ -756,6 +970,15 @@ deleteProfile.addEventListener('click',()=>{
 modes.addEventListener('click',e=>{
   const b=e.target.closest('.mode');if(!b)return;
   profile.mode=b.dataset.mode;saveData();syncProfile();
+});
+scopeControl.addEventListener('click',event=>{
+  const button=event.target.closest('.scope');if(!button||busy)return;
+  profile.finder=profile.finder||{};profile.finder.scope=button.dataset.scope==='general'?'general':'exact';
+  last=null;results.style.display='none';saveData();updateFinderTarget();
+});
+titanLevel.addEventListener('input',()=>{
+  profile.finder=profile.finder||{};profile.finder.titanLevel=Math.max(1,Math.min(5000,Math.floor(Number(titanLevel.value)||1)));
+  last=null;results.style.display='none';saveData();updateFinderTarget();
 });
 filters.addEventListener('click',e=>{
   const b=e.target.closest('.filter');if(!b)return;
@@ -846,7 +1069,7 @@ function battleStats(side){return modelStats(sideBuild(side),sideBase(side),simS
 function renderSideStats(side){
   const s=battleStats(side),target=$(side==='user'?'userFinalStats':'opponentFinalStats');
   const x=L();target.textContent=`${fmt(s.hp)} ${x.hpShort} · ${fmt(s.attack)} ${x.attackShort} · ${fmt(s.speed)} ${x.speedShort} · ${fmt(s.critChance)}% ${x.criticalShort} · ${fmt(100+s.critDamage)}% ${x.critDamageShort}`;
-  if($('finderTargetStats')){const o=battleStats('opponent');$('finderTargetStats').textContent=`${fmt(o.hp)} ${x.hpShort} · ${fmt(o.attack)} ${x.attackShort} · ${fmt(o.speed)} ${x.speedShort}`}
+  if(side==='opponent'&&$('finderTargetStats'))updateFinderTarget();
 }
 function renderRuneSlots(side){
   const target=$(side+'RuneSlots');target.innerHTML='';

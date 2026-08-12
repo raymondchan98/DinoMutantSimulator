@@ -126,10 +126,24 @@
 
   <main class="page-view" id="calculatorView" hidden>
 
-  <div class="finder-target">
-    <div><b data-i18n="optimizing">Optimizing against your opponent</b><span data-i18n="finderHint">The finder uses the exact opponent configured in Battle Lab.</span></div>
-    <span class="finder-target-stats" id="finderTargetStats"></span>
-  </div>
+  <section class="objective-panel">
+    <div class="objective-copy">
+      <span class="objective-mark" aria-hidden="true">◎</span>
+      <div><b id="finderTargetTitle">Exact opponent</b><span id="finderTargetHint">Uses the opponent configured in Battle Lab.</span></div>
+    </div>
+    <div class="scope-control" id="scopeControl">
+      <span data-i18n="optimizationScope">Optimization</span>
+      <div class="scope-switch" role="group" aria-label="Optimization scope">
+        <button type="button" class="scope active" data-scope="exact" data-i18n="exactTarget">Exact target</button>
+        <button type="button" class="scope" data-scope="general" data-i18n="generalUse">General use</button>
+      </div>
+    </div>
+    <div class="titan-level-control" id="titanLevelControl" hidden>
+      <label for="titanLevel" data-i18n="titanLevel">Titan level</label>
+      <input id="titanLevel" type="number" min="1" max="5000" value="1">
+    </div>
+    <div class="finder-target-stats" id="finderTargetStats"></div>
+  </section>
 
   <section class="controls">
     <div class="stats">
@@ -209,6 +223,7 @@
 </div>
 
 <script src="data/runes.js"></script>
+<script src="data/titan.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
