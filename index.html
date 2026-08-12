@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dino Rune Lab</title>
+<base href="./">
+<link rel="stylesheet" href="css/styles.css">
+<meta name="description" content="Profile-based Dino Rune Lab battle simulator and build finder.">
+<meta name="application-name" content="Dino Rune Lab">
+<link rel="icon" href="assets/runealtar.png">
+
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand" id="brand">Dino Rune Lab</div>
+    <div class="top-actions">
+      <select id="profileSelect" class="profile-select"></select>
+      <button class="btn" id="newProfile">New</button>
+      <button class="btn" id="renameProfile">Rename</button>
+      <button class="btn danger" id="deleteProfile">Delete</button>
+      <select id="language" class="profile-select lang-select">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="ja">日本語</option>
+        <option value="ko">한국어</option>
+        <option value="zh-TW">繁體中文</option>
+      </select>
+    </div>
+  </header>
+
+  <nav class="page-tabs" aria-label="Rune Lab sections">
+    <button class="page-tab active" data-view="battle" data-i18n="battleLab">Battle Lab</button>
+    <button class="page-tab" data-view="calculator" data-i18n="buildFinder">Build Finder</button>
+  </nav>
+
+  <main class="page-view" id="battleView">
+    <div class="lab-grid">
+      <section class="fighter-panel" id="userPanel">
+        <div class="fighter-title"><h2 data-i18n="yourDino">Your dino</h2></div>
+        <div class="fighter-body">
+          <div class="preset-row solo"><select id="userPreset"></select></div>
+          <div class="fighter-fields">
+            <div class="field"><label data-i18n="health">Health</label><input id="simUserHp" type="number" min="1" value="15920"></div>
+            <div class="field"><label data-i18n="attack">Attack</label><input id="simUserAttack" type="number" min="1" value="1568"></div>
+            <div class="field"><label data-i18n="speed">Speed</label><input id="simUserSpeed" type="number" min="0" value="150"></div>
+          </div>
+          <div class="loadout-label"><span data-i18n="runeLoadout">Rune loadout</span><span id="userFinalStats"></span></div>
+          <div class="rune-slots" id="userRuneSlots"></div>
+          <div class="loadout-label"><span data-i18n="constellation">Constellation</span><button class="btn" id="clearUserConstellation" data-i18n="clear">Clear</button></div>
+          <div class="constellation-editor" id="userConstellation"></div>
+          <div class="special-grid" id="userSpecials"></div>
+        </div>
+      </section>
+
+      <section class="arena-panel">
+        <div class="arena-top">
+          <h2 data-i18n="battleArena">Battle Arena</h2>
+          <div class="arena-meta">
+            <span class="combat-rule" id="criticalRule">Base critical: 3% · 1.05x</span>
+            <label class="playback"><span data-i18n="speed">Speed</span>
+              <select id="battleSpeed" aria-label="Battle playback speed">
+                <option value="0.5">0.5x</option>
+                <option value="1" selected>1x</option>
+                <option value="2">2x</option>
+                <option value="4">4x</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="arena-stage" id="arenaStage">
+          <div class="battle-banner" id="battleBanner">Ready</div>
+          <div class="combatant user" id="userCombatant">
+            <div class="nameplate" data-i18n="yourDino">Your dino</div>
+            <div class="hp-track"><div class="hp-fill" id="userHpFill"></div></div>
+            <div class="hp-text" id="userHpText"></div>
+            <div class="damage-stack" id="userDamageStack" aria-live="polite"></div>
+            <img src="assets/dinos/2010.webp" alt="Your dinosaur">
+          </div>
+          <div class="combatant opponent" id="opponentCombatant">
+            <div class="nameplate" data-i18n="opponent">Opponent</div>
+            <div class="hp-track"><div class="hp-fill" id="opponentHpFill"></div></div>
+            <div class="hp-text" id="opponentHpText"></div>
+            <div class="damage-stack" id="opponentDamageStack" aria-live="polite"></div>
+            <img src="assets/dinos/1000.webp" alt="Opponent dinosaur">
+          </div>
+        </div>
+        <div class="arena-controls">
+          <button class="arena-button" id="resetBattle" data-i18n="newBattle">New</button>
+          <button class="arena-button primary" id="stepBattle" data-i18n="step">Step</button>
+          <button class="arena-button" id="playBattle" data-i18n="play">Play</button>
+          <button class="arena-button batch" id="batchBattle" data-i18n="batchFights">1K fights</button>
+        </div>
+        <div class="combat-legend" aria-label="Battle damage colors">
+          <span><i></i><b data-i18n="damage">Damage</b></span><span class="crit"><i></i><b data-i18n="critical">Critical</b></span><span class="skill"><i></i><b data-i18n="skill">Skill</b></span><span class="heal"><i></i><b data-i18n="healing">Healing</b></span>
+        </div>
+        <div class="summary-strip">
+          <div class="summary-item"><div class="summary-value" id="simWinRate">-</div><div class="summary-label" data-i18n="winRate">Win rate</div></div>
+          <div class="summary-item"><div class="summary-value" id="simTurns">0</div><div class="summary-label" data-i18n="actions">Actions</div></div>
+          <div class="summary-item"><div class="summary-value" id="simUserDamage">0</div><div class="summary-label" data-i18n="yourDamage">Your damage</div></div>
+          <div class="summary-item"><div class="summary-value" id="simOpponentDamage">0</div><div class="summary-label" data-i18n="enemyDamage">Enemy damage</div></div>
+        </div>
+        <div class="battle-log" id="battleLog"></div>
+      </section>
+
+      <section class="fighter-panel" id="opponentPanel">
+        <div class="fighter-title"><h2 data-i18n="opponent">Opponent</h2></div>
+        <div class="fighter-body">
+          <div class="preset-row"><select id="opponentPreset"></select><button class="small-action" id="mirrorOpponent" data-i18n="mirror">Mirror</button></div>
+          <div class="fighter-fields">
+            <div class="field"><label data-i18n="health">Health</label><input id="simOpponentHp" type="number" min="1" value="15920"></div>
+            <div class="field"><label data-i18n="attack">Attack</label><input id="simOpponentAttack" type="number" min="1" value="1568"></div>
+            <div class="field"><label data-i18n="speed">Speed</label><input id="simOpponentSpeed" type="number" min="0" value="150"></div>
+          </div>
+          <div class="loadout-label"><span data-i18n="runeLoadout">Rune loadout</span><span id="opponentFinalStats"></span></div>
+          <div class="rune-slots" id="opponentRuneSlots"></div>
+          <div class="loadout-label"><span data-i18n="constellation">Constellation</span><button class="btn" id="clearOpponentConstellation" data-i18n="clear">Clear</button></div>
+          <div class="constellation-editor" id="opponentConstellation"></div>
+          <div class="special-grid" id="opponentSpecials"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <main class="page-view" id="calculatorView" hidden>
+
+  <div class="finder-target">
+    <div><b data-i18n="optimizing">Optimizing against your opponent</b><span data-i18n="finderHint">The finder uses the exact opponent configured in Battle Lab.</span></div>
+    <span class="finder-target-stats" id="finderTargetStats"></span>
+  </div>
+
+  <section class="controls">
+    <div class="stats">
+      <div class="field"><label id="hpLabel">Health</label><input id="baseHp" type="number" min="1"></div>
+      <div class="field"><label id="attackLabel">Attack</label><input id="baseAttack" type="number" min="1"></div>
+      <div class="field"><label id="speedLabel">Speed</label><input id="baseSpeed" type="number" min="0"></div>
+    </div>
+    <div class="modes" id="modes">
+      <button class="mode active" data-mode="pvp">PvP</button>
+      <button class="mode" data-mode="structure">Structure</button>
+      <button class="mode" data-mode="boss">Boss</button>
+    </div>
+  </section>
+
+  <section class="box">
+    <div class="box-head">
+      <h1 id="inventoryTitle">Rune inventory</h1>
+      <div class="inventory-tools">
+        <span class="owned-count" id="ownedCount"></span>
+        <input id="search" class="search" type="search" placeholder="Search">
+      </div>
+    </div>
+    <div class="filters" id="filters">
+      <button class="filter active" data-r="all">All</button>
+      <button class="filter" data-r="Normal">Normal</button>
+      <button class="filter" data-r="Rare">Rare</button>
+      <button class="filter" data-r="Epic">Epic</button>
+      <button class="filter" data-r="Unique">Unique</button>
+      <button class="filter" data-r="Legendary">Legendary</button>
+    </div>
+    <div class="rune-table" id="runeTable"></div>
+  </section>
+
+  <div class="runbar">
+    <div>
+      <div class="status" id="calcStatus"></div>
+      <div class="progress" id="progress">
+        <div class="track"><div class="bar" id="progressBar"></div></div>
+        <div class="progress-label" id="progressLabel"></div>
+      </div>
+    </div>
+    <button class="calculate" id="calculate">Find best build</button>
+  </div>
+
+  <section class="box results" id="results">
+    <div class="result-head">
+      <h2 id="resultTitle">Recommended build</h2>
+      <div class="result-actions"><div class="result-number" id="resultNumber"></div><button class="use-build" id="useBuildInBattle" data-i18n="useInBattle" hidden>Use in Battle</button></div>
+    </div>
+    <div class="build" id="build"></div>
+    <div class="metrics" id="metrics"></div>
+    <div class="alt" id="alt">
+      <div class="alt-title" id="altTitle">Other strong builds</div>
+      <div id="altList"></div>
+    </div>
+  </section>
+  </main>
+  <footer class="site-footer" data-i18n="footer">Unofficial community tool. Game names and artwork belong to their respective owners.</footer>
+</div>
+
+<div class="rune-picker-bg" id="runePickerBg">
+  <div class="rune-picker">
+    <div class="picker-head"><h3 data-i18n="chooseRune">Choose a rune</h3><button class="btn" id="closeRunePicker" data-i18n="close">Close</button></div>
+    <div class="picker-grid" id="runePickerGrid"></div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modalBg">
+  <div class="modal">
+    <h3 id="modalTitle">Profile name</h3>
+    <p class="modal-intro" id="modalHint" hidden></p>
+    <input id="profileName" type="text" maxlength="40" autocomplete="nickname">
+    <div class="modal-actions">
+      <button class="btn" id="modalCancel">Cancel</button>
+      <button class="calculate" id="modalSave">Save</button>
+    </div>
+  </div>
+</div>
+
+<script src="data/runes.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
