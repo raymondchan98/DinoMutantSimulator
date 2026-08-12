@@ -67,11 +67,11 @@ const TEXT = {
 };
 
 const UI_TEXT={
-  en:{brand:'Dino Rune Lab',battleLab:'Battle Lab',buildFinder:'Build Finder',yourDino:'Your dino',opponent:'Opponent',runeLoadout:'Rune loadout',constellation:'Constellation',clear:'Clear',battleArena:'Battle Arena',damage:'Damage',critical:'Critical',skill:'Skill',healing:'Healing',actions:'Actions',yourDamage:'Your damage',enemyDamage:'Enemy damage',mirror:'Mirror',optimizing:'Optimizing against your opponent',finderHint:'The finder uses the exact opponent configured in Battle Lab.',useInBattle:'Use in Battle',footer:'Unofficial community tool. Game names and artwork belong to their respective owners.',chooseRune:'Choose a rune',close:'Close',newBattle:'New battle',step:'Step',play:'Play',pause:'Pause',batchFights:'1K fights',fighting:'Fighting',victory:'Victory',defeat:'Defeat',draw:'Draw',running:'Running...',baseCritical:'Base critical',profileManual:'Profile / manual',manual:'Manual',burst:'Burst',guard:'Guard',sustain:'Sustain',emptySlot:'Empty slot',removeRune:'Remove this rune',level:'Level',criticalRate:'Critical rate',criticalDamage:'Critical damage',structureDamage:'Structure damage',workshopBuff:'Workshop buff',bossGuard:'Boss guard',bossDamage:'Boss damage',mutation:'Mutation',recovery:'Recovery',createProfileTitle:'Create your profile',createProfileHint:'Create a profile to start. Rune inventory and battle settings are saved separately for each profile.',createProfileButton:'Create profile',configuredOpponent:'configured opponent',dealtTotal:'dealt {value} total',heal:'Heal',criticalShort:'CRIT',hpShort:'HP',attackShort:'ATK',speedShort:'SPD',critDamageShort:'CDMG',basicAttack:'Basic attack',extraStrike:'Extra strike',execute:'Execute',finalGift:'Final Gift'},
-  es:{brand:'Laboratorio de Runas Dino',battleLab:'Laboratorio de Batalla',buildFinder:'Buscador de Sets',yourDino:'Tu dinosaurio',opponent:'Oponente',runeLoadout:'Set de runas',constellation:'Constelación',clear:'Limpiar',battleArena:'Arena de Batalla',damage:'Daño',critical:'Crítico',skill:'Habilidad',healing:'Curación',actions:'Acciones',yourDamage:'Tu daño',enemyDamage:'Daño enemigo',mirror:'Copiar',optimizing:'Optimizando contra tu oponente',finderHint:'El buscador usa el oponente configurado en el Laboratorio de Batalla.',useInBattle:'Usar en batalla',footer:'Herramienta comunitaria no oficial. Los nombres y el arte del juego pertenecen a sus respectivos propietarios.',chooseRune:'Elegir una runa',close:'Cerrar',newBattle:'Nueva batalla',step:'Paso',play:'Reproducir',pause:'Pausa',batchFights:'1K batallas',fighting:'Combatiendo',victory:'Victoria',defeat:'Derrota',draw:'Empate',running:'Calculando...',baseCritical:'Crítico base',profileManual:'Perfil / manual',manual:'Manual',burst:'Ráfaga',guard:'Defensa',sustain:'Curación',emptySlot:'Espacio vacío',removeRune:'Quitar esta runa',level:'Nivel',criticalRate:'Prob. crítica',criticalDamage:'Daño crítico',structureDamage:'Daño a estructuras',workshopBuff:'Mejora de taller',bossGuard:'Defensa de jefe',bossDamage:'Daño de jefe',mutation:'Mutación',recovery:'Recuperación',createProfileTitle:'Crea tu perfil',createProfileHint:'Crea un perfil para comenzar. El inventario de runas y los ajustes de batalla se guardan por separado.',createProfileButton:'Crear perfil',configuredOpponent:'oponente configurado',dealtTotal:'infligió {value} en total',heal:'Curación',criticalShort:'CRÍT',hpShort:'VIDA',attackShort:'ATQ',speedShort:'VEL',critDamageShort:'DCRIT',basicAttack:'Ataque básico',extraStrike:'Golpe extra',execute:'Ejecución',finalGift:'Regalo final'},
-  ja:{brand:'恐竜ルーン研究所',battleLab:'バトル研究所',buildFinder:'ビルド検索',yourDino:'自分の恐竜',opponent:'対戦相手',runeLoadout:'ルーン構成',constellation:'星座',clear:'クリア',battleArena:'バトルアリーナ',damage:'ダメージ',critical:'会心',skill:'スキル',healing:'回復',actions:'行動数',yourDamage:'自分のダメージ',enemyDamage:'敵のダメージ',mirror:'コピー',optimizing:'対戦相手に合わせて最適化',finderHint:'バトル研究所で設定した対戦相手を使用します。',useInBattle:'バトルで使用',footer:'非公式コミュニティツールです。ゲーム名と画像の権利は各権利者に帰属します。',chooseRune:'ルーンを選択',close:'閉じる',newBattle:'新しいバトル',step:'1手進む',play:'再生',pause:'一時停止',batchFights:'1000戦',fighting:'戦闘中',victory:'勝利',defeat:'敗北',draw:'引き分け',running:'計算中...',baseCritical:'基本会心',profileManual:'プロフィール / 手動',manual:'手動',burst:'瞬間火力',guard:'防御',sustain:'持久',emptySlot:'空きスロット',removeRune:'このルーンを外す',level:'レベル',criticalRate:'会心率',criticalDamage:'会心ダメージ',structureDamage:'建物ダメージ',workshopBuff:'工房強化',bossGuard:'ボス防御',bossDamage:'ボスダメージ',mutation:'突然変異',recovery:'回復力',createProfileTitle:'プロフィールを作成',createProfileHint:'開始するにはプロフィールを作成してください。ルーンとバトル設定はプロフィールごとに保存されます。',createProfileButton:'プロフィール作成',configuredOpponent:'設定した対戦相手',dealtTotal:'合計 {value} ダメージ',heal:'回復',criticalShort:'会心',hpShort:'HP',attackShort:'攻撃',speedShort:'速度',critDamageShort:'会心DMG',basicAttack:'通常攻撃',extraStrike:'追加攻撃',execute:'即死',finalGift:'最後の贈り物'},
-  ko:{brand:'공룡 룬 연구소',battleLab:'전투 연구소',buildFinder:'빌드 찾기',yourDino:'내 공룡',opponent:'상대',runeLoadout:'룬 구성',constellation:'별자리',clear:'초기화',battleArena:'전투 경기장',damage:'피해',critical:'치명타',skill:'스킬',healing:'회복',actions:'행동',yourDamage:'내 피해',enemyDamage:'적 피해',mirror:'복사',optimizing:'상대에 맞춰 최적화',finderHint:'전투 연구소에서 설정한 상대를 사용합니다.',useInBattle:'전투에 사용',footer:'비공식 커뮤니티 도구입니다. 게임 이름과 아트워크의 권리는 각 소유자에게 있습니다.',chooseRune:'룬 선택',close:'닫기',newBattle:'새 전투',step:'한 단계',play:'재생',pause:'일시정지',batchFights:'1천 전투',fighting:'전투 중',victory:'승리',defeat:'패배',draw:'무승부',running:'계산 중...',baseCritical:'기본 치명타',profileManual:'프로필 / 수동',manual:'수동',burst:'폭발',guard:'방어',sustain:'지속',emptySlot:'빈 슬롯',removeRune:'이 룬 제거',level:'레벨',criticalRate:'치명타 확률',criticalDamage:'치명타 피해',structureDamage:'구조물 피해',workshopBuff:'작업장 강화',bossGuard:'보스 방어',bossDamage:'보스 피해',mutation:'돌연변이',recovery:'회복력',createProfileTitle:'프로필 만들기',createProfileHint:'시작하려면 프로필을 만드세요. 룬과 전투 설정은 프로필별로 저장됩니다.',createProfileButton:'프로필 만들기',configuredOpponent:'설정된 상대',dealtTotal:'총 {value} 피해',heal:'회복',criticalShort:'치명타',hpShort:'체력',attackShort:'공격',speedShort:'속도',critDamageShort:'치피',basicAttack:'기본 공격',extraStrike:'추가 타격',execute:'즉사',finalGift:'마지막 선물'},
-  'zh-TW':{brand:'恐龍符文研究室',battleLab:'戰鬥研究室',buildFinder:'配置搜尋',yourDino:'你的恐龍',opponent:'對手',runeLoadout:'符文配置',constellation:'星座',clear:'清除',battleArena:'戰鬥競技場',damage:'傷害',critical:'暴擊',skill:'技能',healing:'治療',actions:'行動',yourDamage:'你的傷害',enemyDamage:'敵方傷害',mirror:'複製',optimizing:'針對對手最佳化',finderHint:'搜尋器會使用戰鬥研究室中設定的對手。',useInBattle:'套用至戰鬥',footer:'非官方社群工具。遊戲名稱與美術資產均屬其各自權利人所有。',chooseRune:'選擇符文',close:'關閉',newBattle:'新戰鬥',step:'單步',play:'播放',pause:'暫停',batchFights:'1千場',fighting:'戰鬥中',victory:'勝利',defeat:'失敗',draw:'平手',running:'計算中...',baseCritical:'基礎暴擊',profileManual:'設定檔 / 手動',manual:'手動',burst:'爆發',guard:'防禦',sustain:'續航',emptySlot:'空欄位',removeRune:'移除此符文',level:'等級',criticalRate:'暴擊率',criticalDamage:'暴擊傷害',structureDamage:'建築傷害',workshopBuff:'工坊增益',bossGuard:'Boss 防禦',bossDamage:'Boss 傷害',mutation:'突變',recovery:'恢復',createProfileTitle:'建立設定檔',createProfileHint:'建立設定檔以開始。符文與戰鬥設定會分別儲存在各設定檔中。',createProfileButton:'建立設定檔',configuredOpponent:'已設定的對手',dealtTotal:'總共造成 {value} 傷害',heal:'治療',criticalShort:'暴擊',hpShort:'生命',attackShort:'攻擊',speedShort:'速度',critDamageShort:'暴傷',basicAttack:'普通攻擊',extraStrike:'額外打擊',execute:'處決',finalGift:'最後的贈禮'}
+  en:{brand:'Dino Rune Lab',battleLab:'Battle Lab',buildFinder:'Build Finder',yourDino:'Your dino',opponent:'Opponent',runeLoadout:'Rune loadout',constellation:'Constellation',clear:'Clear',battleArena:'Battle Arena',damage:'Damage',critical:'Critical',skill:'Skill',healing:'Healing',actions:'Actions',yourDamage:'Your damage',enemyDamage:'Enemy damage',mirror:'Mirror',optimizing:'Optimizing against your opponent',finderHint:'The finder uses the exact opponent configured in Battle Lab.',useInBattle:'Use in Battle',chooseRune:'Choose a rune',close:'Close',newBattle:'New battle',step:'Step',play:'Play',pause:'Pause',batchFights:'1K fights',fighting:'Fighting',victory:'Victory',defeat:'Defeat',draw:'Draw',running:'Running...',baseCritical:'Base critical',profileManual:'Profile / manual',manual:'Manual',burst:'Burst',guard:'Guard',sustain:'Sustain',emptySlot:'Empty slot',removeRune:'Remove this rune',level:'Level',criticalRate:'Critical rate',criticalDamage:'Critical damage',structureDamage:'Structure damage',workshopBuff:'Workshop buff',bossGuard:'Boss guard',bossDamage:'Boss damage',mutation:'Mutation',recovery:'Recovery',createProfileTitle:'Create your profile',createProfileHint:'Create a profile to start. Rune inventory and battle settings are saved separately for each profile.',createProfileButton:'Create profile',configuredOpponent:'configured opponent',dealtTotal:'dealt {value} total',heal:'Heal',criticalShort:'CRIT',hpShort:'HP',attackShort:'ATK',speedShort:'SPD',critDamageShort:'CDMG',basicAttack:'Basic attack',extraStrike:'Extra strike',execute:'Execute',finalGift:'Final Gift'},
+  es:{brand:'Laboratorio de Runas Dino',battleLab:'Laboratorio de Batalla',buildFinder:'Buscador de Sets',yourDino:'Tu dinosaurio',opponent:'Oponente',runeLoadout:'Set de runas',constellation:'Constelación',clear:'Limpiar',battleArena:'Arena de Batalla',damage:'Daño',critical:'Crítico',skill:'Habilidad',healing:'Curación',actions:'Acciones',yourDamage:'Tu daño',enemyDamage:'Daño enemigo',mirror:'Copiar',optimizing:'Optimizando contra tu oponente',finderHint:'El buscador usa el oponente configurado en el Laboratorio de Batalla.',useInBattle:'Usar en batalla',chooseRune:'Elegir una runa',close:'Cerrar',newBattle:'Nueva batalla',step:'Paso',play:'Reproducir',pause:'Pausa',batchFights:'1K batallas',fighting:'Combatiendo',victory:'Victoria',defeat:'Derrota',draw:'Empate',running:'Calculando...',baseCritical:'Crítico base',profileManual:'Perfil / manual',manual:'Manual',burst:'Ráfaga',guard:'Defensa',sustain:'Curación',emptySlot:'Espacio vacío',removeRune:'Quitar esta runa',level:'Nivel',criticalRate:'Prob. crítica',criticalDamage:'Daño crítico',structureDamage:'Daño a estructuras',workshopBuff:'Mejora de taller',bossGuard:'Defensa de jefe',bossDamage:'Daño de jefe',mutation:'Mutación',recovery:'Recuperación',createProfileTitle:'Crea tu perfil',createProfileHint:'Crea un perfil para comenzar. El inventario de runas y los ajustes de batalla se guardan por separado.',createProfileButton:'Crear perfil',configuredOpponent:'oponente configurado',dealtTotal:'infligió {value} en total',heal:'Curación',criticalShort:'CRÍT',hpShort:'VIDA',attackShort:'ATQ',speedShort:'VEL',critDamageShort:'DCRIT',basicAttack:'Ataque básico',extraStrike:'Golpe extra',execute:'Ejecución',finalGift:'Regalo final'},
+  ja:{brand:'恐竜ルーン研究所',battleLab:'バトル研究所',buildFinder:'ビルド検索',yourDino:'自分の恐竜',opponent:'対戦相手',runeLoadout:'ルーン構成',constellation:'星座',clear:'クリア',battleArena:'バトルアリーナ',damage:'ダメージ',critical:'会心',skill:'スキル',healing:'回復',actions:'行動数',yourDamage:'自分のダメージ',enemyDamage:'敵のダメージ',mirror:'コピー',optimizing:'対戦相手に合わせて最適化',finderHint:'バトル研究所で設定した対戦相手を使用します。',useInBattle:'バトルで使用',chooseRune:'ルーンを選択',close:'閉じる',newBattle:'新しいバトル',step:'1手進む',play:'再生',pause:'一時停止',batchFights:'1000戦',fighting:'戦闘中',victory:'勝利',defeat:'敗北',draw:'引き分け',running:'計算中...',baseCritical:'基本会心',profileManual:'プロフィール / 手動',manual:'手動',burst:'瞬間火力',guard:'防御',sustain:'持久',emptySlot:'空きスロット',removeRune:'このルーンを外す',level:'レベル',criticalRate:'会心率',criticalDamage:'会心ダメージ',structureDamage:'建物ダメージ',workshopBuff:'工房強化',bossGuard:'ボス防御',bossDamage:'ボスダメージ',mutation:'突然変異',recovery:'回復力',createProfileTitle:'プロフィールを作成',createProfileHint:'開始するにはプロフィールを作成してください。ルーンとバトル設定はプロフィールごとに保存されます。',createProfileButton:'プロフィール作成',configuredOpponent:'設定した対戦相手',dealtTotal:'合計 {value} ダメージ',heal:'回復',criticalShort:'会心',hpShort:'HP',attackShort:'攻撃',speedShort:'速度',critDamageShort:'会心DMG',basicAttack:'通常攻撃',extraStrike:'追加攻撃',execute:'即死',finalGift:'最後の贈り物'},
+  ko:{brand:'공룡 룬 연구소',battleLab:'전투 연구소',buildFinder:'빌드 찾기',yourDino:'내 공룡',opponent:'상대',runeLoadout:'룬 구성',constellation:'별자리',clear:'초기화',battleArena:'전투 경기장',damage:'피해',critical:'치명타',skill:'스킬',healing:'회복',actions:'행동',yourDamage:'내 피해',enemyDamage:'적 피해',mirror:'복사',optimizing:'상대에 맞춰 최적화',finderHint:'전투 연구소에서 설정한 상대를 사용합니다.',useInBattle:'전투에 사용',chooseRune:'룬 선택',close:'닫기',newBattle:'새 전투',step:'한 단계',play:'재생',pause:'일시정지',batchFights:'1천 전투',fighting:'전투 중',victory:'승리',defeat:'패배',draw:'무승부',running:'계산 중...',baseCritical:'기본 치명타',profileManual:'프로필 / 수동',manual:'수동',burst:'폭발',guard:'방어',sustain:'지속',emptySlot:'빈 슬롯',removeRune:'이 룬 제거',level:'레벨',criticalRate:'치명타 확률',criticalDamage:'치명타 피해',structureDamage:'구조물 피해',workshopBuff:'작업장 강화',bossGuard:'보스 방어',bossDamage:'보스 피해',mutation:'돌연변이',recovery:'회복력',createProfileTitle:'프로필 만들기',createProfileHint:'시작하려면 프로필을 만드세요. 룬과 전투 설정은 프로필별로 저장됩니다.',createProfileButton:'프로필 만들기',configuredOpponent:'설정된 상대',dealtTotal:'총 {value} 피해',heal:'회복',criticalShort:'치명타',hpShort:'체력',attackShort:'공격',speedShort:'속도',critDamageShort:'치피',basicAttack:'기본 공격',extraStrike:'추가 타격',execute:'즉사',finalGift:'마지막 선물'},
+  'zh-TW':{brand:'恐龍符文研究室',battleLab:'戰鬥研究室',buildFinder:'配置搜尋',yourDino:'你的恐龍',opponent:'對手',runeLoadout:'符文配置',constellation:'星座',clear:'清除',battleArena:'戰鬥競技場',damage:'傷害',critical:'暴擊',skill:'技能',healing:'治療',actions:'行動',yourDamage:'你的傷害',enemyDamage:'敵方傷害',mirror:'複製',optimizing:'針對對手最佳化',finderHint:'搜尋器會使用戰鬥研究室中設定的對手。',useInBattle:'套用至戰鬥',chooseRune:'選擇符文',close:'關閉',newBattle:'新戰鬥',step:'單步',play:'播放',pause:'暫停',batchFights:'1千場',fighting:'戰鬥中',victory:'勝利',defeat:'失敗',draw:'平手',running:'計算中...',baseCritical:'基礎暴擊',profileManual:'設定檔 / 手動',manual:'手動',burst:'爆發',guard:'防禦',sustain:'續航',emptySlot:'空欄位',removeRune:'移除此符文',level:'等級',criticalRate:'暴擊率',criticalDamage:'暴擊傷害',structureDamage:'建築傷害',workshopBuff:'工坊增益',bossGuard:'Boss 防禦',bossDamage:'Boss 傷害',mutation:'突變',recovery:'恢復',createProfileTitle:'建立設定檔',createProfileHint:'建立設定檔以開始。符文與戰鬥設定會分別儲存在各設定檔中。',createProfileButton:'建立設定檔',configuredOpponent:'已設定的對手',dealtTotal:'總共造成 {value} 傷害',heal:'治療',criticalShort:'暴擊',hpShort:'生命',attackShort:'攻擊',speedShort:'速度',critDamageShort:'暴傷',basicAttack:'普通攻擊',extraStrike:'額外打擊',execute:'處決',finalGift:'最後的贈禮'}
 };
 
 let lang=(()=>{try{return localStorage.getItem('rune_lang_v5')||localStorage.getItem('rune_language_v4')||'en'}catch(_){return'en'}})();
@@ -779,11 +779,7 @@ const CONSTELLATION_TYPES=[
   {id:5,label:'workshopBuff',icon:'constellation_workshopbuff_rootimage.png',max:50}
 ];
 const SPECIAL_TYPES=[
-  {id:100,label:'speed',icon:'constellation_specialnode_speed_active.png'},
-  {id:101,label:'bossGuard',icon:'constellation_specialnode_bossreduction_active.png'},
-  {id:102,label:'bossDamage',icon:'constellation_specialnode_bossdamage_active.png'},
-  {id:103,label:'mutation',icon:'constellation_specialnode_mutationrate_active.png'},
-  {id:104,label:'recovery',icon:'constellation_specialnode_recoveryvalue_active.png'}
+  {id:100,label:'speed',icon:'constellation_specialnode_speed_active.png'}
 ];
 const CONSTELLATION_LEVEL_VALUES={
   0:[10,10,10,10,20,20,20,20,30,30,30,40,70,80,80,80,80,80,80,90,90,90,90,90,100,100,100,100,100,110,250,280,310,350,380,410,440,470,500,550,1060,1130,1210,1280,1360,1440,1520,1590,1720,1890],
@@ -792,7 +788,7 @@ const CONSTELLATION_LEVEL_VALUES={
   3:[.07,.07,.07,.07,.14,.14,.14,.14,.2,.2,.2,.27,.47,.54,.54,.54,.54,.54,.54,.61,.61,.61,.61,.61,.68,.68,.68,.68,.68,.74,1.69,1.89,2.09,2.36,2.57,2.77,2.97,3.17,3.38,3.71,7.16,7.63,8.17,8.64,9.18,9.72,10.26,10.73,11.61,12.76],
   4:[1,1,1,1,2,2,2,2,3,3,3,4,7,8,8,8,8,8,8,9,9,9,9,9,10,10,10,10,10,11,25,28,31,35,38,41,44,47,50,55,106,113,121,128,136,144,152,159,172,189],
   5:[1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,5,6,7,7,8,9,9,10,10,11,35,38,40,43,45,48,50,53,57,63],
-  100:[1,2,3,4],101:[10,20,40,50,70,110],102:[10,30,60,100,150,300],103:[.1,.1,.1],104:[1,1,1,1,1]
+  100:[1,2,3,4]
 };
 const BATTLE_PRESETS=[
   {label:'manual',slots:[1,2,4,5,14],levels:[31,31,31,31,31]},
@@ -811,21 +807,21 @@ function runeByGameId(id){return RUNES[Number(id)-1]||null}
 function clamp(v,min,max){return Math.max(min,Math.min(max,Number(v)||0))}
 function nodeValue(type,level){
   const values=nodeValues[type]||[],selected=clamp(level,0,values.length);
-  return selected?Number(values[selected-1]||0):0;
+  return values.slice(0,selected).reduce((total,value)=>total+Number(value||0),0);
 }
 function sumSpecial(type,count){return (nodeValues[type]||[]).slice(0,Math.max(0,Number(count)||0)).reduce((a,b)=>a+Number(b||0),0)}
 function persistUserBattle(){
   if(!profile)return;
   profile.battle={
     slots:simSides.user.slots.map(x=>({id:Number(x.id),level:clamp(x.level,1,31)})),
-    main:{...simSides.user.main},special:{...simSides.user.special}
+    main:{...simSides.user.main},special:{100:Number(simSides.user.special[100]||0)}
   };
   saveData();
 }
 function loadProfileBattleState(){
   if(!profile)return;
   const b=profile.battle||emptyBattleProfile();
-  simSides.user={slots:(b.slots||[]).map(x=>({id:Number(x.id),level:clamp(x.level,1,31)})),main:{...(b.main||{})},special:{...(b.special||{})}};
+  simSides.user={slots:(b.slots||[]).map(x=>({id:Number(x.id),level:clamp(x.level,1,31)})),main:{...(b.main||{})},special:{100:Number(b.special?.[100]||0)}};
   if($('simUserHp')){$('simUserHp').value=profile.base?.hp??'';$('simUserAttack').value=profile.base?.attack??'';$('simUserSpeed').value=profile.base?.speed??''}
   if($('userPreset'))$('userPreset').value='-1';
   if($('userRuneSlots'))renderRuneSlots('user');
@@ -840,10 +836,10 @@ function sideBase(side){
 function sideBuild(side){return simSides[side].slots.map(slot=>{const rune=runeByGameId(slot.id);return rune?{rune,level:clamp(slot.level,1,31),e:effect(rune,clamp(slot.level,1,31))}:null}).filter(Boolean)}
 function modelStats(build,base,model,mode='pvp'){
   const s=stats(build,constellationBase(base,model),mode);
-  s.critChance+=nodeValue(2,model.main[2])*100;s.critDamage+=nodeValue(3,model.main[3])*100;
+  s.critChance+=nodeValue(2,model.main[2]);s.critDamage+=nodeValue(3,model.main[3]);
   s.speed+=sumSpecial(100,model.special[100]);
   s.critChance=Math.max(0,Math.min(100,s.critChance));
-  s.constellation={structureDamage:nodeValue(4,model.main[4]),workshop:nodeValue(5,model.main[5]),bossReduction:sumSpecial(101,model.special[101]),bossDamage:sumSpecial(102,model.special[102])};
+  s.constellation={structureDamage:nodeValue(4,model.main[4]),workshop:nodeValue(5,model.main[5])};
   return s;
 }
 function battleStats(side){return modelStats(sideBuild(side),sideBase(side),simSides[side])}
@@ -908,8 +904,7 @@ function initializeBattleData(){
 function createSimFighter(side,build=sideBuild(side),base=sideBase(side),model=simSides[side]){
   const s=modelStats(build,base,model);let shieldPct=0,shieldRemaining=0;
   for(const e of s.effects)if(e.shieldPct){shieldPct=Math.max(shieldPct,e.shieldPct);shieldRemaining=Math.max(shieldRemaining,e.shieldAttacks||0)}
-  const recoveryBonus=sumSpecial(104,model.special[104]);
-  return{side,s,hp:s.hp,attacks:0,damageDone:0,healing:0,deathDone:false,shieldPct,shieldRemaining,recoveryBonus};
+  return{side,s,hp:s.hp,attacks:0,damageDone:0,healing:0,deathDone:false,shieldPct,shieldRemaining};
 }
 function simCrit(amount,s,r){const crit=roll(r,s.critChance);return{amount:crit?amount*(1+s.critDamage/100):amount,crit}}
 function simPacket(defender,amount,r){
@@ -919,21 +914,21 @@ function simPacket(defender,amount,r){
 }
 function simAction(attacker,defender,r){
   attacker.attacks++;let damage=0,healing=0,triggers=[],packets=[];
-  const addPacket=(label,kind,hit)=>{const dealt=simPacket(defender,hit.amount,r);damage+=dealt.value;packets.push({label,kind,amount:dealt.value,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:!!hit.crit});return dealt.value};
+  const addPacket=(label,kind,hit,effect='')=>{const dealt=simPacket(defender,hit.amount,r);damage+=dealt.value;packets.push({label,kind,effect,amount:dealt.value,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:!!hit.crit});return dealt.value};
   const normal=simCrit(attacker.s.attack,attacker.s,r);addPacket(L().basicAttack,'normal',normal);if(normal.crit)triggers.push(L().critical);
   if(defender.hp>0)for(const e of attacker.s.effects){
-    if(e.skillPct&&roll(r,e.proc)){const hit=simCrit(attacker.s.attack*e.skillPct/100,attacker.s,r),name=runeByGameId(RUNES.findIndex(x=>x.id===e.id)+1)?.en||'Rune';addPacket(name,'skill',hit);triggers.push(`${name}${hit.crit?' critical':''}`)}
-    if(e.extraPct&&attacker.attacks%(e.every||3)===0&&defender.hp>0){const hit=simCrit(attacker.s.attack*e.extraPct/100,attacker.s,r);addPacket(L().extraStrike,'skill',hit);triggers.push(L().extraStrike)}
+    if(e.skillPct&&roll(r,e.proc)){const hit=simCrit(attacker.s.attack*e.skillPct/100,attacker.s,r),rune=runeByGameId(RUNES.findIndex(x=>x.id===e.id)+1),name=rune?runeName(rune):L().skill;addPacket(name,'skill',hit,e.id);triggers.push(`${name}${hit.crit?' critical':''}`)}
+    if(e.extraPct&&attacker.attacks%(e.every||3)===0&&defender.hp>0){const hit=simCrit(attacker.s.attack*e.extraPct/100,attacker.s,r);addPacket(L().extraStrike,'skill',hit,'extra-strike');triggers.push(L().extraStrike)}
   }
   if(defender.hp>0)for(const e of attacker.s.effects)if(e.executeHp&&defender.hp/defender.s.hp*100<e.executeHp&&roll(r,e.executeChance)){const amount=defender.hp;damage+=amount;defender.hp=0;packets.push({label:L().execute,kind:'execute',amount,raw:amount,shielded:0,reduced:0,critical:false});triggers.push(L().execute);break}
-  for(const e of attacker.s.effects)if(e.healAttackPct&&roll(r,e.proc)){const value=Math.min(attacker.s.hp-attacker.hp,attacker.s.attack*e.healAttackPct/100*(1+attacker.recoveryBonus/100));attacker.hp+=value;healing+=value;triggers.push('Drain Life')}
-  if(defender.hp>0)for(const e of defender.s.effects)if(e.healMaxPct&&roll(r,e.proc)){const value=Math.min(defender.s.hp-defender.hp,defender.s.hp*e.healMaxPct/100*(1+defender.recoveryBonus/100));defender.hp+=value;defender.healing+=value;triggers.push('Defender healed')}
+  for(const e of attacker.s.effects)if(e.healAttackPct&&roll(r,e.proc)){const value=Math.min(attacker.s.hp-attacker.hp,attacker.s.attack*e.healAttackPct/100);attacker.hp+=value;healing+=value;triggers.push('Drain Life')}
+  if(defender.hp>0)for(const e of defender.s.effects)if(e.healMaxPct&&roll(r,e.proc)){const value=Math.min(defender.s.hp-defender.hp,defender.s.hp*e.healMaxPct/100);defender.hp+=value;defender.healing+=value;triggers.push('Defender healed')}
   if(defender.shieldRemaining>0)defender.shieldRemaining--;attacker.damageDone+=damage;attacker.healing+=healing;
   return{actor:attacker.side,damage,healing,triggers,packets,aHp:attacker.side==='user'?attacker.hp:defender.hp,bHp:attacker.side==='user'?defender.hp:attacker.hp};
 }
 function simDeath(dead,other,r,event){
   if(dead.deathDone)return;dead.deathDone=true;
-  for(const e of dead.s.effects)if(e.deathPct&&roll(r,e.proc)){const dealt=simPacket(other,dead.s.attack*e.deathPct/100,r),amount=dealt.value;dead.damageDone+=amount;event.triggers.push(L().finalGift);event.packets.push({label:L().finalGift,kind:'skill',amount,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:false});event.deathDamage=amount}
+  for(const e of dead.s.effects)if(e.deathPct&&roll(r,e.proc)){const dealt=simPacket(other,dead.s.attack*e.deathPct/100,r),amount=dealt.value;dead.damageDone+=amount;event.triggers.push(L().finalGift);event.packets.push({label:L().finalGift,kind:'skill',effect:'final-gift',amount,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:false});event.deathDamage=amount}
   event.aHp=dead.side==='user'?dead.hp:other.hp;event.bHp=dead.side==='user'?other.hp:dead.hp;
 }
 function simulateMatch(userBuild,userBase,userModel,opponentBuild,opponentBase,opponentModel,seed,record=true){
@@ -952,7 +947,7 @@ function randomBattleSeed(){
   return((Date.now()^(Math.random()*0xffffffff))>>>0)||1;
 }
 function playbackDelay(){return Math.max(225,Math.round(900/(Number($('battleSpeed').value)||1)))}
-function clearDamageStacks(){$('userDamageStack').innerHTML='';$('opponentDamageStack').innerHTML=''}
+function clearDamageStacks(){$('userDamageStack').innerHTML='';$('opponentDamageStack').innerHTML='';document.querySelectorAll('.skill-effect').forEach(effect=>effect.remove())}
 function invalidateBattle(){clearInterval(battleTimer);battleTimer=null;clearDamageStacks();battleReplay=null;$('battleBanner').textContent=L().ready;renderBattleInitial()}
 function renderBattleInitial(){
   const a=battleStats('user'),b=battleStats('opponent');clearDamageStacks();$('userHpFill').style.width='100%';$('opponentHpFill').style.width='100%';$('userHpText').textContent=`${fmt(a.hp)} / ${fmt(a.hp)}`;$('opponentHpText').textContent=`${fmt(b.hp)} / ${fmt(b.hp)}`;$('simTurns').textContent='0';$('simUserDamage').textContent='0';$('simOpponentDamage').textContent='0';$('battleLog').innerHTML='';
@@ -967,14 +962,29 @@ function animateCombat(event){
   renderDamageStack(target,event.packets);
   if(event.healing>0)renderDamageStack(actor,[{label:L().healing,kind:'heal',amount:event.healing,critical:false}]);
 }
+function combatEffectClass(effect){
+  if(effect==='meteor')return'meteor';
+  if(effect==='thunderstrike')return'lightning';
+  return effect?'skill-impact':'';
+}
+function renderCombatEffect(combatant,effect,index){
+  const type=combatEffectClass(effect);if(!type)return;
+  const visual=document.createElement('div');visual.className=`skill-effect ${type}`;visual.setAttribute('aria-hidden','true');visual.style.setProperty('--effect-delay',`${index*85}ms`);
+  visual.innerHTML=type==='meteor'?'<i class="meteor-core"></i><i class="meteor-impact"></i>':type==='lightning'?'<i class="lightning-bolt"></i><i class="lightning-flash"></i>':'<i class="skill-impact-ring"></i>';
+  combatant.appendChild(visual);
+  setTimeout(()=>visual.remove(),1500+index*85);
+}
 function renderDamageStack(combatant,packets){
-  const stack=combatant.querySelector('.damage-stack');stack.innerHTML='';
-  for(const packet of packets){
-    const row=document.createElement('div'),reduced=(packet.shielded||0)+(packet.reduced||0),prefix=packet.kind==='heal'?'+':'-';
-    row.className=`damage-stack-row ${packet.kind||'normal'}${packet.critical?' critical':''}${reduced?' reduced':''}`;
-    const label=packet.critical?L().criticalShort:packet.kind==='skill'?L().skill:packet.kind==='execute'?packet.label:packet.kind==='heal'?L().heal:'';
-    row.innerHTML=`<strong>${prefix}${fmt(packet.amount)}</strong>${label?`<small>${esc(label)}</small>`:''}`;stack.appendChild(row);
-  }
+  const stack=combatant.querySelector('.damage-stack');stack.innerHTML='';combatant.querySelectorAll('.skill-effect').forEach(effect=>effect.remove());
+  const positions=[[-42,18],[28,2],[-4,49],[52,39],[-57,62],[17,75]];
+  packets.forEach((packet,index)=>{
+    const row=document.createElement('div'),reduced=(packet.shielded||0)+(packet.reduced||0),position=positions[index%positions.length],effect=combatEffectClass(packet.effect);
+    row.className=`damage-stack-row ${packet.kind||'normal'}${packet.critical?' critical':''}${reduced?' reduced':''}${effect?` effect-${effect}`:''}`;
+    row.style.setProperty('--hit-x',`${position[0]}px`);row.style.setProperty('--hit-y',`${position[1]}px`);row.style.setProperty('--hit-delay',`${index*70}ms`);
+    row.setAttribute('aria-label',`${packet.label}: ${fmt(packet.amount)}${packet.critical?` ${L().criticalShort}`:''}`);
+    row.innerHTML=`<strong>${packet.kind==='heal'?'+':''}${fmt(packet.amount)}</strong>`;stack.appendChild(row);
+    if(packet.kind==='skill')renderCombatEffect(combatant,packet.effect,index);
+  });
 }
 function applyReplayEvent(){
   if(!battleReplay)resetBattleModel();if(battleReplay.index>=battleReplay.events.length){finishReplay();return false}
