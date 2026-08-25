@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dino Rune Lab</title>
 <base href="./">
-<link rel="stylesheet" href="css/styles.css?v=0fae487">
+  <link rel="stylesheet" href="css/styles.css?v=20260825a">
 <meta name="description" content="Profile-based Dino Rune Lab battle simulator and build finder.">
 <meta name="application-name" content="Dino Rune Lab">
 <link rel="icon" href="assets/runealtar.png">
@@ -41,12 +41,14 @@
       <section class="fighter-panel" id="userPanel">
         <div class="fighter-title"><h2 data-i18n="yourDino">Your dino</h2></div>
         <div class="fighter-body">
-          <div class="preset-row solo"><select id="userPreset"></select></div>
+          <div class="preset-row preset-tools"><select id="userPreset"></select><button class="small-action save-preset" id="saveUserPreset" type="button" data-i18n="savePreset">Save preset</button><button class="small-action quiet" id="deleteUserPreset" type="button" data-i18n="removePreset" disabled>Delete</button></div>
           <div class="fighter-fields">
             <div class="field"><label data-i18n="health">Health</label><input id="simUserHp" type="number" min="1" value="15920"></div>
             <div class="field"><label data-i18n="attack">Attack</label><input id="simUserAttack" type="number" min="1" value="1568"></div>
             <div class="field"><label data-i18n="speed">Speed</label><input id="simUserSpeed" type="number" min="0" value="150"></div>
           </div>
+          <div class="visual-style-head"><span data-i18n="fighterStyle">Fighter style</span><strong id="userStyleName"></strong></div>
+          <div class="visual-presets" id="userVisualPresets" role="radiogroup" aria-label="Your dino style"></div>
           <div class="loadout-label"><span data-i18n="runeLoadout">Rune loadout</span><span id="userFinalStats"></span></div>
           <div class="rune-slots" id="userRuneSlots"></div>
           <div class="loadout-label"><span data-i18n="constellation">Constellation</span><button class="btn" id="clearUserConstellation" data-i18n="clear">Clear</button></div>
@@ -66,6 +68,7 @@
                 <option value="1" selected>1x</option>
                 <option value="2">2x</option>
                 <option value="4">4x</option>
+                <option value="8">8x</option>
               </select>
             </label>
           </div>
@@ -77,22 +80,23 @@
             <div class="hp-track"><div class="hp-fill" id="userHpFill"></div></div>
             <div class="hp-text" id="userHpText"></div>
             <div class="damage-stack" id="userDamageStack" aria-live="polite"></div>
-            <img src="assets/dinos/2010.webp" alt="Your dinosaur">
+            <canvas class="dino-canvas" id="userDinoCanvas" width="520" height="380" role="img" aria-label="Your dinosaur"></canvas>
           </div>
           <div class="combatant opponent" id="opponentCombatant">
             <div class="nameplate" data-i18n="opponent">Opponent</div>
             <div class="hp-track"><div class="hp-fill" id="opponentHpFill"></div></div>
             <div class="hp-text" id="opponentHpText"></div>
             <div class="damage-stack" id="opponentDamageStack" aria-live="polite"></div>
-            <img src="assets/dinos/1000.webp" alt="Opponent dinosaur">
+            <canvas class="dino-canvas" id="opponentDinoCanvas" width="520" height="380" role="img" aria-label="Opponent dinosaur"></canvas>
           </div>
         </div>
         <div class="arena-controls">
           <button class="arena-button" id="resetBattle" data-i18n="newBattle">New</button>
           <button class="arena-button primary" id="stepBattle" data-i18n="step">Step</button>
           <button class="arena-button" id="playBattle" data-i18n="play">Play</button>
-          <button class="arena-button batch" id="batchBattle" data-i18n="batchFights">1K fights</button>
+          <button class="arena-button batch" id="batchBattle" data-i18n="batchFights">10K simulations</button>
         </div>
+        <div class="batch-detail" id="batchDetail" aria-live="polite">Run 10,000 randomized matches for a stable result.</div>
         <div class="combat-legend" aria-label="Battle damage colors">
           <span><i></i><b data-i18n="damage">Damage</b></span><span class="crit"><i></i><b data-i18n="critical">Critical</b></span><span class="skill"><i></i><b data-i18n="skill">Skill</b></span><span class="heal"><i></i><b data-i18n="healing">Healing</b></span>
         </div>
@@ -114,6 +118,8 @@
             <div class="field"><label data-i18n="attack">Attack</label><input id="simOpponentAttack" type="number" min="1" value="1568"></div>
             <div class="field"><label data-i18n="speed">Speed</label><input id="simOpponentSpeed" type="number" min="0" value="150"></div>
           </div>
+          <div class="visual-style-head"><span data-i18n="fighterStyle">Fighter style</span><strong id="opponentStyleName"></strong></div>
+          <div class="visual-presets" id="opponentVisualPresets" role="radiogroup" aria-label="Opponent dino style"></div>
           <div class="loadout-label"><span data-i18n="runeLoadout">Rune loadout</span><span id="opponentFinalStats"></span></div>
           <div class="rune-slots" id="opponentRuneSlots"></div>
           <div class="loadout-label"><span data-i18n="constellation">Constellation</span><button class="btn" id="clearOpponentConstellation" data-i18n="clear">Clear</button></div>
@@ -138,10 +144,6 @@
         <button type="button" class="scope" data-scope="general" data-i18n="generalUse">General use</button>
       </div>
     </div>
-    <div class="titan-level-control" id="titanLevelControl" hidden>
-      <label for="titanLevel" data-i18n="titanLevel">Titan level</label>
-      <input id="titanLevel" type="number" min="1" max="5000" value="1">
-    </div>
     <div class="finder-target-stats" id="finderTargetStats"></div>
   </section>
 
@@ -154,7 +156,6 @@
     <div class="modes" id="modes">
       <button class="mode active" data-mode="pvp">PvP</button>
       <button class="mode" data-mode="structure">Structure</button>
-      <button class="mode" data-mode="boss">Boss</button>
     </div>
   </section>
 
@@ -203,6 +204,15 @@
   </main>
 </div>
 
+<div class="preset-modal-bg" id="presetModalBg">
+  <div class="preset-modal" role="dialog" aria-modal="true" aria-labelledby="presetTitle">
+    <h3 id="presetTitle" data-i18n="savePreset">Save preset</h3>
+    <p data-i18n="presetHint">Saves stats, runes, constellation, and appearance.</p>
+    <input id="presetName" type="text" maxlength="40" placeholder="Preset name">
+    <div class="modal-actions"><button class="btn" id="cancelPreset" type="button" data-i18n="cancel">Cancel</button><button class="calculate" id="confirmPreset" type="button" data-i18n="save">Save</button></div>
+  </div>
+</div>
+
 <div class="rune-picker-bg" id="runePickerBg">
   <div class="rune-picker">
     <div class="picker-head"><h3 data-i18n="chooseRune">Choose a rune</h3><button class="btn" id="closeRunePicker" data-i18n="close">Close</button></div>
@@ -222,8 +232,9 @@
   </div>
 </div>
 
-<script src="data/runes.js?v=0fae487"></script>
-<script src="data/titan.js?v=0fae487"></script>
-<script src="js/app.js?v=0fae487"></script>
+  <script src="data/runes.js?v=20260825a"></script>
+  <script src="assets/cosmetics/catalog.js?v=20260825a"></script>
+  <script src="js/dino-renderer.js?v=20260825a"></script>
+  <script src="js/app.js?v=20260825a"></script>
 </body>
 </html>

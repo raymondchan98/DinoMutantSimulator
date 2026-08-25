@@ -67,25 +67,25 @@ const TEXT = {
 };
 
 const UI_TEXT={
-  en:{brand:'Dino Rune Lab',battleLab:'Battle Lab',buildFinder:'Build Finder',yourDino:'Your dino',opponent:'Opponent',runeLoadout:'Rune loadout',constellation:'Constellation',clear:'Clear',battleArena:'Battle Arena',damage:'Damage',critical:'Critical',skill:'Skill',healing:'Healing',actions:'Actions',yourDamage:'Your damage',enemyDamage:'Enemy damage',mirror:'Mirror',optimizing:'Optimizing against your opponent',finderHint:'The finder uses the exact opponent configured in Battle Lab.',useInBattle:'Use in Battle',chooseRune:'Choose a rune',close:'Close',newBattle:'New battle',step:'Step',play:'Play',pause:'Pause',batchFights:'1K fights',fighting:'Fighting',victory:'Victory',defeat:'Defeat',draw:'Draw',running:'Running...',baseCritical:'Base critical',profileManual:'Profile / manual',manual:'Manual',burst:'Burst',guard:'Guard',sustain:'Sustain',emptySlot:'Empty slot',removeRune:'Remove this rune',level:'Level',criticalRate:'Critical rate',criticalDamage:'Critical damage',structureDamage:'Structure damage',workshopBuff:'Workshop buff',bossGuard:'Boss guard',bossDamage:'Boss damage',mutation:'Mutation',recovery:'Recovery',createProfileTitle:'Create your profile',createProfileHint:'Create a profile to start. Rune inventory and battle settings are saved separately for each profile.',createProfileButton:'Create profile',configuredOpponent:'configured opponent',dealtTotal:'dealt {value} total',heal:'Heal',criticalShort:'CRIT',hpShort:'HP',attackShort:'ATK',speedShort:'SPD',critDamageShort:'CDMG',basicAttack:'Basic attack',extraStrike:'Extra strike',execute:'Execute',finalGift:'Final Gift'},
-  es:{brand:'Laboratorio de Runas Dino',battleLab:'Laboratorio de Batalla',buildFinder:'Buscador de Sets',yourDino:'Tu dinosaurio',opponent:'Oponente',runeLoadout:'Set de runas',constellation:'Constelación',clear:'Limpiar',battleArena:'Arena de Batalla',damage:'Daño',critical:'Crítico',skill:'Habilidad',healing:'Curación',actions:'Acciones',yourDamage:'Tu daño',enemyDamage:'Daño enemigo',mirror:'Copiar',optimizing:'Optimizando contra tu oponente',finderHint:'El buscador usa el oponente configurado en el Laboratorio de Batalla.',useInBattle:'Usar en batalla',chooseRune:'Elegir una runa',close:'Cerrar',newBattle:'Nueva batalla',step:'Paso',play:'Reproducir',pause:'Pausa',batchFights:'1K batallas',fighting:'Combatiendo',victory:'Victoria',defeat:'Derrota',draw:'Empate',running:'Calculando...',baseCritical:'Crítico base',profileManual:'Perfil / manual',manual:'Manual',burst:'Ráfaga',guard:'Defensa',sustain:'Curación',emptySlot:'Espacio vacío',removeRune:'Quitar esta runa',level:'Nivel',criticalRate:'Prob. crítica',criticalDamage:'Daño crítico',structureDamage:'Daño a estructuras',workshopBuff:'Mejora de taller',bossGuard:'Defensa de jefe',bossDamage:'Daño de jefe',mutation:'Mutación',recovery:'Recuperación',createProfileTitle:'Crea tu perfil',createProfileHint:'Crea un perfil para comenzar. El inventario de runas y los ajustes de batalla se guardan por separado.',createProfileButton:'Crear perfil',configuredOpponent:'oponente configurado',dealtTotal:'infligió {value} en total',heal:'Curación',criticalShort:'CRÍT',hpShort:'VIDA',attackShort:'ATQ',speedShort:'VEL',critDamageShort:'DCRIT',basicAttack:'Ataque básico',extraStrike:'Golpe extra',execute:'Ejecución',finalGift:'Regalo final'},
-  ja:{brand:'恐竜ルーン研究所',battleLab:'バトル研究所',buildFinder:'ビルド検索',yourDino:'自分の恐竜',opponent:'対戦相手',runeLoadout:'ルーン構成',constellation:'星座',clear:'クリア',battleArena:'バトルアリーナ',damage:'ダメージ',critical:'会心',skill:'スキル',healing:'回復',actions:'行動数',yourDamage:'自分のダメージ',enemyDamage:'敵のダメージ',mirror:'コピー',optimizing:'対戦相手に合わせて最適化',finderHint:'バトル研究所で設定した対戦相手を使用します。',useInBattle:'バトルで使用',chooseRune:'ルーンを選択',close:'閉じる',newBattle:'新しいバトル',step:'1手進む',play:'再生',pause:'一時停止',batchFights:'1000戦',fighting:'戦闘中',victory:'勝利',defeat:'敗北',draw:'引き分け',running:'計算中...',baseCritical:'基本会心',profileManual:'プロフィール / 手動',manual:'手動',burst:'瞬間火力',guard:'防御',sustain:'持久',emptySlot:'空きスロット',removeRune:'このルーンを外す',level:'レベル',criticalRate:'会心率',criticalDamage:'会心ダメージ',structureDamage:'建物ダメージ',workshopBuff:'工房強化',bossGuard:'ボス防御',bossDamage:'ボスダメージ',mutation:'突然変異',recovery:'回復力',createProfileTitle:'プロフィールを作成',createProfileHint:'開始するにはプロフィールを作成してください。ルーンとバトル設定はプロフィールごとに保存されます。',createProfileButton:'プロフィール作成',configuredOpponent:'設定した対戦相手',dealtTotal:'合計 {value} ダメージ',heal:'回復',criticalShort:'会心',hpShort:'HP',attackShort:'攻撃',speedShort:'速度',critDamageShort:'会心DMG',basicAttack:'通常攻撃',extraStrike:'追加攻撃',execute:'即死',finalGift:'最後の贈り物'},
-  ko:{brand:'공룡 룬 연구소',battleLab:'전투 연구소',buildFinder:'빌드 찾기',yourDino:'내 공룡',opponent:'상대',runeLoadout:'룬 구성',constellation:'별자리',clear:'초기화',battleArena:'전투 경기장',damage:'피해',critical:'치명타',skill:'스킬',healing:'회복',actions:'행동',yourDamage:'내 피해',enemyDamage:'적 피해',mirror:'복사',optimizing:'상대에 맞춰 최적화',finderHint:'전투 연구소에서 설정한 상대를 사용합니다.',useInBattle:'전투에 사용',chooseRune:'룬 선택',close:'닫기',newBattle:'새 전투',step:'한 단계',play:'재생',pause:'일시정지',batchFights:'1천 전투',fighting:'전투 중',victory:'승리',defeat:'패배',draw:'무승부',running:'계산 중...',baseCritical:'기본 치명타',profileManual:'프로필 / 수동',manual:'수동',burst:'폭발',guard:'방어',sustain:'지속',emptySlot:'빈 슬롯',removeRune:'이 룬 제거',level:'레벨',criticalRate:'치명타 확률',criticalDamage:'치명타 피해',structureDamage:'구조물 피해',workshopBuff:'작업장 강화',bossGuard:'보스 방어',bossDamage:'보스 피해',mutation:'돌연변이',recovery:'회복력',createProfileTitle:'프로필 만들기',createProfileHint:'시작하려면 프로필을 만드세요. 룬과 전투 설정은 프로필별로 저장됩니다.',createProfileButton:'프로필 만들기',configuredOpponent:'설정된 상대',dealtTotal:'총 {value} 피해',heal:'회복',criticalShort:'치명타',hpShort:'체력',attackShort:'공격',speedShort:'속도',critDamageShort:'치피',basicAttack:'기본 공격',extraStrike:'추가 타격',execute:'즉사',finalGift:'마지막 선물'},
-  'zh-TW':{brand:'恐龍符文研究室',battleLab:'戰鬥研究室',buildFinder:'配置搜尋',yourDino:'你的恐龍',opponent:'對手',runeLoadout:'符文配置',constellation:'星座',clear:'清除',battleArena:'戰鬥競技場',damage:'傷害',critical:'暴擊',skill:'技能',healing:'治療',actions:'行動',yourDamage:'你的傷害',enemyDamage:'敵方傷害',mirror:'複製',optimizing:'針對對手最佳化',finderHint:'搜尋器會使用戰鬥研究室中設定的對手。',useInBattle:'套用至戰鬥',chooseRune:'選擇符文',close:'關閉',newBattle:'新戰鬥',step:'單步',play:'播放',pause:'暫停',batchFights:'1千場',fighting:'戰鬥中',victory:'勝利',defeat:'失敗',draw:'平手',running:'計算中...',baseCritical:'基礎暴擊',profileManual:'設定檔 / 手動',manual:'手動',burst:'爆發',guard:'防禦',sustain:'續航',emptySlot:'空欄位',removeRune:'移除此符文',level:'等級',criticalRate:'暴擊率',criticalDamage:'暴擊傷害',structureDamage:'建築傷害',workshopBuff:'工坊增益',bossGuard:'Boss 防禦',bossDamage:'Boss 傷害',mutation:'突變',recovery:'恢復',createProfileTitle:'建立設定檔',createProfileHint:'建立設定檔以開始。符文與戰鬥設定會分別儲存在各設定檔中。',createProfileButton:'建立設定檔',configuredOpponent:'已設定的對手',dealtTotal:'總共造成 {value} 傷害',heal:'治療',criticalShort:'暴擊',hpShort:'生命',attackShort:'攻擊',speedShort:'速度',critDamageShort:'暴傷',basicAttack:'普通攻擊',extraStrike:'額外打擊',execute:'處決',finalGift:'最後的贈禮'}
+  en:{brand:'Dino Rune Lab',battleLab:'Battle Lab',buildFinder:'Build Finder',yourDino:'Your dino',opponent:'Opponent',runeLoadout:'Rune loadout',constellation:'Constellation',clear:'Clear',battleArena:'Battle Arena',damage:'Damage',critical:'Critical',skill:'Skill',healing:'Healing',actions:'Actions',yourDamage:'Your damage',enemyDamage:'Enemy damage',mirror:'Mirror',optimizing:'Optimizing against your opponent',finderHint:'The finder uses the exact opponent configured in Battle Lab.',useInBattle:'Use in Battle',chooseRune:'Choose a rune',close:'Close',newBattle:'New battle',step:'Step',play:'Play',pause:'Pause',batchFights:'10K simulations',fighting:'Fighting',victory:'Victory',defeat:'Defeat',draw:'Draw',running:'Running...',baseCritical:'Base critical',profileManual:'Profile / manual',manual:'Manual',burst:'Burst',guard:'Guard',sustain:'Sustain',emptySlot:'Empty slot',removeRune:'Remove this rune',level:'Level',criticalRate:'Critical rate',criticalDamage:'Critical damage',structureDamage:'Structure damage',workshopBuff:'Workshop buff',bossGuard:'Boss guard',bossDamage:'Boss damage',mutation:'Mutation',recovery:'Recovery',createProfileTitle:'Create your profile',createProfileHint:'Create a profile to start. Rune inventory and battle settings are saved separately for each profile.',createProfileButton:'Create profile',configuredOpponent:'configured opponent',dealtTotal:'dealt {value} total',heal:'Heal',criticalShort:'CRIT',hpShort:'HP',attackShort:'ATK',speedShort:'SPD',critDamageShort:'CDMG',basicAttack:'Basic attack',extraStrike:'Extra strike',execute:'Execute',finalGift:'Final Gift',fighterStyle:'Fighter style',savePreset:'Save preset',removePreset:'Delete',presetHint:'Saves stats, runes, constellation, and fighter style.',batchHint:'Run 10,000 randomized matches for a stable result.'},
+  es:{brand:'Laboratorio de Runas Dino',battleLab:'Laboratorio de Batalla',buildFinder:'Buscador de Sets',yourDino:'Tu dinosaurio',opponent:'Oponente',runeLoadout:'Set de runas',constellation:'Constelación',clear:'Limpiar',battleArena:'Arena de Batalla',damage:'Daño',critical:'Crítico',skill:'Habilidad',healing:'Curación',actions:'Acciones',yourDamage:'Tu daño',enemyDamage:'Daño enemigo',mirror:'Copiar',optimizing:'Optimizando contra tu oponente',finderHint:'El buscador usa el oponente configurado en el Laboratorio de Batalla.',useInBattle:'Usar en batalla',chooseRune:'Elegir una runa',close:'Cerrar',newBattle:'Nueva batalla',step:'Paso',play:'Reproducir',pause:'Pausa',batchFights:'10K simulaciones',fighting:'Combatiendo',victory:'Victoria',defeat:'Derrota',draw:'Empate',running:'Calculando...',baseCritical:'Crítico base',profileManual:'Perfil / manual',manual:'Manual',burst:'Ráfaga',guard:'Defensa',sustain:'Curación',emptySlot:'Espacio vacío',removeRune:'Quitar esta runa',level:'Nivel',criticalRate:'Prob. crítica',criticalDamage:'Daño crítico',structureDamage:'Daño a estructuras',workshopBuff:'Mejora de taller',bossGuard:'Defensa de jefe',bossDamage:'Daño de jefe',mutation:'Mutación',recovery:'Recuperación',createProfileTitle:'Crea tu perfil',createProfileHint:'Crea un perfil para comenzar. El inventario de runas y los ajustes de batalla se guardan por separado.',createProfileButton:'Crear perfil',configuredOpponent:'oponente configurado',dealtTotal:'infligió {value} en total',heal:'Curación',criticalShort:'CRÍT',hpShort:'VIDA',attackShort:'ATQ',speedShort:'VEL',critDamageShort:'DCRIT',basicAttack:'Ataque básico',extraStrike:'Golpe extra',execute:'Ejecución',finalGift:'Regalo final'},
+  ja:{brand:'恐竜ルーン研究所',battleLab:'バトル研究所',buildFinder:'ビルド検索',yourDino:'自分の恐竜',opponent:'対戦相手',runeLoadout:'ルーン構成',constellation:'星座',clear:'クリア',battleArena:'バトルアリーナ',damage:'ダメージ',critical:'会心',skill:'スキル',healing:'回復',actions:'行動数',yourDamage:'自分のダメージ',enemyDamage:'敵のダメージ',mirror:'コピー',optimizing:'対戦相手に合わせて最適化',finderHint:'バトル研究所で設定した対戦相手を使用します。',useInBattle:'バトルで使用',chooseRune:'ルーンを選択',close:'閉じる',newBattle:'新しいバトル',step:'1手進む',play:'再生',pause:'一時停止',batchFights:'1万回シミュレーション',fighting:'戦闘中',victory:'勝利',defeat:'敗北',draw:'引き分け',running:'計算中...',baseCritical:'基本会心',profileManual:'プロフィール / 手動',manual:'手動',burst:'瞬間火力',guard:'防御',sustain:'持久',emptySlot:'空きスロット',removeRune:'このルーンを外す',level:'レベル',criticalRate:'会心率',criticalDamage:'会心ダメージ',structureDamage:'建物ダメージ',workshopBuff:'工房強化',bossGuard:'ボス防御',bossDamage:'ボスダメージ',mutation:'突然変異',recovery:'回復力',createProfileTitle:'プロフィールを作成',createProfileHint:'開始するにはプロフィールを作成してください。ルーンとバトル設定はプロフィールごとに保存されます。',createProfileButton:'プロフィール作成',configuredOpponent:'設定した対戦相手',dealtTotal:'合計 {value} ダメージ',heal:'回復',criticalShort:'会心',hpShort:'HP',attackShort:'攻撃',speedShort:'速度',critDamageShort:'会心DMG',basicAttack:'通常攻撃',extraStrike:'追加攻撃',execute:'即死',finalGift:'最後の贈り物'},
+  ko:{brand:'공룡 룬 연구소',battleLab:'전투 연구소',buildFinder:'빌드 찾기',yourDino:'내 공룡',opponent:'상대',runeLoadout:'룬 구성',constellation:'별자리',clear:'초기화',battleArena:'전투 경기장',damage:'피해',critical:'치명타',skill:'스킬',healing:'회복',actions:'행동',yourDamage:'내 피해',enemyDamage:'적 피해',mirror:'복사',optimizing:'상대에 맞춰 최적화',finderHint:'전투 연구소에서 설정한 상대를 사용합니다.',useInBattle:'전투에 사용',chooseRune:'룬 선택',close:'닫기',newBattle:'새 전투',step:'한 단계',play:'재생',pause:'일시정지',batchFights:'1만 시뮬레이션',fighting:'전투 중',victory:'승리',defeat:'패배',draw:'무승부',running:'계산 중...',baseCritical:'기본 치명타',profileManual:'프로필 / 수동',manual:'수동',burst:'폭발',guard:'방어',sustain:'지속',emptySlot:'빈 슬롯',removeRune:'이 룬 제거',level:'레벨',criticalRate:'치명타 확률',criticalDamage:'치명타 피해',structureDamage:'구조물 피해',workshopBuff:'작업장 강화',bossGuard:'보스 방어',bossDamage:'보스 피해',mutation:'돌연변이',recovery:'회복력',createProfileTitle:'프로필 만들기',createProfileHint:'시작하려면 프로필을 만드세요. 룬과 전투 설정은 프로필별로 저장됩니다.',createProfileButton:'프로필 만들기',configuredOpponent:'설정된 상대',dealtTotal:'총 {value} 피해',heal:'회복',criticalShort:'치명타',hpShort:'체력',attackShort:'공격',speedShort:'속도',critDamageShort:'치피',basicAttack:'기본 공격',extraStrike:'추가 타격',execute:'즉사',finalGift:'마지막 선물'},
+  'zh-TW':{brand:'恐龍符文研究室',battleLab:'戰鬥研究室',buildFinder:'配置搜尋',yourDino:'你的恐龍',opponent:'對手',runeLoadout:'符文配置',constellation:'星座',clear:'清除',battleArena:'戰鬥競技場',damage:'傷害',critical:'暴擊',skill:'技能',healing:'治療',actions:'行動',yourDamage:'你的傷害',enemyDamage:'敵方傷害',mirror:'複製',optimizing:'針對對手最佳化',finderHint:'搜尋器會使用戰鬥研究室中設定的對手。',useInBattle:'套用至戰鬥',chooseRune:'選擇符文',close:'關閉',newBattle:'新戰鬥',step:'單步',play:'播放',pause:'暫停',batchFights:'1萬次模擬',fighting:'戰鬥中',victory:'勝利',defeat:'失敗',draw:'平手',running:'計算中...',baseCritical:'基礎暴擊',profileManual:'設定檔 / 手動',manual:'手動',burst:'爆發',guard:'防禦',sustain:'續航',emptySlot:'空欄位',removeRune:'移除此符文',level:'等級',criticalRate:'暴擊率',criticalDamage:'暴擊傷害',structureDamage:'建築傷害',workshopBuff:'工坊增益',bossGuard:'Boss 防禦',bossDamage:'Boss 傷害',mutation:'突變',recovery:'恢復',createProfileTitle:'建立設定檔',createProfileHint:'建立設定檔以開始。符文與戰鬥設定會分別儲存在各設定檔中。',createProfileButton:'建立設定檔',configuredOpponent:'已設定的對手',dealtTotal:'總共造成 {value} 傷害',heal:'治療',criticalShort:'暴擊',hpShort:'生命',attackShort:'攻擊',speedShort:'速度',critDamageShort:'暴傷',basicAttack:'普通攻擊',extraStrike:'額外打擊',execute:'處決',finalGift:'最後的贈禮'}
 };
 
 const FINDER_TEXT={
-  en:{optimizationScope:'Optimization',exactTarget:'Exact target',generalUse:'General use',titanLevel:'Titan level',exactOpponent:'Exact opponent',exactOpponentHint:'Uses the opponent configured in Battle Lab.',generalField:'General matchup field',generalFieldHint:'Tests burst, guard, sustain and balanced opponents at several power levels.',structureTarget:'Enemy structures',structureTargetHint:'Player and Boss-only red rune effects are excluded.',exactTitan:'Selected Titan',exactTitanHint:'Prioritizes clearing this level, then speed and remaining health.',generalTitan:'Titan progression',generalTitanHint:'Tests a level band around your selected Titan and favors reliable survival.',titanHp:'HP',titanHit:'per hit',titanDps:'DPS',clearChance:'Clear chance',clearTime:'Clear time',survivalTime:'Survival',damageRate:'Damage / sec',fieldScore:'Field win rate',worstMatchup:'Worst matchup'},
-  es:{optimizationScope:'Optimización',exactTarget:'Objetivo exacto',generalUse:'Uso general',titanLevel:'Nivel del Titán',exactOpponent:'Oponente exacto',exactOpponentHint:'Usa el oponente configurado en el Laboratorio de Batalla.',generalField:'Campo general',generalFieldHint:'Prueba rivales de ráfaga, defensa, curación y equilibrio con varios niveles de poder.',structureTarget:'Estructuras enemigas',structureTargetHint:'Se excluyen los efectos rojos exclusivos de jugadores y Jefes.',exactTitan:'Titán seleccionado',exactTitanHint:'Prioriza superar este nivel, luego la velocidad y la salud restante.',generalTitan:'Progresión de Titán',generalTitanHint:'Prueba niveles cercanos al elegido y favorece la supervivencia fiable.',titanHp:'Vida',titanHit:'por golpe',titanDps:'DPS',clearChance:'Prob. de victoria',clearTime:'Tiempo de victoria',survivalTime:'Supervivencia',damageRate:'Daño / s',fieldScore:'Victorias generales',worstMatchup:'Peor duelo'},
-  ja:{optimizationScope:'最適化',exactTarget:'指定対象',generalUse:'汎用',titanLevel:'タイタンレベル',exactOpponent:'指定した対戦相手',exactOpponentHint:'バトル研究所で設定した相手を使用します。',generalField:'総合対戦フィールド',generalFieldHint:'複数の戦力帯で速攻・防御・回復・バランス構成を検証します。',structureTarget:'敵の建物',structureTargetHint:'プレイヤーとボス専用の赤ルーン効果は除外されます。',exactTitan:'選択したタイタン',exactTitanHint:'このレベルの撃破を優先し、次に速度と残りHPを評価します。',generalTitan:'タイタン進行',generalTitanHint:'選択レベル周辺を検証し、安定した生存力を重視します。',titanHp:'HP',titanHit:'1撃',titanDps:'DPS',clearChance:'撃破率',clearTime:'撃破時間',survivalTime:'生存時間',damageRate:'秒間ダメージ',fieldScore:'総合勝率',worstMatchup:'最低勝率'},
-  ko:{optimizationScope:'최적화',exactTarget:'정확한 대상',generalUse:'범용',titanLevel:'타이탄 레벨',exactOpponent:'설정된 상대',exactOpponentHint:'전투 연구소에서 설정한 상대를 사용합니다.',generalField:'종합 매치업',generalFieldHint:'여러 전력대의 폭발, 방어, 회복, 균형 상대를 시험합니다.',structureTarget:'적 구조물',structureTargetHint:'플레이어와 보스 전용 빨간 룬 효과는 제외됩니다.',exactTitan:'선택한 타이탄',exactTitanHint:'해당 레벨 클리어를 우선하고 속도와 남은 체력을 평가합니다.',generalTitan:'타이탄 진행',generalTitanHint:'선택 레벨 주변을 시험하고 안정적인 생존을 우선합니다.',titanHp:'체력',titanHit:'타격당',titanDps:'DPS',clearChance:'클리어 확률',clearTime:'클리어 시간',survivalTime:'생존 시간',damageRate:'초당 피해',fieldScore:'종합 승률',worstMatchup:'최저 승률'},
-  'zh-TW':{optimizationScope:'最佳化',exactTarget:'指定目標',generalUse:'通用',titanLevel:'泰坦等級',exactOpponent:'指定對手',exactOpponentHint:'使用戰鬥研究室中設定的對手。',generalField:'綜合對戰場',generalFieldHint:'以多個強度測試爆發、防禦、續航與平衡對手。',structureTarget:'敵方建築',structureTargetHint:'不計算僅對玩家與 Boss 生效的紅色符文效果。',exactTitan:'指定泰坦',exactTitanHint:'優先擊敗此等級，其次評估速度與剩餘生命。',generalTitan:'泰坦進度',generalTitanHint:'測試所選等級附近的範圍，偏重穩定生存。',titanHp:'生命',titanHit:'每次攻擊',titanDps:'DPS',clearChance:'擊敗機率',clearTime:'擊敗時間',survivalTime:'生存時間',damageRate:'每秒傷害',fieldScore:'綜合勝率',worstMatchup:'最低勝率'}
+  en:{optimizationScope:'Optimization',exactTarget:'Exact target',generalUse:'General use',exactOpponent:'Exact opponent',exactOpponentHint:'Uses the opponent configured in Battle Lab.',generalField:'General matchup field',generalFieldHint:'Tests burst, guard, sustain and balanced opponents at several power levels.',structureTarget:'Enemy structures',structureTargetHint:'Player-only red rune effects are excluded.',fieldScore:'Field win rate',worstMatchup:'Worst matchup'},
+  es:{optimizationScope:'Optimización',exactTarget:'Objetivo exacto',generalUse:'Uso general',exactOpponent:'Oponente exacto',exactOpponentHint:'Usa el oponente configurado en el Laboratorio de Batalla.',generalField:'Campo general',generalFieldHint:'Prueba rivales de ráfaga, defensa, curación y equilibrio con varios niveles de poder.',structureTarget:'Estructuras enemigas',structureTargetHint:'Se excluyen los efectos rojos exclusivos de jugadores.',fieldScore:'Victorias generales',worstMatchup:'Peor duelo'},
+  ja:{optimizationScope:'最適化',exactTarget:'指定対象',generalUse:'汎用',exactOpponent:'指定した対戦相手',exactOpponentHint:'バトル研究所で設定した相手を使用します。',generalField:'総合対戦フィールド',generalFieldHint:'複数の戦力帯で速攻・防御・回復・バランス構成を検証します。',structureTarget:'敵の建物',structureTargetHint:'プレイヤー専用の赤ルーン効果は除外されます。',fieldScore:'総合勝率',worstMatchup:'最低勝率'},
+  ko:{optimizationScope:'최적화',exactTarget:'정확한 대상',generalUse:'범용',exactOpponent:'설정된 상대',exactOpponentHint:'전투 연구소에서 설정한 상대를 사용합니다.',generalField:'종합 매치업',generalFieldHint:'여러 전력대의 폭발, 방어, 회복, 균형 상대를 시험합니다.',structureTarget:'적 구조물',structureTargetHint:'플레이어 전용 빨간 룬 효과는 제외됩니다.',fieldScore:'종합 승률',worstMatchup:'최저 승률'},
+  'zh-TW':{optimizationScope:'最佳化',exactTarget:'指定目標',generalUse:'通用',exactOpponent:'指定對手',exactOpponentHint:'使用戰鬥研究室中設定的對手。',generalField:'綜合對戰場',generalFieldHint:'以多個強度測試爆發、防禦、續航與平衡對手。',structureTarget:'敵方建築',structureTargetHint:'不計算僅對玩家生效的紅色符文效果。',fieldScore:'綜合勝率',worstMatchup:'最低勝率'}
 };
 
 let lang=(()=>{try{return localStorage.getItem('rune_lang_v5')||localStorage.getItem('rune_language_v4')||'en'}catch(_){return'en'}})();
 if(!TEXT[lang])lang='en';
 const L=()=>({...TEXT.en,...TEXT[lang],...UI_TEXT.en,...UI_TEXT[lang],...FINDER_TEXT.en,...FINDER_TEXT[lang],rarities:{...TEXT.en.rarities,...TEXT[lang].rarities}});
-function T(){return {rarities:L().rarities,objectives:{pvp1v1:L().pvp,edificios:L().structure,jefe:L().boss},level:L().level}}
+function T(){return {rarities:L().rarities,objectives:{pvp1v1:L().pvp,edificios:L().structure},level:L().level}}
 function runeName(r){return lang==='es'?r.es:r.en}
 function rarityName(r){return L().rarities[r]||r}
 function runeIcon(r){
@@ -152,9 +152,39 @@ const PVP_ROUNDS = 40;
 const DAMAGE_TRIAL_ATTACKS = 20;
 
 function id(){return'p_'+Math.random().toString(36).slice(2,10)}
-function emptyBattleProfile(){return{slots:[],main:{},special:{}}}
+const APPEARANCE_PRESETS=Object.freeze([
+  {id:'classic',name:'Classic',skin:'0',pattern:'4',bodyColor:'13',bellyColor:'3',patternColor:'8'},
+  {id:'astro',name:'Astro',skin:'2010',pattern:'0',bodyColor:'13',bellyColor:'3',patternColor:'8'},
+  {id:'holiday',name:'Holiday',skin:'1000',pattern:'4',bodyColor:'1',bellyColor:'3',patternColor:'24'},
+  {id:'skyguard',name:'Skyguard',skin:'2007',pattern:'18',bodyColor:'56',bellyColor:'10',patternColor:'30'},
+  {id:'explorer',name:'Explorer',skin:'2001',pattern:'10',bodyColor:'49',bellyColor:'3',patternColor:'30'}
+]);
+function appearanceFromPreset(preset){
+  return{skinBody:preset.skin,skinHead:preset.skin,skinLeg:preset.skin,pattern:preset.pattern,bodyColor:preset.bodyColor,bellyColor:preset.bellyColor,patternColor:preset.patternColor};
+}
+function defaultAppearancePreset(side='user'){return APPEARANCE_PRESETS.find(preset=>preset.id===(side==='opponent'?'holiday':'astro'))||APPEARANCE_PRESETS[0]}
+function emptyAppearance(side='user'){return appearanceFromPreset(defaultAppearancePreset(side))}
+function appearancePresetFor(value,side='user'){
+  const candidate=value&&typeof value==='object'?value:{};
+  return APPEARANCE_PRESETS.find(preset=>[candidate.skinBody,candidate.skinHead,candidate.skinLeg].every(skin=>String(skin)===preset.skin))||defaultAppearancePreset(side);
+}
+function normalizeAppearance(value,side='user'){
+  const constrained=appearanceFromPreset(appearancePresetFor(value||emptyAppearance(side),side));
+  return window.DinoRenderer?.normalizeAppearance(constrained)||constrained;
+}
+function emptyBattleProfile(){return{slots:[],main:{},special:{},appearance:emptyAppearance('user')}}
+function normalizeBattlePreset(value,index=0){
+  const preset=value&&typeof value==='object'?value:{};
+  return{
+    id:String(preset.id||`preset_${index}_${Math.random().toString(36).slice(2,7)}`),name:String(preset.name||`Preset ${index+1}`).slice(0,40),
+    base:{hp:Math.max(1,Number(preset.base?.hp)||15920),attack:Math.max(1,Number(preset.base?.attack)||1568),speed:Math.max(0,Number(preset.base?.speed)||0)},
+    slots:Array.isArray(preset.slots)?preset.slots.map(x=>({id:Number(x.id)||0,level:Math.max(1,Math.min(31,Number(x.level)||1))})).filter(x=>x.id):[],
+    main:preset.main&&typeof preset.main==='object'?{...preset.main}:{},special:preset.special&&typeof preset.special==='object'?{...preset.special}:{},
+    appearance:normalizeAppearance(preset.appearance,'user')
+  };
+}
 function emptyProfile(name='Profile 1'){
-  return{id:id(),name,base:{hp:15920,attack:1568,speed:150},inventory:{},mode:'pvp',finder:{scope:'exact',titanLevel:1},battle:emptyBattleProfile()};
+  return{id:id(),name,base:{hp:15920,attack:1568,speed:150},inventory:{},mode:'pvp',finder:{scope:'exact'},battle:emptyBattleProfile()};
 }
 function normalizeProfile(p){
   p=p&&typeof p==='object'?p:{};
@@ -163,12 +193,14 @@ function normalizeProfile(p){
     id:p.id||id(),name:String(p.name||'Profile').slice(0,40),
     base:hasBase?{hp:savedBase.hp??'',attack:savedBase.attack??savedBase.att??'',speed:savedBase.speed??savedBase.vel??''}:{hp:15920,attack:1568,speed:150},
     inventory:p.inventory&&typeof p.inventory==='object'?p.inventory:{},mode:migrateMode(p.mode||p.objective),
-    finder:{scope:p.finder?.scope==='general'?'general':'exact',titanLevel:Math.max(1,Math.min(5000,Math.floor(Number(p.finder?.titanLevel)||1)))},
+    finder:{scope:p.finder?.scope==='general'?'general':'exact'},
     battle:{
       slots:Array.isArray(p.battle?.slots)?p.battle.slots.map(x=>({id:Number(x.id)||0,level:Math.max(1,Math.min(31,Number(x.level)||1))})).filter(x=>x.id):[],
       main:p.battle?.main&&typeof p.battle.main==='object'?{...p.battle.main}:{},
-      special:p.battle?.special&&typeof p.battle.special==='object'?{...p.battle.special}:{}
-    }
+      special:p.battle?.special&&typeof p.battle.special==='object'?{...p.battle.special}:{},
+      appearance:normalizeAppearance(p.battle?.appearance,'user')
+    },
+    battlePresets:Array.isArray(p.battlePresets)?p.battlePresets.slice(0,40).map(normalizeBattlePreset):[]
   };
 }
 const RELEASE_RESET_KEY='dino_rune_lab_release_reset_2026_08';
@@ -177,7 +209,6 @@ let rarity='all',query='',busy=false,last=null,saveTimer=null,appStarted=false;
 
 function migrateMode(v){
   if(v==='edificios'||v==='structure')return'structure';
-  if(v==='jefe'||v==='boss')return'boss';
   return'pvp';
 }
 async function loadData(){
@@ -238,7 +269,6 @@ function applyText(){
   newProfile.textContent=x.new;renameProfile.textContent=x.rename;deleteProfile.textContent=x.delete;
   document.querySelector('[data-mode=pvp]').textContent=x.pvp;
   document.querySelector('[data-mode=structure]').textContent=x.structure;
-  document.querySelector('[data-mode=boss]').textContent=x.boss;
   document.querySelectorAll('.filter').forEach(b=>b.textContent=x.rarities[b.dataset.r]);
   calculate.textContent=busy?x.working:x.run;
   resultTitle.textContent=x.recommended;altTitle.textContent=x.other;
@@ -259,7 +289,7 @@ function syncProfile(){
   baseHp.value=profile.base?.hp??'';
   baseAttack.value=profile.base?.attack??'';
   baseSpeed.value=profile.base?.speed??'';
-  profile.finder=profile.finder||{scope:'exact',titanLevel:1};
+  profile.finder=profile.finder||{scope:'exact'};
   document.querySelectorAll('.mode').forEach(b=>b.classList.toggle('active',b.dataset.mode===profile.mode));
   last=null;results.style.display='none';
   renderProfileSelect();renderRunes();updateStatus();updateFinderTarget();
@@ -274,14 +304,7 @@ function updateFinderTarget(){
   const x=L(),scope=profile.finder?.scope==='general'?'general':'exact',mode=profile.mode;
   document.querySelectorAll('.scope').forEach(button=>button.classList.toggle('active',button.dataset.scope===scope));
   scopeControl.hidden=mode==='structure';
-  titanLevelControl.hidden=mode!=='boss';
-  titanLevel.value=selectedTitanLevel();
-  if(mode==='boss'){
-    const titan=titanStats(selectedTitanLevel());
-    finderTargetTitle.textContent=scope==='general'?x.generalTitan:x.exactTitan;
-    finderTargetHint.textContent=scope==='general'?x.generalTitanHint:x.exactTitanHint;
-    finderTargetStats.innerHTML=`<b>Lv${titan.level}</b><span>${fmt(titan.hp)} ${x.titanHp}</span><span>${fmt(titan.damage)} ${x.titanHit}</span><span>${fmt(titan.dps,1)} ${x.titanDps}</span>`;
-  }else if(mode==='structure'){
+  if(mode==='structure'){
     finderTargetTitle.textContent=x.structureTarget;finderTargetHint.textContent=x.structureTargetHint;
     finderTargetStats.innerHTML=`<b>${x.structure}</b>`;
   }else if(scope==='general'){
@@ -376,39 +399,14 @@ function targetAttack(s,mode){
   let pct=0;
   for(const e of s.effects){
     if(mode==='structure')pct+=+e.atk_pct_building||0;
-    if(mode==='boss')pct+=+e.atk_pct_boss||0;
   }
-  /* Boss/structure damage bonuses are applied after the static base-stat runes. */
+  /* Structure damage bonuses are applied after the static base-stat runes. */
   return s.attack*(1+pct/100);
 }
 function effectTargetsMode(e,mode){
-  /* Meteor and Thunderstrike are unit skills: they work in PvP and against
-     the Titan, but their red skill packets do not damage structures. */
+  /* Meteor and Thunderstrike are unit skills, so their red skill packets do
+     not damage structures. */
   return mode!=='structure'||!e.skillPct;
-}
-
-const titanCache=new Map();
-function titanStats(level){
-  level=Math.max(1,Math.min(5000,Math.floor(Number(level)||1)));
-  if(titanCache.has(level))return titanCache.get(level);
-  const index=level-1,seeds=TITAN_BALANCE;
-  let hp;
-  if(index<seeds.baseHp.length)hp=seeds.baseHp[index];
-  else{
-    hp=seeds.baseHp[seeds.baseHp.length-1];
-    for(let current=seeds.baseHp.length+1;current<=level;current++){
-      hp+=Math.ceil(current/seeds.hpStepInterval)*seeds.hpStepAmount;
-      if(current%seeds.hpStepInterval===0)hp+=Math.ceil(current/seeds.hpStepInterval)*seeds.milestoneAmount;
-    }
-  }
-  const damage=index<seeds.baseDamage.length?seeds.baseDamage[index]:Math.floor(hp/100)+2;
-  const value={level,hp,damage,delay:TITAN_BALANCE.attackDelaySeconds,dps:damage/TITAN_BALANCE.attackDelaySeconds};
-  titanCache.set(level,value);return value;
-}
-function selectedTitanLevel(){return Math.max(1,Math.min(5000,Math.floor(Number(profile?.finder?.titanLevel)||1)))}
-function titanLevelField(level,scope){
-  if(scope!=='general')return[level];
-  return[.7,.85,1,1.15].map(scale=>Math.max(1,Math.min(5000,Math.round(level*scale)))).filter((x,i,a)=>a.indexOf(x)===i);
 }
 
 function rng(seed){let x=seed>>>0;return()=>{x^=x<<13;x^=x>>>17;x^=x<<5;return(x>>>0)/4294967296}}
@@ -429,9 +427,6 @@ function damagePacket(defender,amount,r,shieldActive){
   return dmg;
 }
 function structurePacket(amount,s,r){
-  return critDamage(amount,s,r);
-}
-function bossPacket(amount,s,r){
   return critDamage(amount,s,r);
 }
 
@@ -541,7 +536,7 @@ function duel(buildA,buildB,base,r,index){
   return{result,a,b,rounds};
 }
 
-/* Damage-only objectives avoid inventing structure/boss HP or attack.
+/* Damage-only objectives avoid inventing structure HP or attack.
    Each build gets the same number of attacks, and proc RNG decides average damage. */
 function constellationBase(base,model=simSides.user){
   return{hp:base.hp+nodeValue(0,model.main[0]),attack:base.attack+nodeValue(1,model.main[1]),speed:base.speed};
@@ -551,15 +546,15 @@ function damageTrial(build,base,mode,r){
   const attack=targetAttack(s,mode);
   let total=0;
   for(let n=1;n<=DAMAGE_TRIAL_ATTACKS;n++){
-    total+=mode==='structure'?structurePacket(attack,s,r):bossPacket(attack,s,r);
+    total+=structurePacket(attack,s,r);
     for(const e of s.effects){
       if(effectTargetsMode(e,mode)&&e.skillPct&&roll(r,e.proc)){
         const raw=attack*(e.skillPct/100);
-        total+=mode==='structure'?structurePacket(raw,s,r):bossPacket(raw,s,r);
+        total+=structurePacket(raw,s,r);
       }
       if(e.extraPct&&n%(e.every||3)===0){
         const raw=attack*(e.extraPct/100);
-        total+=mode==='structure'?structurePacket(raw,s,r):bossPacket(raw,s,r);
+        total+=structurePacket(raw,s,r);
       }
       if(mode==='structure'&&e.structureSkillPct&&n%(e.every||3)===0){
         total+=structurePacket(attack*(e.structureSkillPct/100),s,r);
@@ -581,7 +576,6 @@ function analytic(build,base,mode){
     if(e.healMaxPct)sustain+=s.hp*(e.proc/100)*(e.healMaxPct/100);
     if(e.dr_flat)mitigation+=e.dr_flat;
     if(e.dr_chance&&e.dr_amount)mitigation+=e.dr_amount*(e.dr_chance/100);
-    if(mode==='boss'&&e.dr_flat_boss)mitigation+=e.dr_flat_boss;
     if(e.shieldPct)mitigation+=adjustedBase.attack*(e.shieldPct/100)*(e.shieldAttacks||1)/PVP_ROUNDS;
   }
   return{
@@ -594,69 +588,13 @@ function analytic(build,base,mode){
   };
 }
 
-function titanEstimate(build,base,level){
-  const boss=titanStats(level),a=analytic(build,base,'boss'),s=a.s;
-  let flat=0,healPerCycle=0;
-  for(const e of s.effects){
-    flat+=+e.dr_flat||0;flat+=+e.dr_flat_boss||0;
-    flat+=(+e.dr_amount||0)*(+e.dr_chance||0)/100;
-    healPerCycle+=s.attack*(+e.healAttackPct||0)*(+e.proc||0)/10000;
-    healPerCycle+=s.hp*(+e.healMaxPct||0)*(+e.proc||0)/10000;
-  }
-  const outgoing=Math.max(1,a.dps),incoming=Math.max(0,boss.damage-flat),netIncoming=Math.max(0,incoming-healPerCycle);
-  const clearTime=boss.hp/outgoing*TITAN_BALANCE.unitAttackDelaySeconds,survival=netIncoming>0?s.hp/netIncoming*boss.delay:Infinity;
-  return{clear:clearTime<=survival,clearTime,survival,outgoing,incoming,boss,s};
-}
-
-function titanTrial(build,base,level,r){
-  const boss=titanStats(level),s=modelStats(build,base,simSides.user,'boss'),attack=targetAttack(s,'boss');
-  let hp=s.hp,bossHp=boss.hp,attacks=0,damage=0,healing=0,time=0,nextBossHit=boss.delay,shieldPct=0,shieldRemaining=0;
-  for(const e of s.effects)if(e.shieldPct){shieldPct=Math.max(shieldPct,+e.shieldPct||0);shieldRemaining=Math.max(shieldRemaining,+e.shieldAttacks||0)}
-  const maxCycles=5000;
-  for(let cycle=0;cycle<maxCycles&&hp>0&&bossHp>0;cycle++){
-    attacks++;time+=TITAN_BALANCE.unitAttackDelaySeconds;
-    let hit=critDamage(attack,s,r);bossHp-=hit;damage+=Math.min(hit,Math.max(0,bossHp+hit));
-    if(bossHp>0){
-      for(const e of s.effects){
-        if(e.skillPct&&roll(r,e.proc)){
-          hit=critDamage(attack*(e.skillPct/100),s,r);bossHp-=hit;damage+=Math.min(hit,Math.max(0,bossHp+hit));
-        }
-        if(e.extraPct&&attacks%(e.every||3)===0&&bossHp>0){
-          hit=critDamage(attack*(e.extraPct/100),s,r);bossHp-=hit;damage+=Math.min(hit,Math.max(0,bossHp+hit));
-        }
-      }
-    }
-    if(bossHp<=0)break;
-    for(const e of s.effects)if(e.healAttackPct&&roll(r,e.proc)){
-      const amount=s.attack*(e.healAttackPct/100),real=Math.min(amount,s.hp-hp);hp+=real;healing+=real;
-    }
-    if(time+1e-9>=nextBossHit){
-      let incoming=boss.damage;
-      if(shieldRemaining>0)incoming*=1-shieldPct/100;
-      for(const e of s.effects){
-        incoming-=+e.dr_flat||0;incoming-=+e.dr_flat_boss||0;
-        if(e.dr_chance&&e.dr_amount&&roll(r,e.dr_chance))incoming-=e.dr_amount;
-      }
-      hp-=Math.max(0,incoming);if(shieldRemaining>0)shieldRemaining--;
-      if(hp>0)for(const e of s.effects)if(e.healMaxPct&&roll(r,e.proc)){
-        const amount=s.hp*(e.healMaxPct/100),real=Math.min(amount,s.hp-hp);hp+=real;healing+=real;
-      }
-      nextBossHit+=boss.delay;
-    }
-  }
-  if(hp<=0&&bossHp>0)for(const e of s.effects)if(e.deathPct&&roll(r,e.proc)){
-    const hit=critDamage(attack*(e.deathPct/100),s,r);bossHp-=hit;damage+=Math.min(hit,Math.max(0,bossHp+hit));
-  }
-  return{cleared:bossHp<=0,time,damage,hp:Math.max(0,hp),bossHp:Math.max(0,bossHp),healing,s,boss};
-}
-
 /* Screening is intentionally diverse: it keeps leaders by damage, health, balance,
    sustain, and also the best builds containing each individual rune.
    No rune receives a positive or negative preference. */
 function enumerate(owned,base,mode){
   // Keep several different archetypes, but do not repeatedly sort arrays for
   // every one of the hundreds of thousands of legal combinations.
-  const lens=[[],[],[],[],[]],keep=70,perRune=new Map();
+  const lens=[[],[],[],[]],keep=70,perRune=new Map();
   const combo=[];let total=0;
   function insertTop(arr,item,key,limit){
     if(arr.length===limit && item[key]<=arr[arr.length-1][key])return;
@@ -669,12 +607,9 @@ function enumerate(owned,base,mode){
     if(!validBuild(build))return;
     total++;
     const a=analytic(build,base,mode);
-    const titan=mode==='boss'?titanEstimate(build,base,selectedTitanLevel()):null;
-    const titanRank=titan?(titan.clear?1e12+1e9/Math.max(1,titan.clearTime)+titan.outgoing:Math.min(1e9,titan.survival)*1e5+titan.outgoing):0;
-    const item={build:build.slice(),dps:a.dps,hp:a.hp,balance:a.balance,sustain:a.sustain,titanRank,analytic:a};
+    const item={build:build.slice(),dps:a.dps,hp:a.hp,balance:a.balance,sustain:a.sustain,analytic:a};
     insertTop(lens[0],item,'dps',keep);insertTop(lens[1],item,'hp',keep);
     insertTop(lens[2],item,'balance',keep);insertTop(lens[3],item,'sustain',keep);
-    if(mode==='boss')insertTop(lens[4],item,'titanRank',keep);
     // Preserve a few strong representatives containing every owned rune. This
     // prevents defensive or unusual runes (including Mammoth) from vanishing
     // just because they are not top raw-DPS builds.
@@ -816,38 +751,6 @@ async function runDamageMode(pool,base,mode){
   final.sort((a,b)=>b.score-a.score);
   return final;
 }
-async function runBoss(pool,base){
-  const scope=profile.finder?.scope==='general'?'general':'exact',levels=titanLevelField(selectedTitanLevel(),scope);
-  pool.sort((a,b)=>b.titanRank-a.titanRank||b.balance-a.balance);
-  const finalists=pool.slice(0,Math.min(38,pool.length)),final=[],seed=randomBattleSeed();
-  const trials=scope==='general'?350:1200;
-  for(let i=0;i<finalists.length;i++){
-    let clears=0,total=0,clearTime=0,clearCount=0,survival=0,damage=0,hp=0;
-    const levelRates=[];
-    for(let levelIndex=0;levelIndex<levels.length;levelIndex++){
-      let levelClears=0;
-      for(let n=0;n<trials;n++){
-        const t=titanTrial(finalists[i].build,base,levels[levelIndex],rng((seed+levelIndex*0x45d9f3b+n*0x9e3779b9)>>>0));
-        total++;if(t.cleared){clears++;levelClears++;clearTime+=t.time;clearCount++}
-        survival+=t.time;damage+=t.damage;hp+=t.hp;
-      }
-      levelRates.push(levelClears/trials);
-    }
-    const s=modelStats(finalists[i].build,base,simSides.user,'boss'),rate=clears/total;
-    final.push({build:finalists[i].build,score:rate,clearRate:rate,worst:Math.min(...levelRates),clearTime:clearCount?clearTime/clearCount:Infinity,survival:survival/total,damage:damage/total,dps:damage/Math.max(1,survival),hp:hp/total,s,levels});
-    setProgress(28+70*((i+1)/finalists.length),`${L().simulating} ${i+1}/${finalists.length}`);
-    if(i%2===1)await frame();
-  }
-  final.sort((a,b)=>{
-    const aPrimary=scope==='general'?a.worst:a.clearRate,bPrimary=scope==='general'?b.worst:b.clearRate;
-    if(Math.abs(bPrimary-aPrimary)>1e-9)return bPrimary-aPrimary;
-    if(Math.abs(b.clearRate-a.clearRate)>1e-9)return b.clearRate-a.clearRate;
-    if(a.clearRate>.5&&b.clearRate>.5)return a.clearTime-b.clearTime||b.hp-a.hp||b.damage-a.damage;
-    return b.survival-a.survival||b.damage-a.damage;
-  });
-  return final;
-}
-
 async function calculateBest(){
   if(busy)return;
   const err=validation();if(err)return;
@@ -865,10 +768,9 @@ async function calculateBest(){
 
   let ranked;
   if(profile.mode==='pvp')ranked=profile.finder?.scope==='general'?await runGeneralPvP(e.candidates,base):await runPvP(e.candidates,base);
-  else if(profile.mode==='boss')ranked=await runBoss(e.candidates,base);
   else ranked=await runDamageMode(e.candidates,base,profile.mode);
 
-  last={items:ranked.slice(0,4),mode:profile.mode,scope:profile.finder?.scope||'exact',titanLevel:selectedTitanLevel(),total:e.total};
+  last={items:ranked.slice(0,4),mode:profile.mode,scope:profile.finder?.scope||'exact',total:e.total};
   renderResults(last,true);
   setProgress(100,L().ready);
   busy=false;applyText();updateStatus();
@@ -899,7 +801,6 @@ function renderResults(res,scroll=true){
   const best=res.items[0],mode=res.mode;
   resultTitle.textContent=L().recommended;
   if(mode==='pvp')resultNumber.textContent=`${res.scope==='general'?L().fieldScore:L().winRate}: ${(best.score*100).toFixed(1)}%`;
-  else if(mode==='boss')resultNumber.textContent=`${L().clearChance}: ${(best.clearRate*100).toFixed(1)}% · Lv${res.titanLevel}`;
   else resultNumber.textContent=`${L().avgDamage}: ${fmt(best.damage)}`;
   useBuildInBattle.hidden=mode!=='pvp';
 
@@ -914,14 +815,13 @@ function renderResults(res,scroll=true){
 
   let m;
   if(mode==='pvp')m=[[`${(best.score*100).toFixed(1)}%`,res.scope==='general'?L().fieldScore:L().winRate],[res.scope==='general'?`${(best.worst*100).toFixed(1)}%`:fmt(best.damage),res.scope==='general'?L().worstMatchup:L().avgDamage],[fmt(best.hp),L().hpLeft],[best.rounds.toFixed(1),L().actions]];
-  else if(mode==='boss')m=[[`${(best.clearRate*100).toFixed(1)}%`,L().clearChance],[Number.isFinite(best.clearTime)?fmtTime(best.clearTime):fmtTime(best.survival),Number.isFinite(best.clearTime)?L().clearTime:L().survivalTime],[fmt(best.dps,1),L().damageRate],[fmt(best.hp),L().hpLeft]];
   else m=[[fmt(best.damage),L().avgDamage],[fmt(best.s.attack),L().finalAttack],[fmt(best.s.hp),L().finalHealth],[`${best.s.critChance.toFixed(1)}%`,L().critical]];
 
   metrics.innerHTML=m.map(x=>`<div class="metric"><div class="metric-value">${x[0]}</div><div class="metric-label">${x[1]}</div></div>`).join('');
   altList.innerHTML=res.items.slice(1).map((x,i)=>`<div class="alt-row">
     <div class="alt-rank">#${i+2}</div>
     <div class="alt-names">${x.build.map(p=>esc(runeName(p.rune))).join(' · ')}</div>
-    <div class="alt-score">${mode==='pvp'?(x.score*100).toFixed(1)+'%':mode==='boss'?(x.clearRate*100).toFixed(1)+'% · '+(Number.isFinite(x.clearTime)?fmtTime(x.clearTime):fmtTime(x.survival)):fmt(x.damage)}</div>
+    <div class="alt-score">${mode==='pvp'?(x.score*100).toFixed(1)+'%':fmt(x.damage)}</div>
   </div>`).join('');
   alt.style.display=res.items.length>1?'block':'none';
   results.style.display='block';if(scroll)results.scrollIntoView({behavior:'smooth',block:'start'});
@@ -976,10 +876,6 @@ scopeControl.addEventListener('click',event=>{
   profile.finder=profile.finder||{};profile.finder.scope=button.dataset.scope==='general'?'general':'exact';
   last=null;results.style.display='none';saveData();updateFinderTarget();
 });
-titanLevel.addEventListener('input',()=>{
-  profile.finder=profile.finder||{};profile.finder.titanLevel=Math.max(1,Math.min(5000,Math.floor(Number(titanLevel.value)||1)));
-  last=null;results.style.display='none';saveData();updateFinderTarget();
-});
 filters.addEventListener('click',e=>{
   const b=e.target.closest('.filter');if(!b)return;
   rarity=b.dataset.r;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));renderRunes();
@@ -1021,8 +917,8 @@ const BATTLE_PRESETS=[
 ];
 const nodeValues=CONSTELLATION_LEVEL_VALUES;
 let simSides={
-  user:{slots:[],main:{},special:{}},
-  opponent:{slots:BATTLE_PRESETS[0].slots.map((id,i)=>({id,level:BATTLE_PRESETS[0].levels[i]})),main:{},special:{}}
+  user:{slots:[],main:{},special:{},appearance:emptyAppearance('user')},
+  opponent:{slots:BATTLE_PRESETS[0].slots.map((id,i)=>({id,level:BATTLE_PRESETS[0].levels[i]})),main:{},special:{},appearance:emptyAppearance('opponent')}
 };
 let pickerTarget=null,battleReplay=null,battleTimer=null;
 const $=id=>document.getElementById(id);
@@ -1037,19 +933,21 @@ function persistUserBattle(){
   if(!profile)return;
   profile.battle={
     slots:simSides.user.slots.map(x=>({id:Number(x.id),level:clamp(x.level,1,31)})),
-    main:{...simSides.user.main},special:{100:Number(simSides.user.special[100]||0)}
+    main:{...simSides.user.main},special:{100:Number(simSides.user.special[100]||0)},
+    appearance:normalizeAppearance(simSides.user.appearance,'user')
   };
   saveData();
 }
 function loadProfileBattleState(){
   if(!profile)return;
   const b=profile.battle||emptyBattleProfile();
-  simSides.user={slots:(b.slots||[]).map(x=>({id:Number(x.id),level:clamp(x.level,1,31)})),main:{...(b.main||{})},special:{100:Number(b.special?.[100]||0)}};
+  simSides.user={slots:(b.slots||[]).map(x=>({id:Number(x.id),level:clamp(x.level,1,31)})),main:{...(b.main||{})},special:{100:Number(b.special?.[100]||0)},appearance:normalizeAppearance(b.appearance,'user')};
   if($('simUserHp')){$('simUserHp').value=profile.base?.hp??'';$('simUserAttack').value=profile.base?.attack??'';$('simUserSpeed').value=profile.base?.speed??''}
-  if($('userPreset'))$('userPreset').value='-1';
+  if($('userPreset'))$('userPreset').value='manual';
   if($('userRuneSlots'))renderRuneSlots('user');
   if($('userConstellation'))renderConstellation('user');
   if($('userFinalStats'))renderSideStats('user');
+  if($('userDinoCanvas'))renderArenaDinos();
   invalidateBattle();
 }
 function sideBase(side){
@@ -1080,7 +978,7 @@ function renderRuneSlots(side){
     button.addEventListener('click',e=>{if(e.target.matches('input'))return;openRunePicker(side,index)});
     const input=button.querySelector('input');if(input){
       input.addEventListener('click',e=>e.stopPropagation());
-      input.addEventListener('input',()=>{slot.level=clamp(input.value,1,31);if(side==='user')persistUserBattle();renderSideStats(side);invalidateBattle()});
+      input.addEventListener('input',()=>{slot.level=clamp(input.value,1,31);if(side==='user'){persistUserBattle();markUserManual()}renderSideStats(side);invalidateBattle()});
     }
     target.appendChild(button);
   }
@@ -1100,28 +998,74 @@ function renderConstellation(side){
   for(const type of CONSTELLATION_TYPES){
     const node=document.createElement('div');node.className='const-node';
     node.innerHTML=`<img src="${ASSET_ROOT+type.icon}" alt=""><label>${L()[type.label]}</label><input type="number" min="0" max="${type.max}" value="${simSides[side].main[type.id]||0}">`;
-    node.querySelector('input').addEventListener('input',e=>{simSides[side].main[type.id]=clamp(e.target.value,0,type.max);if(side==='user')persistUserBattle();renderSideStats(side);invalidateBattle()});root.appendChild(node);
+    node.querySelector('input').addEventListener('input',e=>{simSides[side].main[type.id]=clamp(e.target.value,0,type.max);if(side==='user'){persistUserBattle();markUserManual()}renderSideStats(side);invalidateBattle()});root.appendChild(node);
   }
   const special=$(side+'Specials');special.innerHTML='';
   for(const type of SPECIAL_TYPES){
     const max=(nodeValues[type.id]||[]).length,count=simSides[side].special[type.id]||0,button=document.createElement('button');
     const name=L()[type.label];button.type='button';button.className='special-toggle'+(count?' active':'');button.title=`${name}: ${count}/${max}`;
     button.innerHTML=`<img src="${ASSET_ROOT+type.icon}" alt=""><span>${name} ${count}/${max}</span>`;
-    button.addEventListener('click',()=>{simSides[side].special[type.id]=(count+1)%(max+1);if(side==='user')persistUserBattle();renderConstellation(side);renderSideStats(side);invalidateBattle()});special.appendChild(button);
+    button.addEventListener('click',()=>{simSides[side].special[type.id]=(count+1)%(max+1);if(side==='user'){persistUserBattle();markUserManual()}renderConstellation(side);renderSideStats(side);invalidateBattle()});special.appendChild(button);
   }
 }
 function slotsFromPreset(preset){return preset.slots.map((id,index)=>({id:Number(id),level:clamp(preset.levels?.[index]||31,1,31)}))}
 function renderPresetMenus(){
-  const options=BATTLE_PRESETS.map((preset,index)=>`<option value="${index}">${esc(L()[preset.label])}</option>`).join('');
-  $('userPreset').innerHTML=`<option value="-1">${esc(L().profileManual)}</option>`+options;
-  $('opponentPreset').innerHTML=options;
+  const previousUser=$('userPreset')?.value||'manual',previousOpponent=$('opponentPreset')?.value||'builtin:0';
+  const builtins=BATTLE_PRESETS.map((preset,index)=>`<option value="builtin:${index}">${esc(L()[preset.label])}</option>`).join('');
+  const custom=(profile?.battlePresets||[]).map(preset=>`<option value="custom:${esc(preset.id)}">${esc(preset.name)}</option>`).join('');
+  const customGroup=custom?`<optgroup label="Saved presets">${custom}</optgroup>`:'';
+  $('userPreset').innerHTML=`<option value="manual">${esc(L().profileManual)}</option><optgroup label="Starter builds">${builtins}</optgroup>${customGroup}`;
+  $('opponentPreset').innerHTML=`<optgroup label="Starter builds">${builtins}</optgroup>${customGroup}`;
+  $('userPreset').value=$('userPreset').querySelector(`option[value="${CSS.escape(previousUser)}"]`)?previousUser:'manual';
+  $('opponentPreset').value=$('opponentPreset').querySelector(`option[value="${CSS.escape(previousOpponent)}"]`)?previousOpponent:'builtin:0';
+  updatePresetButtons();
 }
-function loadUserPreset(index=0){const preset=BATTLE_PRESETS[index];if(!preset)return;simSides.user.slots=slotsFromPreset(preset);persistUserBattle();renderRuneSlots('user');invalidateBattle()}
-function loadOpponentPreset(index=0){const preset=BATTLE_PRESETS[index]||BATTLE_PRESETS[0];simSides.opponent.slots=slotsFromPreset(preset);renderRuneSlots('opponent');invalidateBattle()}
+function updatePresetButtons(){$('deleteUserPreset').disabled=!$('userPreset').value.startsWith('custom:')}
+function markUserManual(){if($('userPreset')){$('userPreset').value='manual';updatePresetButtons()}}
+function loadUserPreset(index=0){const preset=BATTLE_PRESETS[index];if(!preset)return;simSides.user.slots=slotsFromPreset(preset);persistUserBattle();renderRuneSlots('user');$('userPreset').value=`builtin:${index}`;invalidateBattle()}
+function loadOpponentPreset(index=0){const preset=BATTLE_PRESETS[index]||BATTLE_PRESETS[0];simSides.opponent.slots=slotsFromPreset(preset);renderRuneSlots('opponent');$('opponentPreset').value=`builtin:${index}`;invalidateBattle()}
+function captureUserPreset(name){return normalizeBattlePreset({id:`saved_${Date.now().toString(36)}_${Math.random().toString(36).slice(2,6)}`,name,base:sideBase('user'),slots:simSides.user.slots,main:simSides.user.main,special:simSides.user.special,appearance:simSides.user.appearance})}
+function loadSavedPreset(side,presetId){
+  const preset=(profile?.battlePresets||[]).find(item=>item.id===presetId);if(!preset)return;
+  const prefix=side==='user'?'simUser':'simOpponent';
+  $(prefix+'Hp').value=preset.base.hp;$(prefix+'Attack').value=preset.base.attack;$(prefix+'Speed').value=preset.base.speed;
+  simSides[side]={slots:preset.slots.map(x=>({...x})),main:{...preset.main},special:{...preset.special},appearance:normalizeAppearance(preset.appearance,side)};
+  if(side==='user'){profile.base={...preset.base};baseHp.value=preset.base.hp;baseAttack.value=preset.base.attack;baseSpeed.value=preset.base.speed;persistUserBattle()}
+  renderRuneSlots(side);renderConstellation(side);renderSideStats(side);renderArenaDinos();invalidateBattle();
+}
+function openPresetModal(){$('presetName').value='';$('presetModalBg').style.display='flex';setTimeout(()=>$('presetName').focus(),0)}
+function closePresetModal(){$('presetModalBg').style.display='none'}
+function saveCurrentPreset(){
+  const name=$('presetName').value.trim();if(!name)return $('presetName').focus();
+  const preset=captureUserPreset(name);profile.battlePresets=profile.battlePresets||[];profile.battlePresets.push(preset);saveData();closePresetModal();renderPresetMenus();$('userPreset').value=`custom:${preset.id}`;updatePresetButtons();
+}
+function deleteCurrentPreset(){
+  const value=$('userPreset').value;if(!value.startsWith('custom:'))return;
+  const presetId=value.slice(7),opponentUsedPreset=$('opponentPreset').value===value;profile.battlePresets=(profile.battlePresets||[]).filter(item=>item.id!==presetId);saveData();renderPresetMenus();$('userPreset').value='manual';if(opponentUsedPreset)loadOpponentPreset(0);updatePresetButtons();
+}
+
+function activeAppearancePreset(side){return appearancePresetFor(simSides[side].appearance,side)}
+function renderVisualPresetPicker(side){
+  const root=$(side+'VisualPresets'),name=$(side+'StyleName');if(!root||!name)return;
+  const active=activeAppearancePreset(side);name.textContent=active.name;root.innerHTML='';
+  for(const preset of APPEARANCE_PRESETS){
+    const button=document.createElement('button');button.type='button';button.className=`visual-preset${preset.id===active.id?' active':''}`;button.dataset.visualPreset=preset.id;button.setAttribute('role','radio');button.setAttribute('aria-checked',String(preset.id===active.id));button.setAttribute('aria-label',preset.name);
+    button.innerHTML=`<img src="assets/cosmetics/thumbnails/outfit/${preset.skin}.webp" alt=""><span>${esc(preset.name)}</span>`;
+    button.addEventListener('click',()=>applyAppearancePreset(side,preset.id));root.appendChild(button);
+  }
+}
+function applyAppearancePreset(side,presetId){
+  const preset=APPEARANCE_PRESETS.find(item=>item.id===presetId)||defaultAppearancePreset(side);simSides[side].appearance=normalizeAppearance(appearanceFromPreset(preset),side);
+  if(side==='user'){persistUserBattle();markUserManual()}renderArenaDinos();invalidateBattle();
+}
+function renderArenaDinos(){
+  if(window.DinoRenderer){window.DinoRenderer.render($('userDinoCanvas'),simSides.user.appearance);window.DinoRenderer.render($('opponentDinoCanvas'),simSides.opponent.appearance)}
+  renderVisualPresetPicker('user');renderVisualPresetPicker('opponent');
+}
 function initializeBattleData(){
   $('criticalRule').textContent=`${L().baseCritical}: ${fmt(battleRules.criticalChance)}% · ${Number(battleRules.criticalMultiplier).toFixed(2)}x`;
   renderPresetMenus();
-  $('userPreset').value='-1';
+  $('userPreset').value='manual';
   renderRuneSlots('user');renderConstellation('user');renderConstellation('opponent');renderSideStats('user');updateStatus();resetBattleModel();
 }
 function createSimFighter(side,build=sideBuild(side),base=sideBase(side),model=simSides[side]){
@@ -1136,22 +1080,23 @@ function simPacket(defender,amount,r){
   value=Math.max(0,value);reduced=Math.max(0,raw-shielded-value);defender.hp=Math.max(0,defender.hp-value);return{value,raw,shielded,reduced};
 }
 function simAction(attacker,defender,r){
-  attacker.attacks++;let damage=0,healing=0,triggers=[],packets=[];
-  const addPacket=(label,kind,hit,effect='')=>{const dealt=simPacket(defender,hit.amount,r);damage+=dealt.value;packets.push({label,kind,effect,amount:dealt.value,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:!!hit.crit});return dealt.value};
+  attacker.attacks++;let damage=0,healing=0,triggers=[],packets=[],heals=[];
+  const addPacket=(label,kind,hit,effect='')=>{const dealt=simPacket(defender,hit.amount,r);damage+=dealt.value;packets.push({label,kind,effect,targetSide:defender.side,amount:dealt.value,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:!!hit.crit});return dealt.value};
+  const addHeal=(fighter,requested,label)=>{const value=Math.max(0,Math.min(fighter.s.hp-fighter.hp,requested));if(value<=0)return 0;fighter.hp+=value;fighter.healing+=value;heals.push({side:fighter.side,amount:value,label});triggers.push(label);return value};
   const normal=simCrit(attacker.s.attack,attacker.s,r);addPacket(L().basicAttack,'normal',normal);if(normal.crit)triggers.push(L().critical);
   if(defender.hp>0)for(const e of attacker.s.effects){
     if(e.skillPct&&roll(r,e.proc)){const hit=simCrit(attacker.s.attack*e.skillPct/100,attacker.s,r),rune=runeByGameId(RUNES.findIndex(x=>x.id===e.id)+1),name=rune?runeName(rune):L().skill;addPacket(name,'skill',hit,e.id);triggers.push(`${name}${hit.crit?' critical':''}`)}
     if(e.extraPct&&attacker.attacks%(e.every||3)===0&&defender.hp>0){const hit=simCrit(attacker.s.attack*e.extraPct/100,attacker.s,r);addPacket(L().extraStrike,'skill',hit,'extra-strike');triggers.push(L().extraStrike)}
   }
-  if(defender.hp>0)for(const e of attacker.s.effects)if(e.executeHp&&defender.hp/defender.s.hp*100<e.executeHp&&roll(r,e.executeChance)){const amount=defender.hp;damage+=amount;defender.hp=0;packets.push({label:L().execute,kind:'execute',amount,raw:amount,shielded:0,reduced:0,critical:false});triggers.push(L().execute);break}
-  for(const e of attacker.s.effects)if(e.healAttackPct&&roll(r,e.proc)){const value=Math.min(attacker.s.hp-attacker.hp,attacker.s.attack*e.healAttackPct/100);attacker.hp+=value;healing+=value;triggers.push('Drain Life')}
-  if(defender.hp>0)for(const e of defender.s.effects)if(e.healMaxPct&&roll(r,e.proc)){const value=Math.min(defender.s.hp-defender.hp,defender.s.hp*e.healMaxPct/100);defender.hp+=value;defender.healing+=value;triggers.push('Defender healed')}
-  if(defender.shieldRemaining>0)defender.shieldRemaining--;attacker.damageDone+=damage;attacker.healing+=healing;
-  return{actor:attacker.side,damage,healing,triggers,packets,aHp:attacker.side==='user'?attacker.hp:defender.hp,bHp:attacker.side==='user'?defender.hp:attacker.hp};
+  if(defender.hp>0)for(const e of attacker.s.effects)if(e.executeHp&&defender.hp/defender.s.hp*100<e.executeHp&&roll(r,e.executeChance)){const amount=defender.hp;damage+=amount;defender.hp=0;packets.push({label:L().execute,kind:'execute',targetSide:defender.side,amount,raw:amount,shielded:0,reduced:0,critical:false});triggers.push(L().execute);break}
+  for(const e of attacker.s.effects)if(e.healAttackPct&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id),value=addHeal(attacker,attacker.s.attack*e.healAttackPct/100,rune?runeName(rune):L().healing);healing+=value}
+  if(defender.hp>0)for(const e of defender.s.effects)if(e.healMaxPct&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id);addHeal(defender,defender.s.hp*e.healMaxPct/100,rune?runeName(rune):L().healing)}
+  if(defender.shieldRemaining>0)defender.shieldRemaining--;attacker.damageDone+=damage;
+  return{actor:attacker.side,damage,healing,heals,triggers,packets,aHp:attacker.side==='user'?attacker.hp:defender.hp,bHp:attacker.side==='user'?defender.hp:attacker.hp};
 }
 function simDeath(dead,other,r,event){
   if(dead.deathDone)return;dead.deathDone=true;
-  for(const e of dead.s.effects)if(e.deathPct&&roll(r,e.proc)){const dealt=simPacket(other,dead.s.attack*e.deathPct/100,r),amount=dealt.value;dead.damageDone+=amount;event.triggers.push(L().finalGift);event.packets.push({label:L().finalGift,kind:'skill',effect:'final-gift',amount,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:false});event.deathDamage=amount}
+  for(const e of dead.s.effects)if(e.deathPct&&roll(r,e.proc)){const dealt=simPacket(other,dead.s.attack*e.deathPct/100,r),amount=dealt.value;dead.damageDone+=amount;event.counterDamage=(event.counterDamage||0)+amount;event.triggers.push(L().finalGift);event.packets.push({label:L().finalGift,kind:'skill',effect:'final-gift',targetSide:other.side,amount,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:false})}
   event.aHp=dead.side==='user'?dead.hp:other.hp;event.bHp=dead.side==='user'?other.hp:dead.hp;
 }
 function simulateMatch(userBuild,userBase,userModel,opponentBuild,opponentBase,opponentModel,seed,record=true){
@@ -1173,7 +1118,7 @@ function playbackDelay(){return Math.max(225,Math.round(900/(Number($('battleSpe
 function clearDamageStacks(){$('userDamageStack').innerHTML='';$('opponentDamageStack').innerHTML='';document.querySelectorAll('.skill-effect').forEach(effect=>effect.remove())}
 function invalidateBattle(){clearInterval(battleTimer);battleTimer=null;clearDamageStacks();battleReplay=null;$('battleBanner').textContent=L().ready;renderBattleInitial()}
 function renderBattleInitial(){
-  const a=battleStats('user'),b=battleStats('opponent');clearDamageStacks();$('userHpFill').style.width='100%';$('opponentHpFill').style.width='100%';$('userHpText').textContent=`${fmt(a.hp)} / ${fmt(a.hp)}`;$('opponentHpText').textContent=`${fmt(b.hp)} / ${fmt(b.hp)}`;$('simTurns').textContent='0';$('simUserDamage').textContent='0';$('simOpponentDamage').textContent='0';$('battleLog').innerHTML='';
+  const a=battleStats('user'),b=battleStats('opponent');clearDamageStacks();renderArenaDinos();$('userHpFill').style.width='100%';$('opponentHpFill').style.width='100%';$('userHpText').textContent=`${fmt(a.hp)} / ${fmt(a.hp)}`;$('opponentHpText').textContent=`${fmt(b.hp)} / ${fmt(b.hp)}`;$('simTurns').textContent='0';$('simUserDamage').textContent='0';$('simOpponentDamage').textContent='0';$('battleLog').innerHTML='';
 }
 function resetBattleModel(){
   clearInterval(battleTimer);battleTimer=null;clearDamageStacks();const seed=randomBattleSeed();battleReplay={...simulateBattle(seed,true),seed,index:0,userDamage:0,opponentDamage:0};
@@ -1181,9 +1126,15 @@ function resetBattleModel(){
   $('battleBanner').textContent=L().ready;renderBattleInitial();
 }
 function animateCombat(event){
-  const actor=$(event.actor+'Combatant'),target=$(event.actor==='user'?'opponentCombatant':'userCombatant');actor.classList.add('attacking');setTimeout(()=>actor.classList.remove('attacking'),190);target.classList.add('hit');setTimeout(()=>target.classList.remove('hit'),230);
-  renderDamageStack(target,event.packets);
-  if(event.healing>0)renderDamageStack(actor,[{label:L().healing,kind:'heal',amount:event.healing,critical:false}]);
+  const actor=$(event.actor+'Combatant');actor.classList.add('attacking');setTimeout(()=>actor.classList.remove('attacking'),190);
+  for(const side of ['user','opponent']){
+    const packets=event.packets.filter(packet=>(packet.targetSide|| (event.actor==='user'?'opponent':'user'))===side);if(!packets.length)continue;
+    const target=$(side+'Combatant');target.classList.remove('hit');void target.offsetWidth;target.classList.add('hit');setTimeout(()=>target.classList.remove('hit'),230);renderDamageStack(target,packets);
+  }
+  for(const side of ['user','opponent']){
+    const heals=(event.heals||[]).filter(heal=>heal.side===side);if(!heals.length)continue;
+    renderDamageStack($(side+'Combatant'),heals.map(heal=>({label:heal.label,kind:'heal',amount:heal.amount,critical:false})));
+  }
 }
 function combatEffectClass(effect){
   if(effect==='meteor')return'meteor';
@@ -1206,6 +1157,7 @@ function renderDamageStack(combatant,packets){
     row.style.setProperty('--hit-x',`${position[0]}px`);row.style.setProperty('--hit-y',`${position[1]}px`);row.style.setProperty('--hit-delay',`${index*70}ms`);
     row.setAttribute('aria-label',`${packet.label}: ${fmt(packet.amount)}${packet.critical?` ${L().criticalShort}`:''}`);
     row.innerHTML=`<strong>${packet.kind==='heal'?'+':''}${fmt(packet.amount)}</strong>`;stack.appendChild(row);
+    setTimeout(()=>row.remove(),1300+index*85);
     if(packet.kind==='skill')renderCombatEffect(combatant,packet.effect,index);
   });
 }
@@ -1215,8 +1167,9 @@ function applyReplayEvent(){
   $('userHpFill').style.width=`${Math.max(0,event.aHp/aMax*100)}%`;$('opponentHpFill').style.width=`${Math.max(0,event.bHp/bMax*100)}%`;
   $('userHpText').textContent=`${fmt(Math.max(0,event.aHp))} / ${fmt(aMax)}`;$('opponentHpText').textContent=`${fmt(Math.max(0,event.bHp))} / ${fmt(bMax)}`;
   if(event.actor==='user')battleReplay.userDamage+=event.damage;else battleReplay.opponentDamage+=event.damage;
+  if(event.counterDamage){if(event.actor==='user')battleReplay.opponentDamage+=event.counterDamage;else battleReplay.userDamage+=event.counterDamage}
   $('simTurns').textContent=battleReplay.index;$('simUserDamage').textContent=fmt(battleReplay.userDamage);$('simOpponentDamage').textContent=fmt(battleReplay.opponentDamage);
-  const chips=event.packets.map(packet=>`<span class="packet-chip ${packet.kind==='skill'||packet.kind==='execute'?'skill':''} ${packet.critical?'critical':''}">${esc(packet.label)} ${fmt(packet.amount)}${packet.critical?' '+L().criticalShort:''}</span>`).join('')+(event.healing?`<span class="packet-chip heal">${L().heal} ${fmt(event.healing)}</span>`:'');
+  const chips=event.packets.map(packet=>`<span class="packet-chip ${packet.kind==='skill'||packet.kind==='execute'?'skill':''} ${packet.critical?'critical':''}">${esc(packet.label)} ${fmt(packet.amount)}${packet.critical?' '+L().criticalShort:''}</span>`).join('')+(event.heals||[]).map(heal=>`<span class="packet-chip heal">${esc(heal.label)} +${fmt(heal.amount)}</span>`).join('');
   const actorName=event.actor==='user'?L().yourDino:L().opponent,actionText=L().dealtTotal.replace('{value}',fmt(event.damage));
   const row=document.createElement('div');row.className='battle-log-row';row.innerHTML=`<b>${battleReplay.index}</b><span>${actorName} ${actionText}<div class="packet-breakdown">${chips}</div></span>`;$('battleLog').appendChild(row);$('battleLog').scrollTop=$('battleLog').scrollHeight;animateCombat(event);
   if(battleReplay.index>=battleReplay.events.length)finishReplay();return true;
@@ -1229,28 +1182,36 @@ function playReplay(){
   $('battleBanner').textContent=L().fighting;$('playBattle').textContent=L().pause;applyReplayEvent();battleTimer=setInterval(()=>{if(!applyReplayEvent())finishReplay()},playbackDelay());
 }
 async function batchSimulation(){
-  const button=$('batchBattle'),base=randomBattleSeed();button.disabled=true;button.textContent=L().running;let wins=0,draws=0;
-  await frame();for(let i=0;i<1000;i++){const result=simulateBattle((base+i*2654435761)>>>0,false).result;if(result>0)wins++;else if(result===0)draws++}
-  $('simWinRate').textContent=`${((wins+draws*.5)/10).toFixed(1)}%`;button.disabled=false;button.textContent=L().batchFights;
+  const button=$('batchBattle'),base=randomBattleSeed(),total=10000,chunk=250;button.disabled=true;let wins=0,losses=0,draws=0,actions=0,userDamage=0,opponentDamage=0;
+  $('batchDetail').textContent='Preparing 10,000 randomized matches...';await frame();
+  for(let start=0;start<total;start+=chunk){
+    const end=Math.min(total,start+chunk);
+    for(let i=start;i<end;i++){const match=simulateBattle((base+Math.imul(i,0x9e3779b1))>>>0,false);if(match.result>0)wins++;else if(match.result<0)losses++;else draws++;actions+=match.actionCount;userDamage+=match.a.damageDone;opponentDamage+=match.b.damageDone}
+    const progress=Math.round(end/total*100);button.textContent=`${progress}%`;$('batchDetail').textContent=`Simulating ${end.toLocaleString()} / ${total.toLocaleString()} matches`;await frame();
+  }
+  $('simWinRate').textContent=`${((wins+draws*.5)/total*100).toFixed(1)}%`;$('simTurns').textContent=(actions/total).toFixed(1);$('simUserDamage').textContent=fmt(userDamage/total);$('simOpponentDamage').textContent=fmt(opponentDamage/total);
+  $('batchDetail').textContent=`${wins.toLocaleString()} wins · ${losses.toLocaleString()} losses · ${draws.toLocaleString()} draws · ${(actions/total).toFixed(1)} average actions`;button.disabled=false;button.textContent=L().batchFights;
 }
 function initBattleLab(){
-  renderPresetMenus();$('userPreset').value='-1';loadOpponentPreset(0);loadProfileBattleState();renderConstellation('opponent');renderBattleInitial();
+  renderPresetMenus();$('userPreset').value='manual';loadOpponentPreset(0);loadProfileBattleState();renderConstellation('opponent');renderBattleInitial();
   document.querySelectorAll('.page-tab').forEach(tab=>tab.addEventListener('click',()=>{document.querySelectorAll('.page-tab').forEach(x=>x.classList.toggle('active',x===tab));$('battleView').hidden=tab.dataset.view!=='battle';$('calculatorView').hidden=tab.dataset.view!=='calculator'}));
-  $('userPreset').addEventListener('change',e=>{const i=+e.target.value;if(i>=0)loadUserPreset(i);else loadProfileBattleState()});$('opponentPreset').addEventListener('change',e=>loadOpponentPreset(+e.target.value));
-  $('clearUserConstellation').addEventListener('click',()=>{simSides.user.main={};simSides.user.special={};persistUserBattle();renderConstellation('user');renderSideStats('user');invalidateBattle()});
+  $('userPreset').addEventListener('change',e=>{const value=e.target.value;if(value==='manual')loadProfileBattleState();else if(value.startsWith('builtin:'))loadUserPreset(+value.slice(8));else if(value.startsWith('custom:'))loadSavedPreset('user',value.slice(7));updatePresetButtons()});
+  $('opponentPreset').addEventListener('change',e=>{const value=e.target.value;if(value.startsWith('builtin:'))loadOpponentPreset(+value.slice(8));else if(value.startsWith('custom:'))loadSavedPreset('opponent',value.slice(7))});
+  $('clearUserConstellation').addEventListener('click',()=>{simSides.user.main={};simSides.user.special={};persistUserBattle();markUserManual();renderConstellation('user');renderSideStats('user');invalidateBattle()});
   $('clearOpponentConstellation').addEventListener('click',()=>{simSides.opponent.main={};simSides.opponent.special={};renderConstellation('opponent');renderSideStats('opponent');invalidateBattle()});
-  $('mirrorOpponent').addEventListener('click',()=>{simSides.opponent=JSON.parse(JSON.stringify(simSides.user));$('simOpponentHp').value=$('simUserHp').value;$('simOpponentAttack').value=$('simUserAttack').value;$('simOpponentSpeed').value=$('simUserSpeed').value;renderRuneSlots('opponent');renderConstellation('opponent');invalidateBattle()});
-  ['simUserHp','simUserAttack','simUserSpeed','simOpponentHp','simOpponentAttack','simOpponentSpeed'].forEach(id=>$(id).addEventListener('input',()=>{renderSideStats(id.includes('User')?'user':'opponent');invalidateBattle()}));
-  $('runePickerGrid').addEventListener('click',e=>{const item=e.target.closest('[data-rune]');if(!item||!pickerTarget)return;const id=+item.dataset.rune;if(id){const rune=runeByGameId(id),owned=rune&&profile?.inventory?.[rune.id];simSides[pickerTarget.side].slots[pickerTarget.index]={id,level:clamp(owned||1,1,31)}}else simSides[pickerTarget.side].slots.splice(pickerTarget.index,1);const side=pickerTarget.side;if(side==='user')persistUserBattle();closePicker();renderRuneSlots(side);invalidateBattle()});
+  $('mirrorOpponent').addEventListener('click',()=>{simSides.opponent=JSON.parse(JSON.stringify(simSides.user));$('simOpponentHp').value=$('simUserHp').value;$('simOpponentAttack').value=$('simUserAttack').value;$('simOpponentSpeed').value=$('simUserSpeed').value;renderRuneSlots('opponent');renderConstellation('opponent');renderArenaDinos();invalidateBattle()});
+  ['simUserHp','simUserAttack','simUserSpeed','simOpponentHp','simOpponentAttack','simOpponentSpeed'].forEach(id=>$(id).addEventListener('input',()=>{const side=id.includes('User')?'user':'opponent';if(side==='user'){const base=sideBase('user');profile.base={...base};baseHp.value=base.hp;baseAttack.value=base.attack;baseSpeed.value=base.speed;saveData();markUserManual()}renderSideStats(side);invalidateBattle()}));
+  $('runePickerGrid').addEventListener('click',e=>{const item=e.target.closest('[data-rune]');if(!item||!pickerTarget)return;const id=+item.dataset.rune;if(id){const rune=runeByGameId(id),owned=rune&&profile?.inventory?.[rune.id];simSides[pickerTarget.side].slots[pickerTarget.index]={id,level:clamp(owned||1,1,31)}}else simSides[pickerTarget.side].slots.splice(pickerTarget.index,1);const side=pickerTarget.side;if(side==='user'){persistUserBattle();markUserManual()}closePicker();renderRuneSlots(side);invalidateBattle()});
   $('closeRunePicker').addEventListener('click',closePicker);$('runePickerBg').addEventListener('click',e=>{if(e.target===$('runePickerBg'))closePicker()});
   $('resetBattle').addEventListener('click',resetBattleModel);$('stepBattle').addEventListener('click',applyReplayEvent);$('playBattle').addEventListener('click',playReplay);$('batchBattle').addEventListener('click',batchSimulation);
   $('battleSpeed').addEventListener('change',()=>{if(battleTimer){clearInterval(battleTimer);battleTimer=setInterval(()=>{if(!applyReplayEvent())finishReplay()},playbackDelay())}});
   $('useBuildInBattle').addEventListener('click',()=>{
     const best=last?.items?.[0];if(!best)return;
-    simSides.user.slots=best.build.map(p=>({id:RUNES.indexOf(p.rune)+1,level:p.level}));persistUserBattle();
+    simSides.user.slots=best.build.map(p=>({id:RUNES.indexOf(p.rune)+1,level:p.level}));persistUserBattle();markUserManual();
     $('simUserHp').value=profile.base.hp;$('simUserAttack').value=profile.base.attack;$('simUserSpeed').value=profile.base.speed;
     renderRuneSlots('user');document.querySelector('[data-view="battle"]').click();resetBattleModel();
   });
+  $('saveUserPreset').addEventListener('click',openPresetModal);$('deleteUserPreset').addEventListener('click',deleteCurrentPreset);$('cancelPreset').addEventListener('click',closePresetModal);$('confirmPreset').addEventListener('click',saveCurrentPreset);$('presetName').addEventListener('keydown',e=>{if(e.key==='Enter')saveCurrentPreset();if(e.key==='Escape')closePresetModal()});$('presetModalBg').addEventListener('click',e=>{if(e.target===$('presetModalBg'))closePresetModal()});
   initializeBattleData();
 }
 

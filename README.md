@@ -6,8 +6,8 @@ An unofficial, browser-based rune build finder and battle simulator for Dino Mut
 
 - Compare custom dinosaur stats, rune loadouts, and constellation levels.
 - Replay randomized battles at selectable speeds.
-- Run 1,000-match batches to estimate matchup win rates.
-- Search owned runes for strong PvP, structure, and boss builds.
+- Run 10,000-match batches to estimate matchup win rates.
+- Search owned runes for strong PvP and structure builds.
 - Keep multiple profiles in local browser storage.
 
 ## Run locally
