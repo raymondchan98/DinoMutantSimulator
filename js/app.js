@@ -67,11 +67,11 @@ const TEXT = {
 };
 
 const UI_TEXT={
-  en:{brand:'Dino Rune Lab',battleLab:'Battle Lab',buildFinder:'Build Finder',yourDino:'Your dino',opponent:'Opponent',runeLoadout:'Rune loadout',constellation:'Constellation',clear:'Clear',battleArena:'Battle Arena',damage:'Damage',critical:'Critical',skill:'Skill',healing:'Healing',actions:'Actions',yourDamage:'Your damage',enemyDamage:'Enemy damage',mirror:'Mirror',optimizing:'Optimizing against your opponent',finderHint:'The finder uses the exact opponent configured in Battle Lab.',useInBattle:'Use in Battle',chooseRune:'Choose a rune',close:'Close',newBattle:'New battle',step:'Step',play:'Play',pause:'Pause',batchFights:'10K simulations',fighting:'Fighting',victory:'Victory',defeat:'Defeat',draw:'Draw',running:'Running...',baseCritical:'Base critical',profileManual:'Profile / manual',manual:'Manual',burst:'Burst',guard:'Guard',sustain:'Sustain',emptySlot:'Empty slot',removeRune:'Remove this rune',level:'Level',criticalRate:'Critical rate',criticalDamage:'Critical damage',structureDamage:'Structure damage',workshopBuff:'Workshop buff',bossGuard:'Boss guard',bossDamage:'Boss damage',mutation:'Mutation',recovery:'Recovery',createProfileTitle:'Create your profile',createProfileHint:'Create a profile to start. Rune inventory and battle settings are saved separately for each profile.',createProfileButton:'Create profile',configuredOpponent:'configured opponent',dealtTotal:'dealt {value} total',heal:'Heal',criticalShort:'CRIT',hpShort:'HP',attackShort:'ATK',speedShort:'SPD',critDamageShort:'CDMG',basicAttack:'Basic attack',extraStrike:'Extra strike',execute:'Execute',finalGift:'Final Gift',fighterStyle:'Fighter style',savePreset:'Save preset',removePreset:'Delete',presetHint:'Saves stats, runes, constellation, and fighter style.',batchHint:'Run 10,000 randomized matches for a stable result.'},
+  en:{brand:'Dino Rune Lab',battleLab:'Battle Lab',buildFinder:'Build Finder',yourDino:'Your dino',opponent:'Opponent',runeLoadout:'Rune loadout',constellation:'Constellation',clear:'Clear',battleArena:'Battle Arena',damage:'Damage',critical:'Critical',skill:'Skill',healing:'Healing',actions:'Actions',yourDamage:'Your damage',enemyDamage:'Enemy damage',mirror:'Mirror',optimizing:'Optimizing against your opponent',finderHint:'The finder uses the exact opponent configured in Battle Lab.',useInBattle:'Use in Battle',chooseRune:'Choose a rune',close:'Close',newBattle:'New battle',step:'Step',play:'Play',pause:'Pause',batchFights:'10K simulations',fighting:'Fighting',victory:'Victory',defeat:'Defeat',draw:'Draw',running:'Running...',baseCritical:'Base critical',profileManual:'Profile / manual',manual:'Manual',burst:'Burst',guard:'Guard',sustain:'Sustain',emptySlot:'Empty slot',removeRune:'Remove this rune',level:'Level',criticalRate:'Critical rate',criticalDamage:'Critical damage',structureDamage:'Structure damage',workshopBuff:'Workshop buff',bossGuard:'Boss guard',bossDamage:'Boss damage',mutation:'Mutation',recovery:'Recovery',createProfileTitle:'Create your profile',createProfileHint:'Create a profile to start. Rune inventory and battle settings are saved separately for each profile.',createProfileButton:'Create profile',configuredOpponent:'configured opponent',dealtTotal:'dealt {value} total',heal:'Heal',criticalShort:'CRIT',hpShort:'HP',attackShort:'ATK',speedShort:'SPD',critDamageShort:'CDMG',basicAttack:'Basic attack',extraStrike:'Extra strike',execute:'Execute',finalGift:'Final Gift',fighterStyle:'Fighter style',savePreset:'Save preset',removePreset:'Delete',presetHint:'Saves stats, runes, constellation, and fighter style. In 5v5, saves the whole team.',batchHint:'Run 10,000 randomized matches for a stable result.',duel1v1:'1v1',team5v5:'5v5',frontRow:'Front',backRow:'Back'},
   es:{brand:'Laboratorio de Runas Dino',battleLab:'Laboratorio de Batalla',buildFinder:'Buscador de Sets',yourDino:'Tu dinosaurio',opponent:'Oponente',runeLoadout:'Set de runas',constellation:'Constelación',clear:'Limpiar',battleArena:'Arena de Batalla',damage:'Daño',critical:'Crítico',skill:'Habilidad',healing:'Curación',actions:'Acciones',yourDamage:'Tu daño',enemyDamage:'Daño enemigo',mirror:'Copiar',optimizing:'Optimizando contra tu oponente',finderHint:'El buscador usa el oponente configurado en el Laboratorio de Batalla.',useInBattle:'Usar en batalla',chooseRune:'Elegir una runa',close:'Cerrar',newBattle:'Nueva batalla',step:'Paso',play:'Reproducir',pause:'Pausa',batchFights:'10K simulaciones',fighting:'Combatiendo',victory:'Victoria',defeat:'Derrota',draw:'Empate',running:'Calculando...',baseCritical:'Crítico base',profileManual:'Perfil / manual',manual:'Manual',burst:'Ráfaga',guard:'Defensa',sustain:'Curación',emptySlot:'Espacio vacío',removeRune:'Quitar esta runa',level:'Nivel',criticalRate:'Prob. crítica',criticalDamage:'Daño crítico',structureDamage:'Daño a estructuras',workshopBuff:'Mejora de taller',bossGuard:'Defensa de jefe',bossDamage:'Daño de jefe',mutation:'Mutación',recovery:'Recuperación',createProfileTitle:'Crea tu perfil',createProfileHint:'Crea un perfil para comenzar. El inventario de runas y los ajustes de batalla se guardan por separado.',createProfileButton:'Crear perfil',configuredOpponent:'oponente configurado',dealtTotal:'infligió {value} en total',heal:'Curación',criticalShort:'CRÍT',hpShort:'VIDA',attackShort:'ATQ',speedShort:'VEL',critDamageShort:'DCRIT',basicAttack:'Ataque básico',extraStrike:'Golpe extra',execute:'Ejecución',finalGift:'Regalo final'},
   ja:{brand:'恐竜ルーン研究所',battleLab:'バトル研究所',buildFinder:'ビルド検索',yourDino:'自分の恐竜',opponent:'対戦相手',runeLoadout:'ルーン構成',constellation:'星座',clear:'クリア',battleArena:'バトルアリーナ',damage:'ダメージ',critical:'会心',skill:'スキル',healing:'回復',actions:'行動数',yourDamage:'自分のダメージ',enemyDamage:'敵のダメージ',mirror:'コピー',optimizing:'対戦相手に合わせて最適化',finderHint:'バトル研究所で設定した対戦相手を使用します。',useInBattle:'バトルで使用',chooseRune:'ルーンを選択',close:'閉じる',newBattle:'新しいバトル',step:'1手進む',play:'再生',pause:'一時停止',batchFights:'1万回シミュレーション',fighting:'戦闘中',victory:'勝利',defeat:'敗北',draw:'引き分け',running:'計算中...',baseCritical:'基本会心',profileManual:'プロフィール / 手動',manual:'手動',burst:'瞬間火力',guard:'防御',sustain:'持久',emptySlot:'空きスロット',removeRune:'このルーンを外す',level:'レベル',criticalRate:'会心率',criticalDamage:'会心ダメージ',structureDamage:'建物ダメージ',workshopBuff:'工房強化',bossGuard:'ボス防御',bossDamage:'ボスダメージ',mutation:'突然変異',recovery:'回復力',createProfileTitle:'プロフィールを作成',createProfileHint:'開始するにはプロフィールを作成してください。ルーンとバトル設定はプロフィールごとに保存されます。',createProfileButton:'プロフィール作成',configuredOpponent:'設定した対戦相手',dealtTotal:'合計 {value} ダメージ',heal:'回復',criticalShort:'会心',hpShort:'HP',attackShort:'攻撃',speedShort:'速度',critDamageShort:'会心DMG',basicAttack:'通常攻撃',extraStrike:'追加攻撃',execute:'即死',finalGift:'最後の贈り物'},
   ko:{brand:'공룡 룬 연구소',battleLab:'전투 연구소',buildFinder:'빌드 찾기',yourDino:'내 공룡',opponent:'상대',runeLoadout:'룬 구성',constellation:'별자리',clear:'초기화',battleArena:'전투 경기장',damage:'피해',critical:'치명타',skill:'스킬',healing:'회복',actions:'행동',yourDamage:'내 피해',enemyDamage:'적 피해',mirror:'복사',optimizing:'상대에 맞춰 최적화',finderHint:'전투 연구소에서 설정한 상대를 사용합니다.',useInBattle:'전투에 사용',chooseRune:'룬 선택',close:'닫기',newBattle:'새 전투',step:'한 단계',play:'재생',pause:'일시정지',batchFights:'1만 시뮬레이션',fighting:'전투 중',victory:'승리',defeat:'패배',draw:'무승부',running:'계산 중...',baseCritical:'기본 치명타',profileManual:'프로필 / 수동',manual:'수동',burst:'폭발',guard:'방어',sustain:'지속',emptySlot:'빈 슬롯',removeRune:'이 룬 제거',level:'레벨',criticalRate:'치명타 확률',criticalDamage:'치명타 피해',structureDamage:'구조물 피해',workshopBuff:'작업장 강화',bossGuard:'보스 방어',bossDamage:'보스 피해',mutation:'돌연변이',recovery:'회복력',createProfileTitle:'프로필 만들기',createProfileHint:'시작하려면 프로필을 만드세요. 룬과 전투 설정은 프로필별로 저장됩니다.',createProfileButton:'프로필 만들기',configuredOpponent:'설정된 상대',dealtTotal:'총 {value} 피해',heal:'회복',criticalShort:'치명타',hpShort:'체력',attackShort:'공격',speedShort:'속도',critDamageShort:'치피',basicAttack:'기본 공격',extraStrike:'추가 타격',execute:'즉사',finalGift:'마지막 선물'},
-  'zh-TW':{brand:'恐龍符文研究室',battleLab:'戰鬥研究室',buildFinder:'配置搜尋',yourDino:'你的恐龍',opponent:'對手',runeLoadout:'符文配置',constellation:'星座',clear:'清除',battleArena:'戰鬥競技場',damage:'傷害',critical:'暴擊',skill:'技能',healing:'治療',actions:'行動',yourDamage:'你的傷害',enemyDamage:'敵方傷害',mirror:'複製',optimizing:'針對對手最佳化',finderHint:'搜尋器會使用戰鬥研究室中設定的對手。',useInBattle:'套用至戰鬥',chooseRune:'選擇符文',close:'關閉',newBattle:'新戰鬥',step:'單步',play:'播放',pause:'暫停',batchFights:'1萬次模擬',fighting:'戰鬥中',victory:'勝利',defeat:'失敗',draw:'平手',running:'計算中...',baseCritical:'基礎暴擊',profileManual:'設定檔 / 手動',manual:'手動',burst:'爆發',guard:'防禦',sustain:'續航',emptySlot:'空欄位',removeRune:'移除此符文',level:'等級',criticalRate:'暴擊率',criticalDamage:'暴擊傷害',structureDamage:'建築傷害',workshopBuff:'工坊增益',bossGuard:'Boss 防禦',bossDamage:'Boss 傷害',mutation:'突變',recovery:'恢復',createProfileTitle:'建立設定檔',createProfileHint:'建立設定檔以開始。符文與戰鬥設定會分別儲存在各設定檔中。',createProfileButton:'建立設定檔',configuredOpponent:'已設定的對手',dealtTotal:'總共造成 {value} 傷害',heal:'治療',criticalShort:'暴擊',hpShort:'生命',attackShort:'攻擊',speedShort:'速度',critDamageShort:'暴傷',basicAttack:'普通攻擊',extraStrike:'額外打擊',execute:'處決',finalGift:'最後的贈禮'}
+  'zh-TW':{brand:'恐龍符文研究室',battleLab:'戰鬥研究室',buildFinder:'配置搜尋',yourDino:'你的恐龍',opponent:'對手',runeLoadout:'符文配置',constellation:'星座',clear:'清除',battleArena:'戰鬥競技場',damage:'傷害',critical:'暴擊',skill:'技能',healing:'治療',actions:'行動',yourDamage:'你的傷害',enemyDamage:'敵方傷害',mirror:'複製',optimizing:'針對對手最佳化',finderHint:'搜尋器會使用戰鬥研究室中設定的對手。',useInBattle:'套用至戰鬥',chooseRune:'選擇符文',close:'關閉',newBattle:'新戰鬥',step:'單步',play:'播放',pause:'暫停',batchFights:'1萬次模擬',fighting:'戰鬥中',victory:'勝利',defeat:'失敗',draw:'平手',running:'計算中...',baseCritical:'基礎暴擊',profileManual:'設定檔 / 手動',manual:'手動',burst:'爆發',guard:'防禦',sustain:'續航',emptySlot:'空欄位',removeRune:'移除此符文',level:'等級',criticalRate:'暴擊率',criticalDamage:'暴擊傷害',structureDamage:'建築傷害',workshopBuff:'工坊增益',bossGuard:'Boss 防禦',bossDamage:'Boss 傷害',mutation:'突變',recovery:'恢復',createProfileTitle:'建立設定檔',createProfileHint:'建立設定檔以開始。符文與戰鬥設定會分別儲存在各設定檔中。',createProfileButton:'建立設定檔',configuredOpponent:'已設定的對手',dealtTotal:'總共造成 {value} 傷害',heal:'治療',criticalShort:'暴擊',hpShort:'生命',attackShort:'攻擊',speedShort:'速度',critDamageShort:'暴傷',basicAttack:'普通攻擊',extraStrike:'額外打擊',execute:'處決',finalGift:'最後的贈禮',savePreset:'儲存預設',removePreset:'刪除',presetHint:'儲存數值、符文、星座與造型。5v5 會一次儲存整隊五隻。',duel1v1:'1v1',team5v5:'5v5',frontRow:'前排',backRow:'後排'}
 };
 
 const FINDER_TEXT={
@@ -86,11 +86,11 @@ let lang=(()=>{try{return localStorage.getItem('rune_lang_v5')||localStorage.get
 if(!TEXT[lang])lang='en';
 const L=()=>({...TEXT.en,...TEXT[lang],...UI_TEXT.en,...UI_TEXT[lang],...FINDER_TEXT.en,...FINDER_TEXT[lang],rarities:{...TEXT.en.rarities,...TEXT[lang].rarities}});
 function T(){return {rarities:L().rarities,objectives:{pvp1v1:L().pvp,edificios:L().structure},level:L().level}}
-function runeName(r){return lang==='es'?r.es:r.en}
+function runeName(r){return lang==='zh-TW'&&r.zh?r.zh:lang==='es'?r.es:r.en}
 function rarityName(r){return L().rarities[r]||r}
 function runeIcon(r){
   const index=RUNES.indexOf(r)+1;
-  return `assets/runesprite_${Math.max(0,index)}.png`;
+  return `assets/runesprite_${Math.max(0,index)}.png?v=20260920c`;
 }
 function nvals(s){return(s.match(/-?\d+(?:\.\d+)?/g)||[])}
 function absNum(v){const x=parseFloat(v);return Number.isFinite(x)?Math.abs(x):v}
@@ -121,6 +121,11 @@ function runeDescription(rune, ld){
     case 'passive_heal': return byLang(`When attacked, ${n[0]}% chance to restore ${n[1]}% of maximum health.`,`攻撃を受けた時、${n[0]}%の確率で最大HPの${n[1]}%を回復。`,`피격 시 ${n[0]}% 확률로 최대 체력의 ${n[1]}%를 회복합니다.`,`受到攻擊時有 ${n[0]}% 機率恢復最大生命的 ${n[1]}%。`);
     case 'flat_attack': return byLang(`Increases attack power by ${n[0]}.`,`攻撃力が${n[0]}増加。`,`공격력이 ${n[0]} 증가합니다.`,`攻擊力提高 ${n[0]}。`);
     case 'pct_attack': return byLang(`Increases attack power by ${n[0]}%.`,`攻撃力が${n[0]}%増加。`,`공격력이 ${n[0]}% 증가합니다.`,`攻擊力提高 ${n[0]}%。`);
+    case 'berserker': return byLang(
+      `When health is below ${n[0]}%, increases attack by ${n[1]}%. When health is below ${n[2]}%, increases attack by an additional ${n[3]}%. Does not apply to buildings, and does not increase Drain Life healing.`,
+      `HPが${n[0]}%未満の時、攻撃力+${n[1]}%。HPが${n[2]}%未満の時、さらに攻撃力+${n[3]}%。建物には無効。吸血回復量には加算されない。`,
+      `체력이 ${n[0]}% 미만이면 공격력 +${n[1]}%. 체력이 ${n[2]}% 미만이면 추가로 공격력 +${n[3]}%. 건물에는 적용되지 않으며, 흡혈 회복량에는 포함되지 않습니다.`,
+      `生命低於 ${n[0]}% 時，攻擊提高 ${n[1]}%。生命低於 ${n[2]}% 時，額外再提高 ${n[3]}%。對建築無效，且不會增加吸血回復量。`);
     case 'flat_hp': return byLang(`Increases health by ${n[0]}.`,`HPが${n[0]}増加。`,`체력이 ${n[0]} 증가합니다.`,`生命提高 ${n[0]}。`);
     case 'pct_hp': return byLang(`Increases health by ${n[0]}%.`,`HPが${n[0]}%増加。`,`체력이 ${n[0]}% 증가합니다.`,`生命提高 ${n[0]}%。`);
     case 'death_nuke': return byLang(`On death, ${n[0]}% chance to deal ${n[1]}% of my attack to the enemy unit in combat.`,`死亡時、${n[0]}%の確率で戦闘中の敵ユニットに自分の攻撃力${n[1]}%分のダメージ。`,`사망 시 ${n[0]}% 확률로 전투 중인 적 유닛에게 내 공격력의 ${n[1]}% 피해를 줍니다.`,`死亡時有 ${n[0]}% 機率對戰鬥中的敵方單位造成我方攻擊力 ${n[1]}% 的傷害。`);
@@ -172,15 +177,43 @@ function normalizeAppearance(value,side='user'){
   const constrained=appearanceFromPreset(appearancePresetFor(value||emptyAppearance(side),side));
   return window.DinoRenderer?.normalizeAppearance(constrained)||constrained;
 }
-function emptyBattleProfile(){return{slots:[],main:{},special:{},appearance:emptyAppearance('user')}}
+function emptyTeamMember(side='user'){return{base:{hp:15920,attack:1568,speed:150},slots:[],appearance:emptyAppearance(side)}}
+function compactSlots(slots){
+  if(!Array.isArray(slots))return[];
+  return slots.map(x=>({id:Number(x?.id)||0,level:Math.max(1,Math.min(31,Number(x?.level)||1))})).filter(x=>x.id);
+}
+function normalizeTeamMember(value,side='user'){
+  const m=value&&typeof value==='object'?value:{};
+  return{
+    base:{hp:Math.max(1,Number(m.base?.hp)||15920),attack:Math.max(1,Number(m.base?.attack)||1568),speed:Math.max(0,Number(m.base?.speed)||150)},
+    slots:compactSlots(m.slots),
+    appearance:normalizeAppearance(m.appearance,side)
+  };
+}
+function emptyTeam(side='user'){return{members:[0,1,2,3,4].map(()=>emptyTeamMember(side))}}
+function normalizeTeam(value,side='user'){return{members:[0,1,2,3,4].map(i=>normalizeTeamMember(value?.members?.[i],side))}}
+function emptyBattleProfile(){return{slots:[],main:{},special:{},appearance:emptyAppearance('user'),format:'1v1',team:emptyTeam('user'),opponentTeam:emptyTeam('opponent')}}
+function cloneLoadout(base,slots,appearance,side='user'){
+  return{
+    base:{hp:Math.max(1,Number(base?.hp)||15920),attack:Math.max(1,Number(base?.attack)||1568),speed:Math.max(0,Number(base?.speed)||0)},
+    slots:compactSlots(slots),
+    appearance:normalizeAppearance(appearance,side)
+  };
+}
 function normalizeBattlePreset(value,index=0){
   const preset=value&&typeof value==='object'?value:{};
+  const format=preset.format==='5v5'||preset.team?.members?'5v5':'1v1';
+  const team=format==='5v5'?normalizeTeam(preset.team,'user'):undefined;
+  const fallback=team?.members?.[0];
+  const loadout=cloneLoadout(preset.base||fallback?.base,preset.slots||fallback?.slots,preset.appearance||fallback?.appearance,'user');
   return{
     id:String(preset.id||`preset_${index}_${Math.random().toString(36).slice(2,7)}`),name:String(preset.name||`Preset ${index+1}`).slice(0,40),
-    base:{hp:Math.max(1,Number(preset.base?.hp)||15920),attack:Math.max(1,Number(preset.base?.attack)||1568),speed:Math.max(0,Number(preset.base?.speed)||0)},
-    slots:Array.isArray(preset.slots)?preset.slots.map(x=>({id:Number(x.id)||0,level:Math.max(1,Math.min(31,Number(x.level)||1))})).filter(x=>x.id):[],
+    format,
+    base:loadout.base,
+    slots:loadout.slots,
     main:preset.main&&typeof preset.main==='object'?{...preset.main}:{},special:preset.special&&typeof preset.special==='object'?{...preset.special}:{},
-    appearance:normalizeAppearance(preset.appearance,'user')
+    appearance:loadout.appearance,
+    team
   };
 }
 function emptyProfile(name='Profile 1'){
@@ -198,7 +231,10 @@ function normalizeProfile(p){
       slots:Array.isArray(p.battle?.slots)?p.battle.slots.map(x=>({id:Number(x.id)||0,level:Math.max(1,Math.min(31,Number(x.level)||1))})).filter(x=>x.id):[],
       main:p.battle?.main&&typeof p.battle.main==='object'?{...p.battle.main}:{},
       special:p.battle?.special&&typeof p.battle.special==='object'?{...p.battle.special}:{},
-      appearance:normalizeAppearance(p.battle?.appearance,'user')
+      appearance:normalizeAppearance(p.battle?.appearance,'user'),
+      format:p.battle?.format==='5v5'?'5v5':'1v1',
+      team:normalizeTeam(p.battle?.team,'user'),
+      opponentTeam:normalizeTeam(p.battle?.opponentTeam,'opponent')
     },
     battlePresets:Array.isArray(p.battlePresets)?p.battlePresets.slice(0,40).map(normalizeBattlePreset):[]
   };
@@ -275,7 +311,9 @@ function applyText(){
   modalTitle.textContent=x.profileName;modalCancel.textContent=x.cancel;modalSave.textContent=x.save;
   renderProfileSelect();renderRunes();updateStatus();updateFinderTarget();if(last)renderResults(last,false);
   if(appStarted&&$('userConstellation')){
-    renderPresetMenus();renderRuneSlots('user');renderRuneSlots('opponent');renderConstellation('user');renderConstellation('opponent');renderSideStats('user');renderSideStats('opponent');renderBattleInitial();
+    renderPresetMenus();renderMemberTabs('user');renderMemberTabs('opponent');
+    document.querySelectorAll('.format-tab').forEach(tab=>tab.classList.toggle('active',tab.dataset.format===battleFormat));
+    renderRuneSlots('user');renderRuneSlots('opponent');renderConstellation('user');renderConstellation('opponent');renderSideStats('user');renderSideStats('opponent');renderBattleInitial();
     $('battleBanner').textContent=x.ready;
     $('criticalRule').textContent=`${x.baseCritical}: ${fmt(battleRules.criticalChance)}% · ${Number(battleRules.criticalMultiplier).toFixed(2)}x`;
   }
@@ -317,7 +355,7 @@ function updateFinderTarget(){
 }
 function renderRunes(){
   const inv=profile.inventory||{},q=query.trim().toLowerCase();
-  const list=RUNES.filter(r=>(rarity==='all'||r.rarity===rarity)&&(!q||r.en.toLowerCase().includes(q)||r.es.toLowerCase().includes(q)));
+  const list=RUNES.filter(r=>(rarity==='all'||r.rarity===rarity)&&(!q||r.en.toLowerCase().includes(q)||r.es.toLowerCase().includes(q)||(r.zh&&r.zh.includes(query.trim()))||r.id.includes(q)));
   runeTable.innerHTML='';
   if(!list.length){runeTable.innerHTML=`<div class="empty">${esc(L().noRunes)}</div>`;renderOwned();return}
   for(const r of list){
@@ -361,6 +399,18 @@ function effect(rune,level){
     e.shieldPct=nums[0];e.shieldAttacks=nums[1];
   }else if(rune.cat==='building_aoe'){
     e.every=nums[0];e.structureSkillPct=+e.building_aoe_pct||nums[1]||0;
+  }else if(rune.cat==='berserker'){
+    e.hp_lt_pct_1=+e.hp_lt_pct_1||nums[0]||0;e.atk_pct_1=+e.atk_pct_1||nums[1]||0;
+    e.hp_lt_pct_2=+e.hp_lt_pct_2||nums[2]||0;e.atk_pct_2=+e.atk_pct_2||nums[3]||0;
+  }else if(rune.cat==='group_bonus'){
+    if(rune.id==='unified_strike'){e.need=+e.need||nums[0]||5;e.groupAttack=+e.atk_flat_cond||nums[1]||0;e.groupHp=+e.hp_flat_cond||nums[2]||0}
+    else{e.need=0;e.groupAttack=+e.atk_flat_cond||nums[0]||0;e.groupHp=+e.hp_flat_cond||nums[1]||0}
+  }else if(rune.cat==='death_heal_team'){
+    e.proc=nums[0];e.teamHealMaxPct=nums[1];
+  }else if(rune.cat==='death_buff_team'){
+    e.proc=nums[0];e.teamAtkFlat=nums[1];e.teamAtkTurns=nums[2];
+  }else if(rune.cat==='snowball'){
+    e.roarPct=nums[0];e.roarTurns=nums[1];
   }
   return e;
 }
@@ -370,8 +420,8 @@ function validBuild(build){
 }
 
 /* Percent modifiers always reference the original base stat.
-   Example: Mammoth -25% + Smite +33% = net +8% of base Attack. */
-function stats(build,base,mode){
+   Example: Mammoth -25% + Smite +50% = net +25% of base Attack. */
+function stats(build,base,mode,allyCount=1){
   let flatAttack=0,flatHp=0,pctAttack=0,pctHp=0,critChance=battleRules.criticalChance,critDamage=battleRules.criticalBonusDamage;
   const effects=build.map(x=>x.e);
   for(const e of effects){
@@ -384,7 +434,14 @@ function stats(build,base,mode){
     if(mode==='pvp'&&e.cat==='solo_bonus'){
       flatAttack+=e.soloAttack||0;flatHp+=e.soloHp||0;
     }
-    /* Tribe/group and terrain conditions are intentionally not assumed. */
+    if(mode==='team'){
+      if(e.cat==='solo_bonus'&&allyCount===1){flatAttack+=e.soloAttack||0;flatHp+=e.soloHp||0}
+      if(e.cat==='group_bonus'){
+        const need=+e.need||0;
+        if(need?allyCount>=need:allyCount>=1){flatAttack+=e.groupAttack||0;flatHp+=e.groupHp||0}
+      }
+    }
+    /* Terrain and building conditions are intentionally not assumed. */
   }
   return{
     attack:Math.max(1,base.attack+flatAttack+base.attack*(pctAttack/100)),
@@ -392,8 +449,26 @@ function stats(build,base,mode){
     speed:base.speed,
     critChance:Math.min(100,Math.max(0,critChance)),
     critDamage:Math.max(0,critDamage),
+    baseAttack:base.attack,
     effects
   };
+}
+/* Berserker is a current-HP conditional bonus on original base Attack.
+   It is excluded from s.attack so Drain Life / Compact / Smite lifesteal
+   keep using the static attack value. */
+function berserkerBonusAttack(fighter){
+  if(!fighter?.s)return 0;
+  const hpPct=fighter.s.hp>0?fighter.hp/fighter.s.hp*100:0;
+  let pct=0;
+  for(const e of fighter.s.effects){
+    if(e.cat!=='berserker')continue;
+    if(hpPct<(+e.hp_lt_pct_1||0))pct+=+e.atk_pct_1||0;
+    if(hpPct<(+e.hp_lt_pct_2||0))pct+=+e.atk_pct_2||0;
+  }
+  return (fighter.s.baseAttack||0)*pct/100;
+}
+function combatAttack(fighter){
+  return Math.max(1,fighter.s.attack+berserkerBonusAttack(fighter));
 }
 function targetAttack(s,mode){
   let pct=0;
@@ -438,18 +513,19 @@ function attackPvp(attacker,defender,r){
   attacker.attacks++;
 
   const shield=defender.shieldRemaining>0?{pct:defender.shieldPct}:null;
+  const atk=combatAttack(attacker);
 
-  let normal=critDamage(attacker.s.attack,attacker.s,r);
+  let normal=critDamage(atk,attacker.s,r);
   attacker.damageDone+=damagePacket(defender,normal,r,shield);
 
   if(defender.hp>0){
     for(const e of attacker.s.effects){
       if(e.skillPct&&roll(r,e.proc)){
-        let skill=critDamage(attacker.s.attack*(e.skillPct/100),attacker.s,r);
+        let skill=critDamage(atk*(e.skillPct/100),attacker.s,r);
         attacker.damageDone+=damagePacket(defender,skill,r,shield);
       }
       if(e.extraPct&&attacker.attacks%(e.every||3)===0&&defender.hp>0){
-        let extra=critDamage(attacker.s.attack*(e.extraPct/100),attacker.s,r);
+        let extra=critDamage(atk*(e.extraPct/100),attacker.s,r);
         attacker.damageDone+=damagePacket(defender,extra,r,shield);
       }
     }
@@ -488,7 +564,7 @@ function deathPvp(dead,other,r){
   dead.deathDone=true;
   for(const e of dead.s.effects){
     if(e.deathPct&&roll(r,e.proc)){
-      const dmg=dead.s.attack*(e.deathPct/100);
+      const dmg=combatAttack(dead)*(e.deathPct/100);
       dead.damageDone+=damagePacket(other,dmg,r,null);
     }
   }
@@ -574,6 +650,7 @@ function analytic(build,base,mode){
     if(mode==='structure'&&e.structureSkillPct)proc+=atk*(e.structureSkillPct/100)/Math.max(1,e.every||3)*critMult;
     if(e.healAttackPct)sustain+=s.attack*(e.proc/100)*(e.healAttackPct/100);
     if(e.healMaxPct)sustain+=s.hp*(e.proc/100)*(e.healMaxPct/100);
+    if(mode!=='structure'&&e.cat==='berserker')proc+=(s.baseAttack||0)*((+e.atk_pct_1||0)/100)*critMult;
     if(e.dr_flat)mitigation+=e.dr_flat;
     if(e.dr_chance&&e.dr_amount)mitigation+=e.dr_amount*(e.dr_chance/100);
     if(e.shieldPct)mitigation+=adjustedBase.attack*(e.shieldPct/100)*(e.shieldAttacks||1)/PVP_ROUNDS;
@@ -920,10 +997,17 @@ let simSides={
   user:{slots:[],main:{},special:{},appearance:emptyAppearance('user')},
   opponent:{slots:BATTLE_PRESETS[0].slots.map((id,i)=>({id,level:BATTLE_PRESETS[0].levels[i]})),main:{},special:{},appearance:emptyAppearance('opponent')}
 };
+let simTeams={user:emptyTeam('user'),opponent:emptyTeam('opponent')};
+let teamEdit={user:0,opponent:0};
+let memberPreset={user:['manual','manual','manual','manual','manual'],opponent:['builtin:0','builtin:0','builtin:0','builtin:0','builtin:0']};
+let battleFormat='1v1';
 let pickerTarget=null,battleReplay=null,battleTimer=null;
 const $=id=>document.getElementById(id);
 function runeByGameId(id){return RUNES[Number(id)-1]||null}
 function clamp(v,min,max){return Math.max(min,Math.min(max,Number(v)||0))}
+function isTeamFormat(){return battleFormat==='5v5'}
+function activeMember(side){return simTeams[side].members[teamEdit[side]]}
+function activeSlots(side){return isTeamFormat()?activeMember(side).slots:simSides[side].slots}
 function nodeValue(type,level){
   const values=nodeValues[type]||[],selected=clamp(level,0,values.length);
   return values.slice(0,selected).reduce((total,value)=>total+Number(value||0),0);
@@ -931,10 +1015,14 @@ function nodeValue(type,level){
 function sumSpecial(type,count){return (nodeValues[type]||[]).slice(0,Math.max(0,Number(count)||0)).reduce((a,b)=>a+Number(b||0),0)}
 function persistUserBattle(){
   if(!profile)return;
+  if(isTeamFormat())syncFormToMember('user');
   profile.battle={
     slots:simSides.user.slots.map(x=>({id:Number(x.id),level:clamp(x.level,1,31)})),
     main:{...simSides.user.main},special:{100:Number(simSides.user.special[100]||0)},
-    appearance:normalizeAppearance(simSides.user.appearance,'user')
+    appearance:normalizeAppearance(simSides.user.appearance,'user'),
+    format:battleFormat,
+    team:normalizeTeam(simTeams.user,'user'),
+    opponentTeam:normalizeTeam(simTeams.opponent,'opponent')
   };
   saveData();
 }
@@ -942,8 +1030,19 @@ function loadProfileBattleState(){
   if(!profile)return;
   const b=profile.battle||emptyBattleProfile();
   simSides.user={slots:(b.slots||[]).map(x=>({id:Number(x.id),level:clamp(x.level,1,31)})),main:{...(b.main||{})},special:{100:Number(b.special?.[100]||0)},appearance:normalizeAppearance(b.appearance,'user')};
-  if($('simUserHp')){$('simUserHp').value=profile.base?.hp??'';$('simUserAttack').value=profile.base?.attack??'';$('simUserSpeed').value=profile.base?.speed??''}
-  if($('userPreset'))$('userPreset').value='manual';
+  battleFormat=b.format==='5v5'?'5v5':'1v1';
+  simTeams.user=normalizeTeam(b.team,'user');
+  simTeams.opponent=normalizeTeam(b.opponentTeam,'opponent');
+  teamEdit={user:0,opponent:0};
+  memberPreset={user:emptyMemberPresets('user'),opponent:emptyMemberPresets('opponent')};
+  if(!simTeams.opponent.members.some(m=>m.slots.length)){
+    const slots=simSides.opponent.slots.map(x=>({...x}));
+    const appearance=normalizeAppearance(simSides.opponent.appearance,'opponent');
+    simTeams.opponent.members=simTeams.opponent.members.map(m=>({base:{...m.base},slots:slots.map(x=>({...x})),appearance:{...appearance}}));
+  }
+  applyBattleFormat(false);
+  if($('simUserHp')&&!isTeamFormat()){$('simUserHp').value=profile.base?.hp??'';$('simUserAttack').value=profile.base?.attack??'';$('simUserSpeed').value=profile.base?.speed??''}
+  if($('userPreset'))syncPresetSelect('user');
   if($('userRuneSlots'))renderRuneSlots('user');
   if($('userConstellation'))renderConstellation('user');
   if($('userFinalStats'))renderSideStats('user');
@@ -955,15 +1054,19 @@ function sideBase(side){
   return{hp:+$(prefix+'Hp').value||1,attack:+$(prefix+'Attack').value||1,speed:+$(prefix+'Speed').value||0};
 }
 function sideBuild(side){return simSides[side].slots.map(slot=>{const rune=runeByGameId(slot.id);return rune?{rune,level:clamp(slot.level,1,31),e:effect(rune,clamp(slot.level,1,31))}:null}).filter(Boolean)}
-function modelStats(build,base,model,mode='pvp'){
-  const s=stats(build,constellationBase(base,model),mode);
+function memberBuild(member){return (member.slots||[]).map(slot=>{const rune=runeByGameId(slot.id);return rune?{rune,level:clamp(slot.level,1,31),e:effect(rune,clamp(slot.level,1,31))}:null}).filter(Boolean)}
+function modelStats(build,base,model,mode='pvp',allyCount=1){
+  const s=stats(build,constellationBase(base,model),mode,allyCount);
   s.critChance+=nodeValue(2,model.main[2]);s.critDamage+=nodeValue(3,model.main[3]);
   s.speed+=sumSpecial(100,model.special[100]);
   s.critChance=Math.max(0,Math.min(100,s.critChance));
   s.constellation={structureDamage:nodeValue(4,model.main[4]),workshop:nodeValue(5,model.main[5])};
   return s;
 }
-function battleStats(side){return modelStats(sideBuild(side),sideBase(side),simSides[side])}
+function battleStats(side){
+  if(isTeamFormat())return modelStats(memberBuild(activeMember(side)),activeMember(side).base,simSides[side],'team',5);
+  return modelStats(sideBuild(side),sideBase(side),simSides[side]);
+}
 function renderSideStats(side){
   const s=battleStats(side),target=$(side==='user'?'userFinalStats':'opponentFinalStats');
   const x=L();target.textContent=`${fmt(s.hp)} ${x.hpShort} · ${fmt(s.attack)} ${x.attackShort} · ${fmt(s.speed)} ${x.speedShort} · ${fmt(s.critChance)}% ${x.criticalShort} · ${fmt(100+s.critDamage)}% ${x.critDamageShort}`;
@@ -972,7 +1075,7 @@ function renderSideStats(side){
 function renderRuneSlots(side){
   const target=$(side+'RuneSlots');target.innerHTML='';
   for(let index=0;index<5;index++){
-    const slot=simSides[side].slots[index],rune=slot&&runeByGameId(slot.id),button=document.createElement('button');
+    const slot=activeSlots(side)[index],rune=slot&&runeByGameId(slot.id),button=document.createElement('button');
     button.type='button';button.className='rune-slot'+(rune?'':' empty');button.title=rune?runeName(rune):L().chooseRune;
     if(rune)button.innerHTML=`<img src="${runeIcon(rune)}" alt="${esc(runeName(rune))}"><input class="slot-level" type="number" min="1" max="31" value="${clamp(slot.level,1,31)}" aria-label="${esc(runeName(rune))} ${L().level}">`;
     button.addEventListener('click',e=>{if(e.target.matches('input'))return;openRunePicker(side,index)});
@@ -1012,39 +1115,98 @@ function slotsFromPreset(preset){return preset.slots.map((id,index)=>({id:Number
 function renderPresetMenus(){
   const previousUser=$('userPreset')?.value||'manual',previousOpponent=$('opponentPreset')?.value||'builtin:0';
   const builtins=BATTLE_PRESETS.map((preset,index)=>`<option value="builtin:${index}">${esc(L()[preset.label])}</option>`).join('');
-  const custom=(profile?.battlePresets||[]).map(preset=>`<option value="custom:${esc(preset.id)}">${esc(preset.name)}</option>`).join('');
+  const custom=(profile?.battlePresets||[]).map(preset=>`<option value="custom:${esc(preset.id)}">${esc(preset.name)}${preset.format==='5v5'?' (5v5)':''}</option>`).join('');
   const customGroup=custom?`<optgroup label="Saved presets">${custom}</optgroup>`:'';
   $('userPreset').innerHTML=`<option value="manual">${esc(L().profileManual)}</option><optgroup label="Starter builds">${builtins}</optgroup>${customGroup}`;
   $('opponentPreset').innerHTML=`<optgroup label="Starter builds">${builtins}</optgroup>${customGroup}`;
+  if(isTeamFormat()){syncPresetSelect('user');syncPresetSelect('opponent');return}
   $('userPreset').value=$('userPreset').querySelector(`option[value="${CSS.escape(previousUser)}"]`)?previousUser:'manual';
   $('opponentPreset').value=$('opponentPreset').querySelector(`option[value="${CSS.escape(previousOpponent)}"]`)?previousOpponent:'builtin:0';
   updatePresetButtons();
 }
 function updatePresetButtons(){$('deleteUserPreset').disabled=!$('userPreset').value.startsWith('custom:')}
-function markUserManual(){if($('userPreset')){$('userPreset').value='manual';updatePresetButtons()}}
-function loadUserPreset(index=0){const preset=BATTLE_PRESETS[index];if(!preset)return;simSides.user.slots=slotsFromPreset(preset);persistUserBattle();renderRuneSlots('user');$('userPreset').value=`builtin:${index}`;invalidateBattle()}
-function loadOpponentPreset(index=0){const preset=BATTLE_PRESETS[index]||BATTLE_PRESETS[0];simSides.opponent.slots=slotsFromPreset(preset);renderRuneSlots('opponent');$('opponentPreset').value=`builtin:${index}`;invalidateBattle()}
-function captureUserPreset(name){return normalizeBattlePreset({id:`saved_${Date.now().toString(36)}_${Math.random().toString(36).slice(2,6)}`,name,base:sideBase('user'),slots:simSides.user.slots,main:simSides.user.main,special:simSides.user.special,appearance:simSides.user.appearance})}
+function emptyMemberPresets(side='user'){return side==='user'?['manual','manual','manual','manual','manual']:['builtin:0','builtin:0','builtin:0','builtin:0','builtin:0']}
+function rememberMemberPreset(side,value){memberPreset[side][teamEdit[side]]=value}
+function syncPresetSelect(side){
+  const select=$(side==='user'?'userPreset':'opponentPreset');if(!select)return;
+  const value=memberPreset[side][teamEdit[side]]||(side==='user'?'manual':'builtin:0');
+  select.value=select.querySelector(`option[value="${CSS.escape(value)}"]`)?value:(side==='user'?'manual':'builtin:0');
+  if(side==='user')updatePresetButtons();
+}
+function markUserManual(){
+  rememberMemberPreset('user','manual');
+  if($('userPreset')){$('userPreset').value='manual';updatePresetButtons()}
+}
+function loadUserPreset(index=0){
+  const preset=BATTLE_PRESETS[index];if(!preset)return;
+  const slots=slotsFromPreset(preset);
+  if(isTeamFormat()){activeMember('user').slots=slots;loadMemberToForm('user');renderMemberTabs('user');markEditingUnits('user')}
+  else simSides.user.slots=slots;
+  persistUserBattle();renderRuneSlots('user');rememberMemberPreset('user',`builtin:${index}`);$('userPreset').value=`builtin:${index}`;updatePresetButtons();invalidateBattle();
+}
+function loadOpponentPreset(index=0){
+  const preset=BATTLE_PRESETS[index]||BATTLE_PRESETS[0];
+  const slots=slotsFromPreset(preset);
+  if(isTeamFormat()){activeMember('opponent').slots=slots;loadMemberToForm('opponent');renderMemberTabs('opponent');markEditingUnits('opponent')}
+  else simSides.opponent.slots=slots;
+  renderRuneSlots('opponent');rememberMemberPreset('opponent',`builtin:${index}`);$('opponentPreset').value=`builtin:${index}`;invalidateBattle();
+}
+function captureUserPreset(name){
+  const id=`saved_${Date.now().toString(36)}_${Math.random().toString(36).slice(2,6)}`;
+  if(isTeamFormat()){
+    syncFormToMember('user');
+    const current=normalizeTeamMember(activeMember('user'),'user');
+    return normalizeBattlePreset({id,name,format:'5v5',base:current.base,slots:current.slots,main:simSides.user.main,special:simSides.user.special,appearance:current.appearance,team:normalizeTeam(simTeams.user,'user')});
+  }
+  return normalizeBattlePreset({id,name,format:'1v1',base:sideBase('user'),slots:simSides.user.slots,main:simSides.user.main,special:simSides.user.special,appearance:simSides.user.appearance});
+}
+function applyPresetStats(side,base){
+  const prefix=side==='user'?'simUser':'simOpponent';
+  $(prefix+'Hp').value=base.hp;$(prefix+'Attack').value=base.attack;$(prefix+'Speed').value=base.speed;
+}
+function presetLoadout(preset,side='user'){return cloneLoadout(preset.base,preset.slots,preset.appearance,side)}
+function applyLoadoutToActiveMember(side,loadout){
+  const member=activeMember(side);
+  member.base={hp:loadout.base.hp,attack:loadout.base.attack,speed:loadout.base.speed};
+  member.slots=compactSlots(loadout.slots);
+  member.appearance=normalizeAppearance(loadout.appearance,side);
+}
 function loadSavedPreset(side,presetId){
   const preset=(profile?.battlePresets||[]).find(item=>item.id===presetId);if(!preset)return;
-  const prefix=side==='user'?'simUser':'simOpponent';
-  $(prefix+'Hp').value=preset.base.hp;$(prefix+'Attack').value=preset.base.attack;$(prefix+'Speed').value=preset.base.speed;
-  simSides[side]={slots:preset.slots.map(x=>({...x})),main:{...preset.main},special:{...preset.special},appearance:normalizeAppearance(preset.appearance,side)};
-  if(side==='user'){profile.base={...preset.base};baseHp.value=preset.base.hp;baseAttack.value=preset.base.attack;baseSpeed.value=preset.base.speed;persistUserBattle()}
-  renderRuneSlots(side);renderConstellation(side);renderSideStats(side);renderArenaDinos();invalidateBattle();
+  const loadout=presetLoadout(preset,side);
+  if(isTeamFormat()){
+    applyLoadoutToActiveMember(side,loadout);
+    simSides[side].main={...preset.main};simSides[side].special={...preset.special};
+    loadMemberToForm(side);renderConstellation(side);renderMemberTabs(side);markEditingUnits(side);
+    rememberMemberPreset(side,`custom:${preset.id}`);syncPresetSelect(side);
+    if(side==='user')persistUserBattle();
+    invalidateBattle();return;
+  }
+  applyPresetStats(side,loadout.base);
+  simSides[side]={slots:loadout.slots.map(x=>({...x})),main:{...preset.main},special:{...preset.special},appearance:normalizeAppearance(loadout.appearance,side)};
+  if(side==='user'){profile.base={...loadout.base};baseHp.value=loadout.base.hp;baseAttack.value=loadout.base.attack;baseSpeed.value=loadout.base.speed}
+  renderRuneSlots(side);renderConstellation(side);renderSideStats(side);renderArenaDinos();
+  if(side==='user')persistUserBattle();
+  invalidateBattle();
 }
 function openPresetModal(){$('presetName').value='';$('presetModalBg').style.display='flex';setTimeout(()=>$('presetName').focus(),0)}
 function closePresetModal(){$('presetModalBg').style.display='none'}
 function saveCurrentPreset(){
   const name=$('presetName').value.trim();if(!name)return $('presetName').focus();
-  const preset=captureUserPreset(name);profile.battlePresets=profile.battlePresets||[];profile.battlePresets.push(preset);saveData();closePresetModal();renderPresetMenus();$('userPreset').value=`custom:${preset.id}`;updatePresetButtons();
+  const preset=captureUserPreset(name);profile.battlePresets=profile.battlePresets||[];profile.battlePresets.push(preset);saveData();closePresetModal();rememberMemberPreset('user',`custom:${preset.id}`);renderPresetMenus();
 }
 function deleteCurrentPreset(){
   const value=$('userPreset').value;if(!value.startsWith('custom:'))return;
-  const presetId=value.slice(7),opponentUsedPreset=$('opponentPreset').value===value;profile.battlePresets=(profile.battlePresets||[]).filter(item=>item.id!==presetId);saveData();renderPresetMenus();$('userPreset').value='manual';if(opponentUsedPreset)loadOpponentPreset(0);updatePresetButtons();
+  const presetId=value.slice(7),deleted=`custom:${presetId}`,opponentUsedPreset=$('opponentPreset').value===value;
+  profile.battlePresets=(profile.battlePresets||[]).filter(item=>item.id!==presetId);
+  memberPreset.user=memberPreset.user.map(item=>item===deleted?'manual':item);
+  memberPreset.opponent=memberPreset.opponent.map(item=>item===deleted?'builtin:0':item);
+  saveData();renderPresetMenus();if(opponentUsedPreset)loadOpponentPreset(0);updatePresetButtons();
 }
 
-function activeAppearancePreset(side){return appearancePresetFor(simSides[side].appearance,side)}
+function memberAppearance(side,slot=teamEdit[side]){return normalizeAppearance(simTeams[side].members[slot]?.appearance||simSides[side].appearance,side)}
+function activeAppearance(side){return isTeamFormat()?memberAppearance(side):normalizeAppearance(simSides[side].appearance,side)}
+function activeAppearancePreset(side){return appearancePresetFor(activeAppearance(side),side)}
 function renderVisualPresetPicker(side){
   const root=$(side+'VisualPresets'),name=$(side+'StyleName');if(!root||!name)return;
   const active=activeAppearancePreset(side);name.textContent=active.name;root.innerHTML='';
@@ -1055,12 +1217,245 @@ function renderVisualPresetPicker(side){
   }
 }
 function applyAppearancePreset(side,presetId){
-  const preset=APPEARANCE_PRESETS.find(item=>item.id===presetId)||defaultAppearancePreset(side);simSides[side].appearance=normalizeAppearance(appearanceFromPreset(preset),side);
+  const preset=APPEARANCE_PRESETS.find(item=>item.id===presetId)||defaultAppearancePreset(side);
+  const appearance=normalizeAppearance(appearanceFromPreset(preset),side);
+  if(isTeamFormat())activeMember(side).appearance=appearance;
+  else simSides[side].appearance=appearance;
   if(side==='user'){persistUserBattle();markUserManual()}renderArenaDinos();invalidateBattle();
 }
 function renderArenaDinos(){
-  if(window.DinoRenderer){window.DinoRenderer.render($('userDinoCanvas'),simSides.user.appearance);window.DinoRenderer.render($('opponentDinoCanvas'),simSides.opponent.appearance)}
+  if(window.DinoRenderer){
+    if(isTeamFormat()){renderTeamDinos('user');renderTeamDinos('opponent')}
+    else{window.DinoRenderer.render($('userDinoCanvas'),simSides.user.appearance);window.DinoRenderer.render($('opponentDinoCanvas'),simSides.opponent.appearance)}
+  }
   renderVisualPresetPicker('user');renderVisualPresetPicker('opponent');
+}
+
+const TEAM_ACTION_CAP=400;
+function teamLiveAttack(f){return Math.max(1,combatAttack(f)+(f.giftAttack||0)+(f.s.baseAttack||0)*((f.roarPct||0)/100))}
+function teamLifestealAttack(f){return Math.max(1,f.s.attack+(f.giftAttack||0)+(f.s.baseAttack||0)*((f.roarPct||0)/100))}
+function createTeamFighter(side,slot,member,model){
+  const build=memberBuild(member),base={hp:+member.base.hp||1,attack:+member.base.attack||1,speed:+member.base.speed||0};
+  const s=modelStats(build,base,model,'team',5);
+  let shieldPct=0,shieldRemaining=0;
+  for(const e of s.effects)if(e.shieldPct){shieldPct=Math.max(shieldPct,e.shieldPct);shieldRemaining=Math.max(shieldRemaining,e.shieldAttacks||0)}
+  return{side,slot,build,base,model,s,hp:s.hp,attacks:0,damageDone:0,healing:0,deathDone:false,shieldPct,shieldRemaining,giftAttack:0,giftTurns:0,roarPct:0,roarTurns:0};
+}
+function refreshTeamStats(team){
+  const n=team.filter(f=>f.hp>0).length;
+  for(const f of team){
+    if(f.hp<=0)continue;
+    const oldMax=f.s.hp,oldHp=f.hp;
+    f.s=modelStats(f.build,f.base,f.model,'team',Math.max(1,n));
+    f.hp=Math.max(0,Math.min(f.s.hp,oldHp+(f.s.hp-oldMax)));
+  }
+}
+function teamTargetPool(team){
+  const front=team.filter(f=>f.hp>0&&f.slot<2);
+  return front.length?front:team.filter(f=>f.hp>0);
+}
+function pickTeamTarget(team,r){
+  const pool=teamTargetPool(team);
+  if(!pool.length)return null;
+  return pool[Math.floor(r()*pool.length)]||pool[0];
+}
+function pickTeamActor(team){
+  const live=team.filter(f=>f.hp>0);
+  if(!live.length)return null;
+  live.sort((a,b)=>a.attacks-b.attacks||b.s.speed-a.s.speed||a.slot-b.slot);
+  return live[0];
+}
+function snapshotTeamHp(userTeam,oppTeam){return{user:userTeam.map(f=>Math.max(0,f.hp)),opponent:oppTeam.map(f=>Math.max(0,f.hp))}}
+function teamUnitName(f){return `#${f.slot+1} ${f.slot<2?L().frontRow:L().backRow}`}
+function applyTeamDeaths(deadList,killer,userTeam,oppTeam,r,event){
+  let changed=false;
+  for(const dead of deadList){
+    if(!dead||dead.hp>0||dead.deathDone)continue;
+    dead.deathDone=true;changed=true;
+    const allies=dead.side==='user'?userTeam:oppTeam;
+    for(const e of dead.s.effects){
+      if(e.deathPct&&roll(r,e.proc)&&killer.hp>0){
+        const dealt=simPacket(killer,teamLiveAttack(dead)*(e.deathPct/100),r),amount=dealt.value;
+        dead.damageDone+=amount;event.counterDamage=(event.counterDamage||0)+amount;
+        event.packets.push({label:L().finalGift,kind:'skill',effect:'final-gift',targetSide:killer.side,targetSlot:killer.slot,amount,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:false});
+      }
+      if(e.teamHealMaxPct&&roll(r,e.proc)){
+        for(const ally of allies){
+          if(ally===dead||ally.hp<=0)continue;
+          const value=Math.max(0,Math.min(ally.s.hp-ally.hp,ally.s.hp*(e.teamHealMaxPct/100)));
+          if(value<=0)continue;ally.hp+=value;ally.healing+=value;event.heals.push({side:ally.side,slot:ally.slot,amount:value,label:L().heal});
+        }
+      }
+      if(e.teamAtkFlat&&roll(r,e.proc)){
+        for(const ally of allies){
+          if(ally===dead||ally.hp<=0)continue;
+          ally.giftAttack=(ally.giftAttack||0)+e.teamAtkFlat;
+          ally.giftTurns=Math.max(ally.giftTurns||0,e.teamAtkTurns||1);
+        }
+      }
+    }
+  }
+  if(changed){refreshTeamStats(userTeam);refreshTeamStats(oppTeam)}
+}
+function teamAction(attacker,defender,enemies,allies,userTeam,oppTeam,r){
+  attacker.attacks++;
+  let damage=0,healing=0,triggers=[],packets=[],heals=[];
+  const addPacket=(target,label,kind,hit,effect='')=>{
+    const dealt=simPacket(target,hit.amount,r);damage+=dealt.value;
+    packets.push({label,kind,effect,targetSide:target.side,targetSlot:target.slot,amount:dealt.value,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:!!hit.crit});
+    return dealt.value;
+  };
+  const addHeal=(fighter,requested,label)=>{const value=Math.max(0,Math.min(fighter.s.hp-fighter.hp,requested));if(value<=0)return 0;fighter.hp+=value;fighter.healing+=value;heals.push({side:fighter.side,slot:fighter.slot,amount:value,label});triggers.push(label);return value};
+  const atk=teamLiveAttack(attacker);
+  const normal=simCrit(atk,attacker.s,r);addPacket(defender,L().basicAttack,'normal',normal);if(normal.crit)triggers.push(L().critical);
+  if(defender.hp>0)for(const e of attacker.s.effects){
+    if(e.skillPct&&e.id!=='meteor'&&roll(r,e.proc)){const hit=simCrit(atk*e.skillPct/100,attacker.s,r),rune=RUNES.find(item=>item.id===e.id),name=rune?runeName(rune):L().skill;addPacket(defender,name,'skill',hit,e.id);triggers.push(name)}
+    if(e.extraPct&&attacker.attacks%(e.every||3)===0&&defender.hp>0){const hit=simCrit(atk*e.extraPct/100,attacker.s,r);addPacket(defender,L().extraStrike,'skill',hit,'extra-strike')}
+  }
+  if(defender.hp>0)for(const e of attacker.s.effects)if(e.executeHp&&defender.hp/defender.s.hp*100<e.executeHp&&roll(r,e.executeChance)){const amount=defender.hp;damage+=amount;defender.hp=0;packets.push({label:L().execute,kind:'execute',targetSide:defender.side,targetSlot:defender.slot,amount,raw:amount,shielded:0,reduced:0,critical:false});triggers.push(L().execute);break}
+  for(const e of attacker.s.effects){
+    if(e.id==='meteor'&&e.skillPct&&roll(r,e.proc)){
+      const rune=RUNES.find(item=>item.id==='meteor'),name=rune?runeName(rune):L().skill;
+      for(const enemy of enemies.filter(f=>f.hp>0)){const hit=simCrit(atk*e.skillPct/100,attacker.s,r);addPacket(enemy,name,'skill',hit,'meteor')}
+      triggers.push(name);
+    }
+  }
+  for(const e of attacker.s.effects)if(e.healAttackPct&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id),value=addHeal(attacker,teamLifestealAttack(attacker)*e.healAttackPct/100,rune?runeName(rune):L().healing);healing+=value}
+  const hitIds=new Set(packets.map(p=>p.targetSide+':'+p.targetSlot));
+  for(const enemy of enemies){
+    if(enemy.hp>0&&hitIds.has(enemy.side+':'+enemy.slot)){
+      for(const e of enemy.s.effects)if(e.healMaxPct&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id);addHeal(enemy,enemy.s.hp*e.healMaxPct/100,rune?runeName(rune):L().healing)}
+    }
+    if(hitIds.has(enemy.side+':'+enemy.slot)&&enemy.shieldRemaining>0)enemy.shieldRemaining--;
+  }
+  attacker.damageDone+=damage;
+  const event={actor:attacker.side,actorSlot:attacker.slot,targetSlot:defender.slot,damage,healing,heals,triggers,packets,hp:null};
+  const died=[defender,...enemies].filter((f,i,arr)=>arr.indexOf(f)===i&&f.hp<=0&&!f.deathDone);
+  applyTeamDeaths(died,attacker,userTeam,oppTeam,r,event);
+  if(died.length){
+    for(const e of attacker.s.effects)if(e.roarPct){attacker.roarPct=(attacker.roarPct||0)+e.roarPct;attacker.roarTurns=Math.max(attacker.roarTurns||0,e.roarTurns||1)}
+  }
+  if(attacker.giftTurns>0){attacker.giftTurns--;if(attacker.giftTurns<=0)attacker.giftAttack=0}
+  if(attacker.roarTurns>0){attacker.roarTurns--;if(attacker.roarTurns<=0)attacker.roarPct=0}
+  event.hp=snapshotTeamHp(userTeam,oppTeam);
+  return event;
+}
+function simulateTeamMatch(seed,record=true){
+  const r=rng(seed>>>0);
+  const userTeam=simTeams.user.members.map((member,slot)=>createTeamFighter('user',slot,member,simSides.user));
+  const oppTeam=simTeams.opponent.members.map((member,slot)=>createTeamFighter('opponent',slot,member,simSides.opponent));
+  refreshTeamStats(userTeam);refreshTeamStats(oppTeam);
+  const livingFast=[...userTeam,...oppTeam].filter(f=>f.hp>0).sort((a,b)=>b.s.speed-a.s.speed||a.slot-b.slot);
+  let firstSide=livingFast[0]?.side||'user';
+  if(livingFast.length>=2&&livingFast[0].s.speed===livingFast[1].s.speed&&livingFast[0].side!==livingFast[1].side&&r()<.5)firstSide=firstSide==='user'?'opponent':'user';
+  const events=[];let turnSide=firstSide;
+  for(let action=0;action<TEAM_ACTION_CAP;action++){
+    const userLive=userTeam.some(f=>f.hp>0),oppLive=oppTeam.some(f=>f.hp>0);
+    if(!userLive||!oppLive)break;
+    const team=turnSide==='user'?userTeam:oppTeam,enemies=turnSide==='user'?oppTeam:userTeam;
+    const attacker=pickTeamActor(team),defender=pickTeamTarget(enemies,r);
+    if(!attacker||!defender)break;
+    const event=teamAction(attacker,defender,enemies,team,userTeam,oppTeam,r);
+    if(record)events.push(event);
+    turnSide=turnSide==='user'?'opponent':'user';
+  }
+  const userLive=userTeam.filter(f=>f.hp>0),oppLive=oppTeam.filter(f=>f.hp>0);
+  const result=userLive.length&&!oppLive.length?1:!userLive.length&&oppLive.length?-1:0;
+  const a={hp:userTeam.reduce((n,f)=>n+Math.max(0,f.hp),0),s:{hp:userTeam.reduce((n,f)=>n+f.s.hp,0)},damageDone:userTeam.reduce((n,f)=>n+f.damageDone,0)};
+  const b={hp:oppTeam.reduce((n,f)=>n+Math.max(0,f.hp),0),s:{hp:oppTeam.reduce((n,f)=>n+f.s.hp,0)},damageDone:oppTeam.reduce((n,f)=>n+f.damageDone,0)};
+  return{kind:'team',a,b,events,result,actionCount:events.length,userTeam,oppTeam};
+}
+function syncFormToMember(side){
+  if(!$(side==='user'?'simUserHp':'simOpponentHp'))return;
+  const member=activeMember(side);
+  member.base=sideBase(side);
+  const slots=activeSlots(side);
+  $(side+'RuneSlots')?.querySelectorAll('.rune-slot').forEach((button,index)=>{
+    const input=button.querySelector('.slot-level');
+    if(!input||!slots[index])return;
+    slots[index].level=clamp(input.value,1,31);
+  });
+}
+function loadMemberToForm(side){
+  const prefix=side==='user'?'simUser':'simOpponent',member=activeMember(side);
+  member.appearance=normalizeAppearance(member.appearance,side);
+  $(prefix+'Hp').value=member.base.hp;$(prefix+'Attack').value=member.base.attack;$(prefix+'Speed').value=member.base.speed;
+  renderRuneSlots(side);renderSideStats(side);renderVisualPresetPicker(side);
+}
+function renderMemberTabs(side){
+  const root=$(side+'MemberTabs');if(!root)return;root.innerHTML='';
+  for(let i=0;i<5;i++){
+    const button=document.createElement('button');button.type='button';button.className='member-tab'+(teamEdit[side]===i?' active':'');
+    button.innerHTML=`${i+1}<small>${i<2?L().frontRow:L().backRow}</small>`;
+    button.addEventListener('click',()=>{if(isTeamFormat())syncFormToMember(side);teamEdit[side]=i;if(isTeamFormat())loadMemberToForm(side);renderMemberTabs(side);syncPresetSelect(side);markEditingUnits(side)});
+    root.appendChild(button);
+  }
+}
+function markEditingUnits(side){
+  const root=$(side+'TeamRoster');if(!root)return;
+  root.querySelectorAll('.team-unit').forEach(unit=>unit.classList.toggle('editing',+unit.dataset.slot===teamEdit[side]));
+}
+function renderTeamDinos(side){
+  if(!window.DinoRenderer)return;
+  const root=$(side+'TeamRoster');if(!root)return;
+  root.querySelectorAll('.team-dino-canvas').forEach(canvas=>window.DinoRenderer.render(canvas,memberAppearance(side,+canvas.dataset.slot)));
+}
+function ensureTeamRoster(side){
+  const root=$(side+'TeamRoster');if(!root)return;
+  if(root.dataset.built==='fx1'){markEditingUnits(side);return}
+  root.innerHTML='';
+  const rows=[[0,1],[2,3,4]];
+  rows.forEach((slots,rowIndex)=>{
+    const row=document.createElement('div');row.className='team-row '+(rowIndex?'back':'front');
+    for(const slot of slots){
+      const unit=document.createElement('div');
+      unit.className='team-unit '+(slot<2?'front':'back');
+      unit.dataset.slot=String(slot);
+      unit.innerHTML=`<canvas class="team-dino-canvas" width="260" height="190" data-side="${side}" data-slot="${slot}" role="img" aria-label="${side} dinosaur ${slot+1}"></canvas><div class="unit-id">#${slot+1} ${slot<2?L().frontRow:L().backRow}</div><div class="hp-track"><div class="hp-fill"></div></div><div class="hp-text"></div><div class="damage-stack" aria-hidden="true"></div>`;
+      row.appendChild(unit);
+    }
+    root.appendChild(row);
+  });
+  root.dataset.built='fx1';
+  renderTeamDinos(side);
+  markEditingUnits(side);
+}
+function renderTeamRoster(side,hpList,maxList,actingSlot=-1){
+  ensureTeamRoster(side);
+  const root=$(side+'TeamRoster');if(!root)return;
+  root.querySelectorAll('.team-unit').forEach(unit=>{
+    const slot=+unit.dataset.slot;
+    const hp=hpList?hpList[slot]:maxList[slot];
+    const max=maxList[slot]||1;
+    unit.classList.toggle('dead',hp<=0);
+    unit.classList.toggle('acting',actingSlot===slot);
+    unit.classList.toggle('editing',slot===teamEdit[side]);
+    const id=unit.querySelector('.unit-id');if(id)id.textContent=`#${slot+1} ${slot<2?L().frontRow:L().backRow}`;
+    const fill=unit.querySelector('.hp-fill');if(fill)fill.style.width=`${Math.max(0,hp/max*100)}%`;
+    const text=unit.querySelector('.hp-text');if(text)text.textContent=`${fmt(Math.max(0,hp))} / ${fmt(max)}`;
+  });
+}
+function previewTeamMax(side){
+  return simTeams[side].members.map((member,slot)=>createTeamFighter(side,slot,member,simSides[side]).s.hp);
+}
+function applyBattleFormat(persist=true){
+  if(isTeamFormat()&&simTeams.user.members.every(m=>!(m.slots||[]).length)&&simSides.user.slots.length){
+    const slots=simSides.user.slots.map(x=>({...x})),base=profile?.base||{hp:15920,attack:1568,speed:150};
+    const appearance=normalizeAppearance(simSides.user.appearance,'user');
+    simTeams.user.members=simTeams.user.members.map(()=>({base:{hp:+base.hp||15920,attack:+base.attack||1568,speed:+base.speed||150},slots:slots.map(x=>({...x})),appearance:{...appearance}}));
+  }
+  if(isTeamFormat()&&simTeams.opponent.members.every(m=>!(m.slots||[]).length)&&simSides.opponent.slots.length){
+    const slots=simSides.opponent.slots.map(x=>({...x}));
+    const appearance=normalizeAppearance(simSides.opponent.appearance,'opponent');
+    simTeams.opponent.members=simTeams.opponent.members.map(m=>({base:{...m.base},slots:slots.map(x=>({...x})),appearance:{...appearance}}));
+  }
+  document.body.dataset.format=battleFormat;
+  document.querySelectorAll('.format-tab').forEach(tab=>tab.classList.toggle('active',tab.dataset.format===battleFormat));
+  if($('teamStage'))$('teamStage').hidden=!isTeamFormat();
+  renderMemberTabs('user');renderMemberTabs('opponent');
+  if(isTeamFormat()){loadMemberToForm('user');loadMemberToForm('opponent');syncPresetSelect('user');syncPresetSelect('opponent')}
+  else if($('simUserHp')&&profile){$('simUserHp').value=profile.base?.hp??'';$('simUserAttack').value=profile.base?.attack??'';$('simUserSpeed').value=profile.base?.speed??'';renderRuneSlots('user');renderRuneSlots('opponent');renderVisualPresetPicker('user');renderVisualPresetPicker('opponent')}
+  if(persist)persistUserBattle();
 }
 function initializeBattleData(){
   $('criticalRule').textContent=`${L().baseCritical}: ${fmt(battleRules.criticalChance)}% · ${Number(battleRules.criticalMultiplier).toFixed(2)}x`;
@@ -1083,10 +1478,11 @@ function simAction(attacker,defender,r){
   attacker.attacks++;let damage=0,healing=0,triggers=[],packets=[],heals=[];
   const addPacket=(label,kind,hit,effect='')=>{const dealt=simPacket(defender,hit.amount,r);damage+=dealt.value;packets.push({label,kind,effect,targetSide:defender.side,amount:dealt.value,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:!!hit.crit});return dealt.value};
   const addHeal=(fighter,requested,label)=>{const value=Math.max(0,Math.min(fighter.s.hp-fighter.hp,requested));if(value<=0)return 0;fighter.hp+=value;fighter.healing+=value;heals.push({side:fighter.side,amount:value,label});triggers.push(label);return value};
-  const normal=simCrit(attacker.s.attack,attacker.s,r);addPacket(L().basicAttack,'normal',normal);if(normal.crit)triggers.push(L().critical);
+  const atk=combatAttack(attacker);
+  const normal=simCrit(atk,attacker.s,r);addPacket(L().basicAttack,'normal',normal);if(normal.crit)triggers.push(L().critical);
   if(defender.hp>0)for(const e of attacker.s.effects){
-    if(e.skillPct&&roll(r,e.proc)){const hit=simCrit(attacker.s.attack*e.skillPct/100,attacker.s,r),rune=runeByGameId(RUNES.findIndex(x=>x.id===e.id)+1),name=rune?runeName(rune):L().skill;addPacket(name,'skill',hit,e.id);triggers.push(`${name}${hit.crit?' critical':''}`)}
-    if(e.extraPct&&attacker.attacks%(e.every||3)===0&&defender.hp>0){const hit=simCrit(attacker.s.attack*e.extraPct/100,attacker.s,r);addPacket(L().extraStrike,'skill',hit,'extra-strike');triggers.push(L().extraStrike)}
+    if(e.skillPct&&roll(r,e.proc)){const hit=simCrit(atk*e.skillPct/100,attacker.s,r),rune=runeByGameId(RUNES.findIndex(x=>x.id===e.id)+1),name=rune?runeName(rune):L().skill;addPacket(name,'skill',hit,e.id);triggers.push(`${name}${hit.crit?' critical':''}`)}
+    if(e.extraPct&&attacker.attacks%(e.every||3)===0&&defender.hp>0){const hit=simCrit(atk*e.extraPct/100,attacker.s,r);addPacket(L().extraStrike,'skill',hit,'extra-strike');triggers.push(L().extraStrike)}
   }
   if(defender.hp>0)for(const e of attacker.s.effects)if(e.executeHp&&defender.hp/defender.s.hp*100<e.executeHp&&roll(r,e.executeChance)){const amount=defender.hp;damage+=amount;defender.hp=0;packets.push({label:L().execute,kind:'execute',targetSide:defender.side,amount,raw:amount,shielded:0,reduced:0,critical:false});triggers.push(L().execute);break}
   for(const e of attacker.s.effects)if(e.healAttackPct&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id),value=addHeal(attacker,attacker.s.attack*e.healAttackPct/100,rune?runeName(rune):L().healing);healing+=value}
@@ -1096,7 +1492,7 @@ function simAction(attacker,defender,r){
 }
 function simDeath(dead,other,r,event){
   if(dead.deathDone)return;dead.deathDone=true;
-  for(const e of dead.s.effects)if(e.deathPct&&roll(r,e.proc)){const dealt=simPacket(other,dead.s.attack*e.deathPct/100,r),amount=dealt.value;dead.damageDone+=amount;event.counterDamage=(event.counterDamage||0)+amount;event.triggers.push(L().finalGift);event.packets.push({label:L().finalGift,kind:'skill',effect:'final-gift',targetSide:other.side,amount,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:false})}
+  for(const e of dead.s.effects)if(e.deathPct&&roll(r,e.proc)){const dealt=simPacket(other,combatAttack(dead)*e.deathPct/100,r),amount=dealt.value;dead.damageDone+=amount;event.counterDamage=(event.counterDamage||0)+amount;event.triggers.push(L().finalGift);event.packets.push({label:L().finalGift,kind:'skill',effect:'final-gift',targetSide:other.side,amount,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:false})}
   event.aHp=dead.side==='user'?dead.hp:other.hp;event.bHp=dead.side==='user'?other.hp:dead.hp;
 }
 function simulateMatch(userBuild,userBase,userModel,opponentBuild,opponentBase,opponentModel,seed,record=true){
@@ -1115,18 +1511,51 @@ function randomBattleSeed(){
   return((Date.now()^(Math.random()*0xffffffff))>>>0)||1;
 }
 function playbackDelay(){return Math.max(225,Math.round(900/(Number($('battleSpeed').value)||1)))}
-function clearDamageStacks(){$('userDamageStack').innerHTML='';$('opponentDamageStack').innerHTML='';document.querySelectorAll('.skill-effect').forEach(effect=>effect.remove())}
+function clearDamageStacks(){$('userDamageStack').innerHTML='';$('opponentDamageStack').innerHTML='';document.querySelectorAll('.team-unit .damage-stack').forEach(stack=>stack.innerHTML='');document.querySelectorAll('.skill-effect').forEach(effect=>effect.remove())}
 function invalidateBattle(){clearInterval(battleTimer);battleTimer=null;clearDamageStacks();battleReplay=null;$('battleBanner').textContent=L().ready;renderBattleInitial()}
 function renderBattleInitial(){
-  const a=battleStats('user'),b=battleStats('opponent');clearDamageStacks();renderArenaDinos();$('userHpFill').style.width='100%';$('opponentHpFill').style.width='100%';$('userHpText').textContent=`${fmt(a.hp)} / ${fmt(a.hp)}`;$('opponentHpText').textContent=`${fmt(b.hp)} / ${fmt(b.hp)}`;$('simTurns').textContent='0';$('simUserDamage').textContent='0';$('simOpponentDamage').textContent='0';$('battleLog').innerHTML='';
+  clearDamageStacks();$('simTurns').textContent='0';$('simUserDamage').textContent='0';$('simOpponentDamage').textContent='0';$('battleLog').innerHTML='';
+  if(isTeamFormat()){
+    const userMax=previewTeamMax('user'),oppMax=previewTeamMax('opponent');
+    renderTeamRoster('user',userMax,userMax);renderTeamRoster('opponent',oppMax,oppMax);
+    renderArenaDinos();
+    return;
+  }
+  renderArenaDinos();
+  const a=battleStats('user'),b=battleStats('opponent');
+  $('userHpFill').style.width='100%';$('opponentHpFill').style.width='100%';$('userHpText').textContent=`${fmt(a.hp)} / ${fmt(a.hp)}`;$('opponentHpText').textContent=`${fmt(b.hp)} / ${fmt(b.hp)}`;
 }
 function resetBattleModel(){
-  clearInterval(battleTimer);battleTimer=null;clearDamageStacks();const seed=randomBattleSeed();battleReplay={...simulateBattle(seed,true),seed,index:0,userDamage:0,opponentDamage:0};
+  clearInterval(battleTimer);battleTimer=null;clearDamageStacks();const seed=randomBattleSeed();
+  if(isTeamFormat())syncFormToMember('user'),syncFormToMember('opponent');
+  battleReplay={...(isTeamFormat()?simulateTeamMatch(seed,true):simulateBattle(seed,true)),seed,index:0,userDamage:0,opponentDamage:0};
   $('arenaStage').dataset.battleSeed=String(seed);
   $('battleBanner').textContent=L().ready;renderBattleInitial();
 }
+function teamUnitEl(side,slot){return $(side+'TeamRoster')?.querySelector(`.team-unit[data-slot="${slot}"]`)}
 function animateCombat(event){
-  const actor=$(event.actor+'Combatant');actor.classList.add('attacking');setTimeout(()=>actor.classList.remove('attacking'),190);
+  if(isTeamFormat()||battleReplay?.kind==='team'){
+    document.querySelectorAll('.team-unit.attacking,.team-unit.hit').forEach(el=>el.classList.remove('attacking','hit'));
+    const actor=teamUnitEl(event.actor,event.actorSlot);
+    if(actor){actor.classList.add('attacking');setTimeout(()=>actor.classList.remove('attacking'),190)}
+    const groups=new Map();
+    const addPacket=(side,slot,packet)=>{
+      if(side==null||slot==null)return;
+      const key=side+':'+slot;
+      if(!groups.has(key))groups.set(key,{side,slot,packets:[]});
+      groups.get(key).packets.push(packet);
+    };
+    for(const packet of event.packets||[])addPacket(packet.targetSide||(event.actor==='user'?'opponent':'user'),packet.targetSlot??event.targetSlot,packet);
+    for(const heal of event.heals||[])addPacket(heal.side,heal.slot,{label:heal.label,kind:'heal',amount:heal.amount,critical:false});
+    for(const group of groups.values()){
+      const target=teamUnitEl(group.side,group.slot);if(!target)continue;
+      target.classList.remove('hit');void target.offsetWidth;target.classList.add('hit');
+      setTimeout(()=>target.classList.remove('hit'),230);
+      renderDamageStack(target,group.packets);
+    }
+    return;
+  }
+  const actor=$(event.actor+'Combatant');if(!actor)return;actor.classList.add('attacking');setTimeout(()=>actor.classList.remove('attacking'),190);
   for(const side of ['user','opponent']){
     const packets=event.packets.filter(packet=>(packet.targetSide|| (event.actor==='user'?'opponent':'user'))===side);if(!packets.length)continue;
     const target=$(side+'Combatant');target.classList.remove('hit');void target.offsetWidth;target.classList.add('hit');setTimeout(()=>target.classList.remove('hit'),230);renderDamageStack(target,packets);
@@ -1149,8 +1578,9 @@ function renderCombatEffect(combatant,effect,index){
   setTimeout(()=>visual.remove(),1500+index*85);
 }
 function renderDamageStack(combatant,packets){
-  const stack=combatant.querySelector('.damage-stack');stack.innerHTML='';combatant.querySelectorAll('.skill-effect').forEach(effect=>effect.remove());
-  const positions=[[-42,18],[28,2],[-4,49],[52,39],[-57,62],[17,75]];
+  const stack=combatant.querySelector('.damage-stack');if(!stack)return;stack.innerHTML='';combatant.querySelectorAll('.skill-effect').forEach(effect=>effect.remove());
+  const compact=combatant.classList.contains('team-unit');
+  const positions=compact?[[-20,-2],[16,-10],[-8,14],[22,8],[-24,22],[10,18]]:[[-42,18],[28,2],[-4,49],[52,39],[-57,62],[17,75]];
   packets.forEach((packet,index)=>{
     const row=document.createElement('div'),reduced=(packet.shielded||0)+(packet.reduced||0),position=positions[index%positions.length],effect=combatEffectClass(packet.effect);
     row.className=`damage-stack-row ${packet.kind||'normal'}${packet.critical?' critical':''}${reduced?' reduced':''}${effect?` effect-${effect}`:''}`;
@@ -1163,14 +1593,22 @@ function renderDamageStack(combatant,packets){
 }
 function applyReplayEvent(){
   if(!battleReplay)resetBattleModel();if(battleReplay.index>=battleReplay.events.length){finishReplay();return false}
-  const event=battleReplay.events[battleReplay.index++],aMax=battleReplay.a.s.hp,bMax=battleReplay.b.s.hp;
-  $('userHpFill').style.width=`${Math.max(0,event.aHp/aMax*100)}%`;$('opponentHpFill').style.width=`${Math.max(0,event.bHp/bMax*100)}%`;
-  $('userHpText').textContent=`${fmt(Math.max(0,event.aHp))} / ${fmt(aMax)}`;$('opponentHpText').textContent=`${fmt(Math.max(0,event.bHp))} / ${fmt(bMax)}`;
+  const event=battleReplay.events[battleReplay.index++];
+  if(battleReplay.kind==='team'){
+    const userMax=battleReplay.userTeam.map(f=>f.s.hp),oppMax=battleReplay.oppTeam.map(f=>f.s.hp);
+    renderTeamRoster('user',event.hp.user,userMax,event.actor==='user'?event.actorSlot:-1);
+    renderTeamRoster('opponent',event.hp.opponent,oppMax,event.actor==='opponent'?event.actorSlot:-1);
+  }else{
+    const aMax=battleReplay.a.s.hp,bMax=battleReplay.b.s.hp;
+    $('userHpFill').style.width=`${Math.max(0,event.aHp/aMax*100)}%`;$('opponentHpFill').style.width=`${Math.max(0,event.bHp/bMax*100)}%`;
+    $('userHpText').textContent=`${fmt(Math.max(0,event.aHp))} / ${fmt(aMax)}`;$('opponentHpText').textContent=`${fmt(Math.max(0,event.bHp))} / ${fmt(bMax)}`;
+  }
   if(event.actor==='user')battleReplay.userDamage+=event.damage;else battleReplay.opponentDamage+=event.damage;
   if(event.counterDamage){if(event.actor==='user')battleReplay.opponentDamage+=event.counterDamage;else battleReplay.userDamage+=event.counterDamage}
   $('simTurns').textContent=battleReplay.index;$('simUserDamage').textContent=fmt(battleReplay.userDamage);$('simOpponentDamage').textContent=fmt(battleReplay.opponentDamage);
   const chips=event.packets.map(packet=>`<span class="packet-chip ${packet.kind==='skill'||packet.kind==='execute'?'skill':''} ${packet.critical?'critical':''}">${esc(packet.label)} ${fmt(packet.amount)}${packet.critical?' '+L().criticalShort:''}</span>`).join('')+(event.heals||[]).map(heal=>`<span class="packet-chip heal">${esc(heal.label)} +${fmt(heal.amount)}</span>`).join('');
-  const actorName=event.actor==='user'?L().yourDino:L().opponent,actionText=L().dealtTotal.replace('{value}',fmt(event.damage));
+  const actorName=battleReplay.kind==='team'?`${event.actor==='user'?L().yourDino:L().opponent} #${(event.actorSlot||0)+1}`:(event.actor==='user'?L().yourDino:L().opponent);
+  const actionText=L().dealtTotal.replace('{value}',fmt(event.damage));
   const row=document.createElement('div');row.className='battle-log-row';row.innerHTML=`<b>${battleReplay.index}</b><span>${actorName} ${actionText}<div class="packet-breakdown">${chips}</div></span>`;$('battleLog').appendChild(row);$('battleLog').scrollTop=$('battleLog').scrollHeight;animateCombat(event);
   if(battleReplay.index>=battleReplay.events.length)finishReplay();return true;
 }
@@ -1186,7 +1624,7 @@ async function batchSimulation(){
   $('batchDetail').textContent='Preparing 10,000 randomized matches...';await frame();
   for(let start=0;start<total;start+=chunk){
     const end=Math.min(total,start+chunk);
-    for(let i=start;i<end;i++){const match=simulateBattle((base+Math.imul(i,0x9e3779b1))>>>0,false);if(match.result>0)wins++;else if(match.result<0)losses++;else draws++;actions+=match.actionCount;userDamage+=match.a.damageDone;opponentDamage+=match.b.damageDone}
+    for(let i=start;i<end;i++){const match=(isTeamFormat()?simulateTeamMatch:simulateBattle)((base+Math.imul(i,0x9e3779b1))>>>0,false);if(match.result>0)wins++;else if(match.result<0)losses++;else draws++;actions+=match.actionCount;userDamage+=match.a.damageDone;opponentDamage+=match.b.damageDone}
     const progress=Math.round(end/total*100);button.textContent=`${progress}%`;$('batchDetail').textContent=`Simulating ${end.toLocaleString()} / ${total.toLocaleString()} matches`;await frame();
   }
   $('simWinRate').textContent=`${((wins+draws*.5)/total*100).toFixed(1)}%`;$('simTurns').textContent=(actions/total).toFixed(1);$('simUserDamage').textContent=fmt(userDamage/total);$('simOpponentDamage').textContent=fmt(opponentDamage/total);
@@ -1195,13 +1633,30 @@ async function batchSimulation(){
 function initBattleLab(){
   renderPresetMenus();$('userPreset').value='manual';loadOpponentPreset(0);loadProfileBattleState();renderConstellation('opponent');renderBattleInitial();
   document.querySelectorAll('.page-tab').forEach(tab=>tab.addEventListener('click',()=>{document.querySelectorAll('.page-tab').forEach(x=>x.classList.toggle('active',x===tab));$('battleView').hidden=tab.dataset.view!=='battle';$('calculatorView').hidden=tab.dataset.view!=='calculator'}));
+  document.querySelectorAll('.format-tab').forEach(tab=>tab.addEventListener('click',()=>{
+    if(isTeamFormat()){syncFormToMember('user');syncFormToMember('opponent')}
+    battleFormat=tab.dataset.format==='5v5'?'5v5':'1v1';applyBattleFormat(true);invalidateBattle();
+  }));
   $('userPreset').addEventListener('change',e=>{const value=e.target.value;if(value==='manual')loadProfileBattleState();else if(value.startsWith('builtin:'))loadUserPreset(+value.slice(8));else if(value.startsWith('custom:'))loadSavedPreset('user',value.slice(7));updatePresetButtons()});
   $('opponentPreset').addEventListener('change',e=>{const value=e.target.value;if(value.startsWith('builtin:'))loadOpponentPreset(+value.slice(8));else if(value.startsWith('custom:'))loadSavedPreset('opponent',value.slice(7))});
   $('clearUserConstellation').addEventListener('click',()=>{simSides.user.main={};simSides.user.special={};persistUserBattle();markUserManual();renderConstellation('user');renderSideStats('user');invalidateBattle()});
   $('clearOpponentConstellation').addEventListener('click',()=>{simSides.opponent.main={};simSides.opponent.special={};renderConstellation('opponent');renderSideStats('opponent');invalidateBattle()});
-  $('mirrorOpponent').addEventListener('click',()=>{simSides.opponent=JSON.parse(JSON.stringify(simSides.user));$('simOpponentHp').value=$('simUserHp').value;$('simOpponentAttack').value=$('simUserAttack').value;$('simOpponentSpeed').value=$('simUserSpeed').value;renderRuneSlots('opponent');renderConstellation('opponent');renderArenaDinos();invalidateBattle()});
-  ['simUserHp','simUserAttack','simUserSpeed','simOpponentHp','simOpponentAttack','simOpponentSpeed'].forEach(id=>$(id).addEventListener('input',()=>{const side=id.includes('User')?'user':'opponent';if(side==='user'){const base=sideBase('user');profile.base={...base};baseHp.value=base.hp;baseAttack.value=base.attack;baseSpeed.value=base.speed;saveData();markUserManual()}renderSideStats(side);invalidateBattle()}));
-  $('runePickerGrid').addEventListener('click',e=>{const item=e.target.closest('[data-rune]');if(!item||!pickerTarget)return;const id=+item.dataset.rune;if(id){const rune=runeByGameId(id),owned=rune&&profile?.inventory?.[rune.id];simSides[pickerTarget.side].slots[pickerTarget.index]={id,level:clamp(owned||1,1,31)}}else simSides[pickerTarget.side].slots.splice(pickerTarget.index,1);const side=pickerTarget.side;if(side==='user'){persistUserBattle();markUserManual()}closePicker();renderRuneSlots(side);invalidateBattle()});
+  $('mirrorOpponent').addEventListener('click',()=>{
+    if(isTeamFormat()){
+      syncFormToMember('user');
+      simTeams.opponent=normalizeTeam(simTeams.user,'opponent');
+      simSides.opponent.main={...simSides.user.main};simSides.opponent.special={...simSides.user.special};
+      teamEdit.opponent=teamEdit.user;loadMemberToForm('opponent');renderConstellation('opponent');invalidateBattle();return;
+    }
+    simSides.opponent=JSON.parse(JSON.stringify(simSides.user));$('simOpponentHp').value=$('simUserHp').value;$('simOpponentAttack').value=$('simUserAttack').value;$('simOpponentSpeed').value=$('simUserSpeed').value;renderRuneSlots('opponent');renderConstellation('opponent');renderArenaDinos();invalidateBattle();
+  });
+  ['simUserHp','simUserAttack','simUserSpeed','simOpponentHp','simOpponentAttack','simOpponentSpeed'].forEach(id=>$(id).addEventListener('input',()=>{
+    const side=id.includes('User')?'user':'opponent';
+    if(isTeamFormat()){syncFormToMember(side);if(side==='user')persistUserBattle();renderSideStats(side);invalidateBattle();return}
+    if(side==='user'){const base=sideBase('user');profile.base={...base};baseHp.value=base.hp;baseAttack.value=base.attack;baseSpeed.value=base.speed;saveData();markUserManual()}
+    renderSideStats(side);invalidateBattle();
+  }));
+  $('runePickerGrid').addEventListener('click',e=>{const item=e.target.closest('[data-rune]');if(!item||!pickerTarget)return;const id=+item.dataset.rune,slots=activeSlots(pickerTarget.side);if(id){const rune=runeByGameId(id),owned=rune&&profile?.inventory?.[rune.id];slots[pickerTarget.index]={id,level:clamp(owned||1,1,31)}}else slots.splice(pickerTarget.index,1);const side=pickerTarget.side;if(side==='user'){persistUserBattle();markUserManual()}closePicker();renderRuneSlots(side);invalidateBattle()});
   $('closeRunePicker').addEventListener('click',closePicker);$('runePickerBg').addEventListener('click',e=>{if(e.target===$('runePickerBg'))closePicker()});
   $('resetBattle').addEventListener('click',resetBattleModel);$('stepBattle').addEventListener('click',applyReplayEvent);$('playBattle').addEventListener('click',playReplay);$('batchBattle').addEventListener('click',batchSimulation);
   $('battleSpeed').addEventListener('change',()=>{if(battleTimer){clearInterval(battleTimer);battleTimer=setInterval(()=>{if(!applyReplayEvent())finishReplay()},playbackDelay())}});

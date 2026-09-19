@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dino Rune Lab</title>
 <base href="./">
-  <link rel="stylesheet" href="css/styles.css?v=20260825a">
+  <link rel="stylesheet" href="css/styles.css?v=20260920m">
 <meta name="description" content="Profile-based Dino Rune Lab battle simulator and build finder.">
 <meta name="application-name" content="Dino Rune Lab">
 <link rel="icon" href="assets/runealtar.png">
@@ -37,9 +37,13 @@
   </nav>
 
   <main class="page-view" id="battleView">
+    <div class="format-switch" role="group" aria-label="Battle format">
+      <button type="button" class="format-tab active" data-format="1v1" data-i18n="duel1v1">1v1</button>
+      <button type="button" class="format-tab" data-format="5v5" data-i18n="team5v5">5v5</button>
+    </div>
     <div class="lab-grid">
       <section class="fighter-panel" id="userPanel">
-        <div class="fighter-title"><h2 data-i18n="yourDino">Your dino</h2></div>
+        <div class="fighter-title"><h2 data-i18n="yourDino">Your dino</h2><div class="member-tabs" id="userMemberTabs"></div></div>
         <div class="fighter-body">
           <div class="preset-row preset-tools"><select id="userPreset"></select><button class="small-action save-preset" id="saveUserPreset" type="button" data-i18n="savePreset">Save preset</button><button class="small-action quiet" id="deleteUserPreset" type="button" data-i18n="removePreset" disabled>Delete</button></div>
           <div class="fighter-fields">
@@ -89,6 +93,10 @@
             <div class="damage-stack" id="opponentDamageStack" aria-live="polite"></div>
             <canvas class="dino-canvas" id="opponentDinoCanvas" width="520" height="380" role="img" aria-label="Opponent dinosaur"></canvas>
           </div>
+          <div class="team-stage" id="teamStage" hidden>
+            <div class="team-side user" id="userTeamRoster"></div>
+            <div class="team-side opponent" id="opponentTeamRoster"></div>
+          </div>
         </div>
         <div class="arena-controls">
           <button class="arena-button" id="resetBattle" data-i18n="newBattle">New</button>
@@ -110,7 +118,7 @@
       </section>
 
       <section class="fighter-panel" id="opponentPanel">
-        <div class="fighter-title"><h2 data-i18n="opponent">Opponent</h2></div>
+        <div class="fighter-title"><h2 data-i18n="opponent">Opponent</h2><div class="member-tabs" id="opponentMemberTabs"></div></div>
         <div class="fighter-body">
           <div class="preset-row"><select id="opponentPreset"></select><button class="small-action" id="mirrorOpponent" data-i18n="mirror">Mirror</button></div>
           <div class="fighter-fields">
@@ -207,7 +215,7 @@
 <div class="preset-modal-bg" id="presetModalBg">
   <div class="preset-modal" role="dialog" aria-modal="true" aria-labelledby="presetTitle">
     <h3 id="presetTitle" data-i18n="savePreset">Save preset</h3>
-    <p data-i18n="presetHint">Saves stats, runes, constellation, and appearance.</p>
+    <p data-i18n="presetHint">Saves stats, runes, constellation, and fighter style. In 5v5, saves the whole team.</p>
     <input id="presetName" type="text" maxlength="40" placeholder="Preset name">
     <div class="modal-actions"><button class="btn" id="cancelPreset" type="button" data-i18n="cancel">Cancel</button><button class="calculate" id="confirmPreset" type="button" data-i18n="save">Save</button></div>
   </div>
@@ -232,9 +240,9 @@
   </div>
 </div>
 
-  <script src="data/runes.js?v=20260825a"></script>
-  <script src="assets/cosmetics/catalog.js?v=20260825a"></script>
-  <script src="js/dino-renderer.js?v=20260825a"></script>
-  <script src="js/app.js?v=20260825a"></script>
+  <script src="data/runes.js?v=20260920m"></script>
+  <script src="assets/cosmetics/catalog.js?v=20260920m"></script>
+  <script src="js/dino-renderer.js?v=20260920m"></script>
+  <script src="js/app.js?v=20260920m"></script>
 </body>
 </html>
