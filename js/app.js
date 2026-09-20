@@ -90,7 +90,7 @@ function runeName(r){return lang==='zh-TW'&&r.zh?r.zh:lang==='es'?r.es:r.en}
 function rarityName(r){return L().rarities[r]||r}
 function runeIcon(r){
   const index=RUNES.indexOf(r)+1;
-  return `assets/runesprite_${Math.max(0,index)}.png?v=20260920c`;
+  return `assets/runesprite_${Math.max(0,index)}.png?v=20260920o`;
 }
 function nvals(s){return(s.match(/-?\d+(?:\.\d+)?/g)||[])}
 function absNum(v){const x=parseFloat(v);return Number.isFinite(x)?Math.abs(x):v}
@@ -118,7 +118,7 @@ function runeDescription(rune, ld){
     case 'lifesteal': return byLang(`On attack, ${n[0]}% chance to restore health equal to ${n[1]}% of my unit's attack.`,`攻撃時、${n[0]}%の確率で自ユニットの攻撃力${n[1]}%分のHPを回復。`,`공격 시 ${n[0]}% 확률로 내 유닛 공격력의 ${n[1]}%만큼 체력을 회복합니다.`,`攻擊時有 ${n[0]}% 機率恢復相當於我方單位攻擊力 ${n[1]}% 的生命。`);
     case 'crit_rate': return byLang(`Increases critical hit chance by ${n[0]}%.`,`クリティカル率が${n[0]}%上昇。`,`치명타 확률이 ${n[0]}% 증가합니다.`,`暴擊率提高 ${n[0]}%。`);
     case 'crit_dmg': return byLang(`Increases critical damage by ${n[0]}%.`,`クリティカルダメージが${n[0]}%上昇。`,`치명타 피해가 ${n[0]}% 증가합니다.`,`暴擊傷害提高 ${n[0]}%。`);
-    case 'passive_heal': return byLang(`When attacked, ${n[0]}% chance to restore ${n[1]}% of maximum health.`,`攻撃を受けた時、${n[0]}%の確率で最大HPの${n[1]}%を回復。`,`피격 시 ${n[0]}% 확률로 최대 체력의 ${n[1]}%를 회복합니다.`,`受到攻擊時有 ${n[0]}% 機率恢復最大生命的 ${n[1]}%。`);
+    case 'passive_heal': return byLang(`When attacked, ${n[0]}% chance to restore ${n[1]} health.`,`攻撃を受けた時、${n[0]}%の確率でHPを${n[1]}回復。`,`피격 시 ${n[0]}% 확률로 체력을 ${n[1]} 회복합니다.`,`受到攻擊時有 ${n[0]}% 機率恢復 ${n[1]} 點生命。`);
     case 'flat_attack': return byLang(`Increases attack power by ${n[0]}.`,`攻撃力が${n[0]}増加。`,`공격력이 ${n[0]} 증가합니다.`,`攻擊力提高 ${n[0]}。`);
     case 'pct_attack': return byLang(`Increases attack power by ${n[0]}%.`,`攻撃力が${n[0]}%増加。`,`공격력이 ${n[0]}% 증가합니다.`,`攻擊力提高 ${n[0]}%。`);
     case 'berserker': return byLang(
@@ -129,7 +129,7 @@ function runeDescription(rune, ld){
     case 'flat_hp': return byLang(`Increases health by ${n[0]}.`,`HPが${n[0]}増加。`,`체력이 ${n[0]} 증가합니다.`,`生命提高 ${n[0]}。`);
     case 'pct_hp': return byLang(`Increases health by ${n[0]}%.`,`HPが${n[0]}%増加。`,`체력이 ${n[0]}% 증가합니다.`,`生命提高 ${n[0]}%。`);
     case 'death_nuke': return byLang(`On death, ${n[0]}% chance to deal ${n[1]}% of my attack to the enemy unit in combat.`,`死亡時、${n[0]}%の確率で戦闘中の敵ユニットに自分の攻撃力${n[1]}%分のダメージ。`,`사망 시 ${n[0]}% 확률로 전투 중인 적 유닛에게 내 공격력의 ${n[1]}% 피해를 줍니다.`,`死亡時有 ${n[0]}% 機率對戰鬥中的敵方單位造成我方攻擊力 ${n[1]}% 的傷害。`);
-    case 'death_heal_team': return byLang(`On death, ${n[0]}% chance to restore ${n[1]}% health to my tribe in the same tile.`,`死亡時、${n[0]}%の確率で同じマスの部族のHPを${n[1]}%回復。`,`사망 시 ${n[0]}% 확률로 같은 칸의 부족 체력을 ${n[1]}% 회복합니다.`,`死亡時有 ${n[0]}% 機率為同一格內的部族恢復 ${n[1]}% 生命。`);
+    case 'death_heal_team': return byLang(`On death, ${n[0]}% chance to restore ${n[1]} health to my tribe in the same tile.`,`死亡時、${n[0]}%の確率で同じマスの部族のHPを${n[1]}回復。`,`사망 시 ${n[0]}% 확률로 같은 칸의 부족 체력을 ${n[1]} 회복합니다.`,`死亡時有 ${n[0]}% 機率為同一格內的部族恢復 ${n[1]} 點生命。`);
     case 'death_buff_team': return byLang(`On death, ${n[0]}% chance to give +${n[1]} attack to my tribe in the same tile for ${n[2]} turns.`,`死亡時、${n[0]}%の確率で同じマスの部族に${n[2]}ターンの間、攻撃力+${n[1]}。`,`사망 시 ${n[0]}% 확률로 같은 칸의 부족에게 ${n[2]}턴 동안 공격력 +${n[1]}을 부여합니다.`,`死亡時有 ${n[0]}% 機率讓同一格內的部族獲得攻擊 +${n[1]}，持續 ${n[2]} 回合。`);
     case 'group_bonus':
       if(rune.id==='unified_strike') return byLang(`With ${n[0]}+ friendly units in the same tile: +${n[1]} attack and +${n[2]} health.`,`同じマスに味方ユニットが${n[0]}体以上いる時: 攻撃力+${n[1]}、HP+${n[2]}。`,`같은 칸에 아군 유닛이 ${n[0]}기 이상이면: 공격력 +${n[1]}, 체력 +${n[2]}.`,`同一格內有 ${n[0]} 個以上我方單位時：攻擊 +${n[1]}、生命 +${n[2]}。`);
@@ -388,7 +388,7 @@ function effect(rune,level){
   }else if(rune.cat==='lifesteal'){
     e.proc=nums[0];e.healAttackPct=nums[1];
   }else if(rune.cat==='passive_heal'){
-    e.proc=nums[0];e.healMaxPct=nums[1];
+    e.proc=+e.proc||nums[0];e.healFlat=+e.heal_flat||nums[1];
   }else if(rune.cat==='death_nuke'){
     e.proc=nums[0];e.deathPct=nums[1];
   }else if(rune.cat==='solo_bonus'){
@@ -406,7 +406,7 @@ function effect(rune,level){
     if(rune.id==='unified_strike'){e.need=+e.need||nums[0]||5;e.groupAttack=+e.atk_flat_cond||nums[1]||0;e.groupHp=+e.hp_flat_cond||nums[2]||0}
     else{e.need=0;e.groupAttack=+e.atk_flat_cond||nums[0]||0;e.groupHp=+e.hp_flat_cond||nums[1]||0}
   }else if(rune.cat==='death_heal_team'){
-    e.proc=nums[0];e.teamHealMaxPct=nums[1];
+    e.proc=+e.proc||nums[0];e.teamHealFlat=+e.heal_flat||nums[1];
   }else if(rune.cat==='death_buff_team'){
     e.proc=nums[0];e.teamAtkFlat=nums[1];e.teamAtkTurns=nums[2];
   }else if(rune.cat==='snowball'){
@@ -549,9 +549,8 @@ function attackPvp(attacker,defender,r){
 
   if(defender.hp>0){
     for(const e of defender.s.effects){
-      if(e.healMaxPct&&roll(r,e.proc)){
-        const heal=defender.s.hp*(e.healMaxPct/100);
-        const real=Math.min(heal,defender.s.hp-defender.hp);
+      if(e.healFlat&&roll(r,e.proc)){
+        const real=Math.min(e.healFlat,defender.s.hp-defender.hp);
         defender.hp+=real;defender.healing+=real;
       }
     }
@@ -649,7 +648,7 @@ function analytic(build,base,mode){
     if(e.extraPct)proc+=atk*(e.extraPct/100)/Math.max(1,e.every||3)*critMult;
     if(mode==='structure'&&e.structureSkillPct)proc+=atk*(e.structureSkillPct/100)/Math.max(1,e.every||3)*critMult;
     if(e.healAttackPct)sustain+=s.attack*(e.proc/100)*(e.healAttackPct/100);
-    if(e.healMaxPct)sustain+=s.hp*(e.proc/100)*(e.healMaxPct/100);
+    if(e.healFlat)sustain+=(e.proc/100)*e.healFlat;
     if(mode!=='structure'&&e.cat==='berserker')proc+=(s.baseAttack||0)*((+e.atk_pct_1||0)/100)*critMult;
     if(e.dr_flat)mitigation+=e.dr_flat;
     if(e.dr_chance&&e.dr_amount)mitigation+=e.dr_amount*(e.dr_chance/100);
@@ -1279,10 +1278,10 @@ function applyTeamDeaths(deadList,killer,userTeam,oppTeam,r,event){
         dead.damageDone+=amount;event.counterDamage=(event.counterDamage||0)+amount;
         event.packets.push({label:L().finalGift,kind:'skill',effect:'final-gift',targetSide:killer.side,targetSlot:killer.slot,amount,raw:dealt.raw,shielded:dealt.shielded,reduced:dealt.reduced,critical:false});
       }
-      if(e.teamHealMaxPct&&roll(r,e.proc)){
+      if(e.teamHealFlat&&roll(r,e.proc)){
         for(const ally of allies){
           if(ally===dead||ally.hp<=0)continue;
-          const value=Math.max(0,Math.min(ally.s.hp-ally.hp,ally.s.hp*(e.teamHealMaxPct/100)));
+          const value=Math.max(0,Math.min(ally.s.hp-ally.hp,e.teamHealFlat));
           if(value<=0)continue;ally.hp+=value;ally.healing+=value;event.heals.push({side:ally.side,slot:ally.slot,amount:value,label:L().heal});
         }
       }
@@ -1309,14 +1308,14 @@ function teamAction(attacker,defender,enemies,allies,userTeam,oppTeam,r){
   const atk=teamLiveAttack(attacker);
   const normal=simCrit(atk,attacker.s,r);addPacket(defender,L().basicAttack,'normal',normal);if(normal.crit)triggers.push(L().critical);
   if(defender.hp>0)for(const e of attacker.s.effects){
-    if(e.skillPct&&e.id!=='meteor'&&roll(r,e.proc)){const hit=simCrit(atk*e.skillPct/100,attacker.s,r),rune=RUNES.find(item=>item.id===e.id),name=rune?runeName(rune):L().skill;addPacket(defender,name,'skill',hit,e.id);triggers.push(name)}
+    if(e.skillPct&&e.cat!=='aoe'&&roll(r,e.proc)){const hit=simCrit(atk*e.skillPct/100,attacker.s,r),rune=RUNES.find(item=>item.id===e.id),name=rune?runeName(rune):L().skill;addPacket(defender,name,'skill',hit,e.id);triggers.push(name)}
     if(e.extraPct&&attacker.attacks%(e.every||3)===0&&defender.hp>0){const hit=simCrit(atk*e.extraPct/100,attacker.s,r);addPacket(defender,L().extraStrike,'skill',hit,'extra-strike')}
   }
   if(defender.hp>0)for(const e of attacker.s.effects)if(e.executeHp&&defender.hp/defender.s.hp*100<e.executeHp&&roll(r,e.executeChance)){const amount=defender.hp;damage+=amount;defender.hp=0;packets.push({label:L().execute,kind:'execute',targetSide:defender.side,targetSlot:defender.slot,amount,raw:amount,shielded:0,reduced:0,critical:false});triggers.push(L().execute);break}
   for(const e of attacker.s.effects){
-    if(e.id==='meteor'&&e.skillPct&&roll(r,e.proc)){
-      const rune=RUNES.find(item=>item.id==='meteor'),name=rune?runeName(rune):L().skill;
-      for(const enemy of enemies.filter(f=>f.hp>0)){const hit=simCrit(atk*e.skillPct/100,attacker.s,r);addPacket(enemy,name,'skill',hit,'meteor')}
+    if(e.cat==='aoe'&&e.skillPct&&roll(r,e.proc)){
+      const rune=RUNES.find(item=>item.id===e.id),name=rune?runeName(rune):L().skill;
+      for(const enemy of enemies.filter(f=>f.hp>0)){const hit=simCrit(atk*e.skillPct/100,attacker.s,r);addPacket(enemy,name,'skill',hit,e.id==='meteor'?'meteor':e.id)}
       triggers.push(name);
     }
   }
@@ -1324,7 +1323,7 @@ function teamAction(attacker,defender,enemies,allies,userTeam,oppTeam,r){
   const hitIds=new Set(packets.map(p=>p.targetSide+':'+p.targetSlot));
   for(const enemy of enemies){
     if(enemy.hp>0&&hitIds.has(enemy.side+':'+enemy.slot)){
-      for(const e of enemy.s.effects)if(e.healMaxPct&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id);addHeal(enemy,enemy.s.hp*e.healMaxPct/100,rune?runeName(rune):L().healing)}
+      for(const e of enemy.s.effects)if(e.healFlat&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id);addHeal(enemy,e.healFlat,rune?runeName(rune):L().healing)}
     }
     if(hitIds.has(enemy.side+':'+enemy.slot)&&enemy.shieldRemaining>0)enemy.shieldRemaining--;
   }
@@ -1486,7 +1485,7 @@ function simAction(attacker,defender,r){
   }
   if(defender.hp>0)for(const e of attacker.s.effects)if(e.executeHp&&defender.hp/defender.s.hp*100<e.executeHp&&roll(r,e.executeChance)){const amount=defender.hp;damage+=amount;defender.hp=0;packets.push({label:L().execute,kind:'execute',targetSide:defender.side,amount,raw:amount,shielded:0,reduced:0,critical:false});triggers.push(L().execute);break}
   for(const e of attacker.s.effects)if(e.healAttackPct&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id),value=addHeal(attacker,attacker.s.attack*e.healAttackPct/100,rune?runeName(rune):L().healing);healing+=value}
-  if(defender.hp>0)for(const e of defender.s.effects)if(e.healMaxPct&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id);addHeal(defender,defender.s.hp*e.healMaxPct/100,rune?runeName(rune):L().healing)}
+  if(defender.hp>0)for(const e of defender.s.effects)if(e.healFlat&&roll(r,e.proc)){const rune=RUNES.find(item=>item.id===e.id);addHeal(defender,e.healFlat,rune?runeName(rune):L().healing)}
   if(defender.shieldRemaining>0)defender.shieldRemaining--;attacker.damageDone+=damage;
   return{actor:attacker.side,damage,healing,heals,triggers,packets,aHp:attacker.side==='user'?attacker.hp:defender.hp,bHp:attacker.side==='user'?defender.hp:attacker.hp};
 }
