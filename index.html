@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dino Rune Lab</title>
 <base href="./">
-  <link rel="stylesheet" href="css/styles.css?v=20260920m">
+  <link rel="stylesheet" href="css/styles.css?v=20260926c">
 <meta name="description" content="Profile-based Dino Rune Lab battle simulator and build finder.">
 <meta name="application-name" content="Dino Rune Lab">
 <link rel="icon" href="assets/runealtar.png">
@@ -40,6 +40,7 @@
     <div class="format-switch" role="group" aria-label="Battle format">
       <button type="button" class="format-tab active" data-format="1v1" data-i18n="duel1v1">1v1</button>
       <button type="button" class="format-tab" data-format="5v5" data-i18n="team5v5">5v5</button>
+      <button type="button" class="format-tab" data-format="skirmish" data-i18n="skirmishMode">Skirmish</button>
     </div>
     <div class="lab-grid">
       <section class="fighter-panel" id="userPanel">
@@ -50,6 +51,10 @@
             <div class="field"><label data-i18n="health">Health</label><input id="simUserHp" type="number" min="1" value="15920"></div>
             <div class="field"><label data-i18n="attack">Attack</label><input id="simUserAttack" type="number" min="1" value="1568"></div>
             <div class="field"><label data-i18n="speed">Speed</label><input id="simUserSpeed" type="number" min="0" value="150"></div>
+          </div>
+          <div class="squad-row">
+            <label data-i18n="squadSize">Squad size</label>
+            <input id="simUserSquad" type="number" min="1" max="10" value="5">
           </div>
           <div class="visual-style-head"><span data-i18n="fighterStyle">Fighter style</span><strong id="userStyleName"></strong></div>
           <div class="visual-presets" id="userVisualPresets" role="radiogroup" aria-label="Your dino style"></div>
@@ -125,6 +130,10 @@
             <div class="field"><label data-i18n="health">Health</label><input id="simOpponentHp" type="number" min="1" value="15920"></div>
             <div class="field"><label data-i18n="attack">Attack</label><input id="simOpponentAttack" type="number" min="1" value="1568"></div>
             <div class="field"><label data-i18n="speed">Speed</label><input id="simOpponentSpeed" type="number" min="0" value="150"></div>
+          </div>
+          <div class="squad-row">
+            <label data-i18n="squadSize">Squad size</label>
+            <input id="simOpponentSquad" type="number" min="1" max="10" value="5">
           </div>
           <div class="visual-style-head"><span data-i18n="fighterStyle">Fighter style</span><strong id="opponentStyleName"></strong></div>
           <div class="visual-presets" id="opponentVisualPresets" role="radiogroup" aria-label="Opponent dino style"></div>
@@ -240,9 +249,9 @@
   </div>
 </div>
 
-  <script src="data/runes.js?v=20260920p"></script>
-  <script src="assets/cosmetics/catalog.js?v=20260920p"></script>
-  <script src="js/dino-renderer.js?v=20260920p"></script>
-  <script src="js/app.js?v=20260920p"></script>
+  <script src="data/runes.js?v=20260926c"></script>
+  <script src="assets/cosmetics/catalog.js?v=20260926c"></script>
+  <script src="js/dino-renderer.js?v=20260926c"></script>
+  <script src="js/app.js?v=20260926c"></script>
 </body>
 </html>

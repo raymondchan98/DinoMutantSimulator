@@ -529,12 +529,23 @@ body[data-format="5v5"] .member-tabs{display:flex}
 }
 .member-tab small{display:block;font-size:8px;font-weight:800;color:#5b6567;text-transform:uppercase}
 .member-tab.active{background:#54bfd0;border-color:#1e4d55}
-body[data-format="5v5"] .combatant{display:none!important}
-body[data-format="5v5"] .team-stage{display:grid}
-body[data-format="5v5"] .arena-stage{height:500px;overflow:visible}
+.squad-row{display:none;align-items:center;gap:8px;margin:6px 0 2px;font-weight:900}
+.squad-row input{width:72px;height:32px;padding:0 8px;border:2px solid #252a2c;border-radius:6px;font-weight:900}
+body[data-format="skirmish"] .squad-row{display:flex}
+body[data-format="5v5"] .combatant,
+body[data-format="skirmish"] .combatant{display:none!important}
+body[data-format="5v5"] .team-stage,
+body[data-format="skirmish"] .team-stage{display:grid}
+body[data-format="5v5"] .arena-stage,
+body[data-format="skirmish"] .arena-stage{height:500px;overflow:visible}
+body[data-format="skirmish"] .arena-stage{height:560px}
+body[data-format="skirmish"] .team-unit,
+body[data-format="skirmish"] .team-unit.front,
+body[data-format="skirmish"] .team-unit.queued{background:#fff6dc}
 .team-stage{display:none;position:relative;z-index:3;height:100%;padding:48px 6px 10px;grid-template-columns:1fr 1fr;gap:6px;align-content:end}
 .team-side{display:flex;flex-direction:column;gap:6px;justify-content:flex-end}
 .team-row{display:flex;gap:4px;justify-content:center}
+body[data-format="skirmish"] .team-side.user .team-row{flex-direction:row-reverse}
 .team-stage,.team-side,.team-row{overflow:visible}
 .team-unit{
   width:78px;padding:2px 3px 4px;border:2px solid #151b1d;border-radius:6px;
@@ -569,14 +580,17 @@ body[data-format="5v5"] .arena-stage{height:500px;overflow:visible}
 .team-side.opponent .team-dino-canvas{transform:scaleX(-1)}
 @media(max-width:1050px){
   body[data-format="5v5"] .arena-stage{height:440px}
+  body[data-format="skirmish"] .arena-stage{height:500px}
 }
 @media(max-width:760px){
   .format-tab{flex:1;min-width:0}
   body[data-format="5v5"] .arena-stage{height:620px}
+  body[data-format="skirmish"] .arena-stage{height:700px}
   .team-stage{grid-template-columns:1fr;align-content:start;padding-top:48px}
 }
 @media(max-width:520px){
   body[data-format="5v5"] .arena-stage{height:640px}
+  body[data-format="skirmish"] .arena-stage{height:720px}
   .team-unit{width:72px}
   .team-dino-canvas{width:64px}
 }
